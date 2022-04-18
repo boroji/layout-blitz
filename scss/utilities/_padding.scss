@@ -4,42 +4,42 @@
 	@while $i <= 48 {
 		&t {
 			&-#{$i} {
-				padding-top: #{$i * $baseRemValue}rem;
+				padding-top: #{$i * $base-rem-value}rem;
 			}
 		}
 		&r {
 			&-#{$i} {
-				padding-right: #{$i * $baseRemValue}rem;
+				padding-right: #{$i * $base-rem-value}rem;
 			}
 		}
 		&b {
 			&-#{$i} {
-				padding-bottom: #{$i * $baseRemValue}rem;
+				padding-bottom: #{$i * $base-rem-value}rem;
 			}
 		}
 		&l {
 			&-#{$i} {
-				padding-left: #{$i * $baseRemValue}rem;
+				padding-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		&y {
 			&-#{$i} {
-				padding-top: #{$i * $baseRemValue}rem;
-				padding-bottom: #{$i * $baseRemValue}rem;
+				padding-top: #{$i * $base-rem-value}rem;
+				padding-bottom: #{$i * $base-rem-value}rem;
 			}
 		}
 		&x {
 			&-#{$i} {
-				padding-right: #{$i * $baseRemValue}rem;
-				padding-left: #{$i * $baseRemValue}rem;
+				padding-right: #{$i * $base-rem-value}rem;
+				padding-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		&a {
 			&-#{$i} {
-				padding-top: #{$i * $baseRemValue}rem;
-				padding-right: #{$i * $baseRemValue}rem;
-				padding-bottom: #{$i * $baseRemValue}rem;
-				padding-left: #{$i * $baseRemValue}rem;
+				padding-top: #{$i * $base-rem-value}rem;
+				padding-right: #{$i * $base-rem-value}rem;
+				padding-bottom: #{$i * $base-rem-value}rem;
+				padding-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		$i: $i + 4;

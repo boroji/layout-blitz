@@ -4,42 +4,42 @@
 	@while $i <= 48 {
 		&t {
 			&-#{$i} {
-				margin-top: #{$i * $baseRemValue}rem;
+				margin-top: #{$i * $base-rem-value}rem;
 			}
 		}
 		&r {
 			&-#{$i} {
-				margin-right: #{$i * $baseRemValue}rem;
+				margin-right: #{$i * $base-rem-value}rem;
 			}
 		}
 		&b {
 			&-#{$i} {
-				margin-bottom: #{$i * $baseRemValue}rem;
+				margin-bottom: #{$i * $base-rem-value}rem;
 			}
 		}
 		&l {
 			&-#{$i} {
-				margin-left: #{$i * $baseRemValue}rem;
+				margin-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		&y {
 			&-#{$i} {
-				margin-top: #{$i * $baseRemValue}rem;
-				margin-bottom: #{$i * $baseRemValue}rem;
+				margin-top: #{$i * $base-rem-value}rem;
+				margin-bottom: #{$i * $base-rem-value}rem;
 			}
 		}
 		&x {
 			&-#{$i} {
-				margin-right: #{$i * $baseRemValue}rem;
-				margin-left: #{$i * $baseRemValue}rem;
+				margin-right: #{$i * $base-rem-value}rem;
+				margin-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		&a {
 			&-#{$i} {
-				margin-top: #{$i * $baseRemValue}rem;
-				margin-right: #{$i * $baseRemValue}rem;
-				margin-bottom: #{$i * $baseRemValue}rem;
-				margin-left: #{$i * $baseRemValue}rem;
+				margin-top: #{$i * $base-rem-value}rem;
+				margin-right: #{$i * $base-rem-value}rem;
+				margin-bottom: #{$i * $base-rem-value}rem;
+				margin-left: #{$i * $base-rem-value}rem;
 			}
 		}
 

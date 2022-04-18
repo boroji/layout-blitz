@@ -4,7 +4,7 @@
 	// Gap utility classes
 	.gap {
 		&-#{$i} {
-			gap: #{$i * $baseRemValue}rem;
+			gap: #{$i * $base-rem-value}rem;
 		}
 	}
 	$i: $i + 4;
