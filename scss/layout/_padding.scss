@@ -1,0 +1,47 @@
+@use './units' as *;
+
+.padding {
+	@while $i <= 48 {
+		&-top {
+			&-#{$i} {
+				padding-top: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-right {
+			&-#{$i} {
+				padding-right: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-bottom {
+			&-#{$i} {
+				padding-bottom: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-left {
+			&-#{$i} {
+				padding-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-vertical {
+			&-#{$i} {
+				padding-top: #{$i * $baseRemValue}rem;
+				padding-bottom: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-horizontal {
+			&-#{$i} {
+				padding-right: #{$i * $baseRemValue}rem;
+				padding-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-all {
+			&-#{$i} {
+				padding-top: #{$i * $baseRemValue}rem;
+				padding-right: #{$i * $baseRemValue}rem;
+				padding-bottom: #{$i * $baseRemValue}rem;
+				padding-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		$i: $i + 4;
+	}
+}

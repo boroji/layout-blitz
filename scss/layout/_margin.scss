@@ -1,0 +1,89 @@
+@use './units' as *;
+
+.margin {
+	@while $i <= 48 {
+		&-top {
+			&-#{$i} {
+				margin-top: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-right {
+			&-#{$i} {
+				margin-right: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-bottom {
+			&-#{$i} {
+				margin-bottom: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-left {
+			&-#{$i} {
+				margin-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-vertical {
+			&-#{$i} {
+				margin-top: #{$i * $baseRemValue}rem;
+				margin-bottom: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-horizontal {
+			&-#{$i} {
+				margin-right: #{$i * $baseRemValue}rem;
+				margin-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-all {
+			&-#{$i} {
+				margin-top: #{$i * $baseRemValue}rem;
+				margin-right: #{$i * $baseRemValue}rem;
+				margin-bottom: #{$i * $baseRemValue}rem;
+				margin-left: #{$i * $baseRemValue}rem;
+			}
+		}
+
+		$i: $i + 4;
+	}
+	// Margin auto class
+	&-top {
+		&-auto {
+			margin-top: auto;
+		}
+	}
+	&-right {
+		&-auto {
+			margin-right: auto;
+		}
+	}
+	&-bottom {
+		&-auto {
+			margin-bottom: auto;
+		}
+	}
+	&-left {
+		&-auto {
+			margin-left: auto;
+		}
+	}
+	&-vertical {
+		&-auto {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+	}
+	&-horizontal {
+		&-auto {
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+	&-all {
+		&-auto {
+			margin-top: auto;
+			margin-right: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+		}
+	}
+}

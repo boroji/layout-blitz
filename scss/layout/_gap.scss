@@ -1,0 +1,11 @@
+@use './units' as *;
+
+@while $i <= 48 {
+	// Gap utility classes
+	.gap {
+		&-#{$i} {
+			gap: #{$i * $baseRemValue}rem;
+		}
+	}
+	$i: $i + 4;
+}
