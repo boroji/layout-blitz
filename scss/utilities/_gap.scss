@@ -9,9 +9,7 @@
 	$i: $i + 4;
 }
 
-// Responsive
-
-@mixin responsiveOrder($name) {
+@mixin gap($name) {
 	@while $i <= 48 {
 		.gap {
 			&-#{$i}--#{$name} {
@@ -20,14 +18,4 @@
 		}
 		$i: $i + 4;
 	}
-}
-
-@media (min-width: $sm-breakpoint) {
-	@include responsiveOrder('sm');
-}
-@media (min-width: $md-breakpoint) {
-	@include responsiveOrder('md');
-}
-@media (min-width: $lg-breakpoint) {
-	@include responsiveOrder('lg');
 }
