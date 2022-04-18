@@ -770,7 +770,11 @@ html {
 
 .gap-48 {
   gap: 3rem;
-}/*# sourceMappingURL=index.css.map */-direction: column;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 .flex-row {
