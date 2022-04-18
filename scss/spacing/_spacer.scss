@@ -24,6 +24,26 @@ $baseRemValue: 0.0625;
 				padding-left: #{$i * $baseRemValue}rem;
 			}
 		}
+		&-vertical {
+			&-#{$i} {
+				padding-top: #{$i * $baseRemValue}rem;
+				padding-bottom: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-horizontal {
+			&-#{$i} {
+				padding-right: #{$i * $baseRemValue}rem;
+				padding-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-all {
+			&-#{$i} {
+				padding-top: #{$i * $baseRemValue}rem;
+				padding-right: #{$i * $baseRemValue}rem;
+				padding-bottom: #{$i * $baseRemValue}rem;
+				padding-left: #{$i * $baseRemValue}rem;
+			}
+		}
 	}
 
 	// Margin utility classes
@@ -45,6 +65,26 @@ $baseRemValue: 0.0625;
 		}
 		&-left {
 			&-#{$i} {
+				margin-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-vertical {
+			&-#{$i} {
+				margin-top: #{$i * $baseRemValue}rem;
+				margin-bottom: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-horizontal {
+			&-#{$i} {
+				margin-right: #{$i * $baseRemValue}rem;
+				margin-left: #{$i * $baseRemValue}rem;
+			}
+		}
+		&-all {
+			&-#{$i} {
+				margin-top: #{$i * $baseRemValue}rem;
+				margin-right: #{$i * $baseRemValue}rem;
+				margin-bottom: #{$i * $baseRemValue}rem;
 				margin-left: #{$i * $baseRemValue}rem;
 			}
 		}
