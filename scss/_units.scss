@@ -1,8 +1,5 @@
 $i: 0;
 $base-rem-value: 0.0625;
-$xs-breakpoint: (max-width: 30rem);
-$sm-breakpoint: (max-width: 45rem);
-$md-breakpoint: (max-width: 60rem);
-$lg-breakpoint: (max-width: 75rem);
-$xl-breakpoint: (max-width: 90rem);
-$xxl-breakpoint: (max-width: 105rem);
+$sm-breakpoint: 30rem;
+$md-breakpoint: 60rem;
+$lg-breakpoint: 90rem;
