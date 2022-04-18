@@ -1,40 +1,40 @@
 @use '../units' as *;
 
-.padding {
+.p {
 	@while $i <= 48 {
-		&-top {
+		&t {
 			&-#{$i} {
 				padding-top: #{$i * $baseRemValue}rem;
 			}
 		}
-		&-right {
+		&r {
 			&-#{$i} {
 				padding-right: #{$i * $baseRemValue}rem;
 			}
 		}
-		&-bottom {
+		&b {
 			&-#{$i} {
 				padding-bottom: #{$i * $baseRemValue}rem;
 			}
 		}
-		&-left {
+		&l {
 			&-#{$i} {
 				padding-left: #{$i * $baseRemValue}rem;
 			}
 		}
-		&-vertical {
+		&y {
 			&-#{$i} {
 				padding-top: #{$i * $baseRemValue}rem;
 				padding-bottom: #{$i * $baseRemValue}rem;
 			}
 		}
-		&-horizontal {
+		&x {
 			&-#{$i} {
 				padding-right: #{$i * $baseRemValue}rem;
 				padding-left: #{$i * $baseRemValue}rem;
 			}
 		}
-		&-all {
+		&a {
 			&-#{$i} {
 				padding-top: #{$i * $baseRemValue}rem;
 				padding-right: #{$i * $baseRemValue}rem;
