@@ -14,4 +14,13 @@
 			flex-wrap: nowrap;
 		}
 	}
+	// Flex grow and shrink added
+	@for $i from 0 through 3 {
+		&-grow-#{$i} {
+			flex-grow: #{$i};
+		}
+		&-shrink-#{$i} {
+			flex-shrink: #{$i};
+		}
+	}
 }
