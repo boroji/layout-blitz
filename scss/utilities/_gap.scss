@@ -1,7 +1,6 @@
 @use '../units' as *;
 
 @while $i <= 48 {
-	// Gap utility classes
 	.gap {
 		&-#{$i} {
 			gap: #{$i * $base-rem-value}rem;
@@ -23,12 +22,12 @@
 	}
 }
 
-@media (max-width: $sm-breakpoint) {
+@media (min-width: $sm-breakpoint) {
 	@include responsiveOrder('sm');
 }
-@media (max-width: $md-breakpoint) {
+@media (min-width: $md-breakpoint) {
 	@include responsiveOrder('md');
 }
-@media (max-width: $lg-breakpoint) {
+@media (min-width: $lg-breakpoint) {
 	@include responsiveOrder('lg');
 }
