@@ -1,30 +1,5 @@
-@use '../units' as *;
-
 @for $i from 0 through 16 {
 	.order-#{$i} {
 		order: #{$i};
 	}
-}
-
-// Responsive
-
-@mixin responsiveOrder($name) {
-	@while $i <= 48 {
-		.gap {
-			&-#{$i}--#{$name} {
-				gap: #{$i * $base-rem-value}rem;
-			}
-		}
-		$i: $i + 4;
-	}
-}
-
-@media (max-width: $sm-breakpoint) {
-	@include responsiveOrder('sm');
-}
-@media (max-width: $md-breakpoint) {
-	@include responsiveOrder('md');
-}
-@media (max-width: $lg-breakpoint) {
-	@include responsiveOrder('lg');
 }
