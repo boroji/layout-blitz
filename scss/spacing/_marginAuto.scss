@@ -1,0 +1,42 @@
+.margin {
+	&-top {
+		&-auto {
+			margin-top: auto;
+		}
+	}
+	&-right {
+		&-auto {
+			margin-right: auto;
+		}
+	}
+	&-bottom {
+		&-auto {
+			margin-bottom: auto;
+		}
+	}
+	&-left {
+		&-auto {
+			margin-left: auto;
+		}
+	}
+	&-vertical {
+		&-auto {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+	}
+	&-horizontal {
+		&-auto {
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+	&-all {
+		&-auto {
+			margin-top: auto;
+			margin-right: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+		}
+	}
+}

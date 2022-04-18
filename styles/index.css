@@ -750,4 +750,31 @@
 
 .gap-48 {
   gap: 3rem;
+}
+
+.margin-top-auto {
+  margin-top: auto;
+}
+.margin-right-auto {
+  margin-right: auto;
+}
+.margin-bottom-auto {
+  margin-bottom: auto;
+}
+.margin-left-auto {
+  margin-left: auto;
+}
+.margin-vertical-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.margin-horizontal-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.margin-all-auto {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }/*# sourceMappingURL=index.css.map */
