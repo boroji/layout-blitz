@@ -840,4 +840,47 @@ html {
 }
 .justify-self-end {
   justify-self: end;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: start;
+}
+.align-items-end {
+  align-items: end;
+}
+.align-self-stretch {
+  align-self: stretch;
+}
+.align-self-center {
+  align-self: center;
+}
+.align-self-start {
+  align-self: start;
+}
+.align-self-end {
+  align-self: end;
+}
+.align-content-center {
+  align-content: center;
+}
+.align-content-start {
+  align-content: start;
+}
+.align-content-end {
+  align-content: end;
+}
+.align-content-around {
+  align-content: space-around;
+}
+.align-content-between {
+  align-content: space-between;
+}
+.align-content-even {
+  align-content: space-evenly;
 }/*# sourceMappingURL=index.css.map */

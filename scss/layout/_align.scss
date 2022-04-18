@@ -1,0 +1,50 @@
+.align {
+	&-items {
+		&-stretch {
+			align-items: stretch;
+		}
+		&-center {
+			align-items: center;
+		}
+		&-start {
+			align-items: start;
+		}
+		&-end {
+			align-items: end;
+		}
+	}
+	&-self {
+		&-stretch {
+			align-self: stretch;
+		}
+		&-center {
+			align-self: center;
+		}
+		&-start {
+			align-self: start;
+		}
+		&-end {
+			align-self: end;
+		}
+	}
+	&-content {
+		&-center {
+			align-content: center;
+		}
+		&-start {
+			align-content: start;
+		}
+		&-end {
+			align-content: end;
+		}
+		&-around {
+			align-content: space-around;
+		}
+		&-between {
+			align-content: space-between;
+		}
+		&-even {
+			align-content: space-evenly;
+		}
+	}
+}
