@@ -1,26 +1,27 @@
 $i: 0;
+$baseRemValue: 0.0625;
 
 @while $i <= 48 {
 	// Padding utility classes
 	.padding {
 		&-top {
 			&-#{$i} {
-				padding-top: #{$i * 0.0625}rem;
+				padding-top: #{$i * $baseRemValue}rem;
 			}
 		}
 		&-right {
 			&-#{$i} {
-				padding-right: #{$i * 0.0625}rem;
+				padding-right: #{$i * $baseRemValue}rem;
 			}
 		}
 		&-bottom {
 			&-#{$i} {
-				padding-bottom: #{$i * 0.0625}rem;
+				padding-bottom: #{$i * $baseRemValue}rem;
 			}
 		}
 		&-left {
 			&-#{$i} {
-				padding-left: #{$i * 0.0625}rem;
+				padding-left: #{$i * $baseRemValue}rem;
 			}
 		}
 	}
@@ -29,22 +30,22 @@ $i: 0;
 	.margin {
 		&-top {
 			&-#{$i} {
-				margin-top: #{$i * 0.0625}rem;
+				margin-top: #{$i * $baseRemValue}rem;
 			}
 		}
 		&-right {
 			&-#{$i} {
-				margin-right: #{$i * 0.0625}rem;
+				margin-right: #{$i * $baseRemValue}rem;
 			}
 		}
 		&-bottom {
 			&-#{$i} {
-				margin-bottom: #{$i * 0.0625}rem;
+				margin-bottom: #{$i * $baseRemValue}rem;
 			}
 		}
 		&-left {
 			&-#{$i} {
-				margin-left: #{$i * 0.0625}rem;
+				margin-left: #{$i * $baseRemValue}rem;
 			}
 		}
 	}
@@ -52,7 +53,7 @@ $i: 0;
 	// Gap utility classes
 	.gap {
 		&-#{$i} {
-			gap: #{$i * 0.0625}rem;
+			gap: #{$i * $baseRemValue}rem;
 		}
 	}
 	$i: $i + 4;
