@@ -1,6 +1,6 @@
-.align {
-	&-items {
-		&-stretch {
+.a {
+	&i {
+		&-fill {
 			align-items: stretch;
 		}
 		&-center {
@@ -13,8 +13,8 @@
 			align-items: end;
 		}
 	}
-	&-self {
-		&-stretch {
+	&s {
+		&-fill {
 			align-self: stretch;
 		}
 		&-center {
@@ -27,7 +27,7 @@
 			align-self: end;
 		}
 	}
-	&-content {
+	&c {
 		&-center {
 			align-content: center;
 		}
