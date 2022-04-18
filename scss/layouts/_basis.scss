@@ -4,5 +4,5 @@
 	.base-#{$i} {
 		flex-basis: #{$i}rem;
 	}
-	$i: $i + 10;
+	$i: $i + 5;
 }

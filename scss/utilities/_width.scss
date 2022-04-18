@@ -1,0 +1,16 @@
+@use '../units' as *;
+
+@while $i <= 120 {
+	.w-#{$i} {
+		width: #{$i}rem;
+	}
+
+	.max-w-#{$i} {
+		max-width: #{$i}rem;
+	}
+	$i: $i + 5;
+}
+
+.w-fill {
+	width: 100%;
+}
