@@ -1186,11 +1186,7 @@ html {
 
 .h-auto {
   height: auto;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
+}/*# sourceMappingURL=index.css.map */ction: column;
   flex-wrap: wrap;
 }
 
