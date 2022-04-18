@@ -48,5 +48,12 @@ $i: 0;
 			}
 		}
 	}
+
+	// Gap utility classes
+	.gap {
+		&-#{$i} {
+			gap: #{$i * 0.0625}rem;
+		}
+	}
 	$i: $i + 4;
 }
