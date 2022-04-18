@@ -1,0 +1,36 @@
+.justify {
+	&-content {
+		&-center {
+			justify-content: center;
+		}
+		&-start {
+			justify-content: start;
+		}
+		&-end {
+			justify-content: end;
+		}
+		&-around {
+			justify-content: space-around;
+		}
+		&-between {
+			justify-content: space-between;
+		}
+		&-even {
+			justify-content: space-evenly;
+		}
+	}
+	&-self {
+		&-stretch {
+			justify-self: stretch;
+		}
+		&-center {
+			justify-self: center;
+		}
+		&-start {
+			justify-self: start;
+		}
+		&-end {
+			justify-self: end;
+		}
+	}
+}

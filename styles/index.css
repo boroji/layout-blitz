@@ -809,4 +809,35 @@ html {
 }
 .flex-wrap-none {
   flex-wrap: nowrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: start;
+}
+.justify-content-end {
+  justify-content: end;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-even {
+  justify-content: space-evenly;
+}
+.justify-self-stretch {
+  justify-self: stretch;
+}
+.justify-self-center {
+  justify-self: center;
+}
+.justify-self-start {
+  justify-self: start;
+}
+.justify-self-end {
+  justify-self: end;
 }/*# sourceMappingURL=index.css.map */
