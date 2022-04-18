@@ -1,0 +1,20 @@
+@use '../units' as *;
+
+@while $i <= 120 {
+	.h-#{$i} {
+		height: #{$i}rem;
+	}
+
+	.min-h-#{$i} {
+		min-height: #{$i}rem;
+	}
+	$i: $i + 5;
+}
+
+.h-fill {
+	height: 100%;
+}
+
+.h-auto {
+	height: auto;
+}
