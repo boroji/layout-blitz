@@ -1,5 +1,5 @@
-.justify {
-	&-content {
+.j {
+	&c {
 		&-center {
 			justify-content: center;
 		}
@@ -19,8 +19,8 @@
 			justify-content: space-evenly;
 		}
 	}
-	&-self {
-		&-stretch {
+	&s {
+		&-fill {
 			justify-self: stretch;
 		}
 		&-center {
