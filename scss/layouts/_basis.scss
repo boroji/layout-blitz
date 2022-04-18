@@ -1,0 +1,10 @@
+@use '../units' as *;
+
+.flex {
+	@while $i <= 120 {
+		&-basis-#{$i} {
+			flex-basis: #{$i}rem;
+		}
+		$i: $i + 10;
+	}
+}

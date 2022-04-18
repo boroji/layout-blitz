@@ -785,30 +785,7 @@ html {
 .flex-wrap-none {
   flex-wrap: nowrap;
 }
-.flex-grow-0 {
-  flex-grow: 0;
-}
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
-.flex-grow-1 {
-  flex-grow: 1;
-}
-.flex-shrink-1 {
-  flex-shrink: 1;
-}
-.flex-grow-2 {
-  flex-grow: 2;
-}
-.flex-shrink-2 {
-  flex-shrink: 2;
-}
-.flex-grow-3 {
-  flex-grow: 3;
-}
-.flex-shrink-3 {
-  flex-shrink: 3;
-}
+
 .flex-basis-0 {
   flex-basis: 0rem;
 }
@@ -847,6 +824,32 @@ html {
 }
 .flex-basis-120 {
   flex-basis: 120rem;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-grow-2 {
+  flex-grow: 2;
+}
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+.flex-shrink-2 {
+  flex-shrink: 2;
+}
+.flex-shrink-3 {
+  flex-shrink: 3;
 }
 
 .justify-content-center {

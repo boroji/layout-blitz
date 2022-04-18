@@ -14,21 +14,4 @@
 			flex-wrap: nowrap;
 		}
 	}
-	// Flex grow and shrink
-	@for $i from 0 through 3 {
-		&-grow-#{$i} {
-			flex-grow: #{$i};
-		}
-		&-shrink-#{$i} {
-			flex-shrink: #{$i};
-		}
-	}
-	// Flex basis
-	$i: 0;
-	@while $i <= 120 {
-		&-basis-#{$i} {
-			flex-basis: #{$i}rem;
-		}
-		$i: $i + 10;
-	}
 }
