@@ -1,7 +1,5 @@
-.flex {
-	@for $i from 0 through 3 {
-		&-shrink-#{$i} {
-			flex-shrink: #{$i};
-		}
+@for $i from 0 through 8 {
+	.trim-#{$i} {
+		flex-shrink: #{$i};
 	}
 }

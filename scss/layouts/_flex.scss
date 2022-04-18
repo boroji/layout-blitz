@@ -1,17 +1,15 @@
-.flex {
-	&-col {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-	}
-	&-row {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-	&-wrap {
-		&-none {
-			flex-wrap: nowrap;
-		}
-	}
+.col {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.wrap-0 {
+	flex-wrap: nowrap;
 }

@@ -1,7 +1,5 @@
-.flex {
-	@for $i from 0 through 3 {
-		&-grow-#{$i} {
-			flex-grow: #{$i};
-		}
+@for $i from 0 through 8 {
+	.grow-#{$i} {
+		flex-grow: #{$i};
 	}
 }
