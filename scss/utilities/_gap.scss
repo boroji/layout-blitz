@@ -12,7 +12,7 @@
 @mixin gap($name) {
 	@while $i <= 48 {
 		.gap {
-			&-#{$i}--#{$name} {
+			&-#{$name}-#{$i} {
 				gap: #{$i * $base-rem-value}rem;
 			}
 		}
