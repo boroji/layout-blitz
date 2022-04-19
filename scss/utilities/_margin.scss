@@ -1,6 +1,7 @@
 @use '../units' as *;
 
 .m {
+	// Positive margin
 	@while $i <= 48 {
 		&t {
 			&-#{$i} {
@@ -40,6 +41,39 @@
 				margin-right: #{$i * $base-rem-value}rem;
 				margin-bottom: #{$i * $base-rem-value}rem;
 				margin-left: #{$i * $base-rem-value}rem;
+			}
+		}
+
+		$i: $i + 4;
+	}
+	// Negative margin
+	@while $i <= 48 {
+		&t {
+			&-#{$i} {
+				&--n {
+					margin-top: -#{$i * $base-rem-value}rem;
+				}
+			}
+		}
+		&r {
+			&-#{$i} {
+				&--n {
+					margin-right: -#{$i * $base-rem-value}rem;
+				}
+			}
+		}
+		&b {
+			&-#{$i} {
+				&--n {
+					margin-bottom: -#{$i * $base-rem-value}rem;
+				}
+			}
+		}
+		&l {
+			&-#{$i} {
+				&--n {
+					margin-left: -#{$i * $base-rem-value}rem;
+				}
 			}
 		}
 

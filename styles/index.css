@@ -693,6 +693,162 @@ html {
   margin-bottom: 3rem;
   margin-left: 3rem;
 }
+.mt-0--n {
+  margin-top: -0rem;
+}
+.mr-0--n {
+  margin-right: -0rem;
+}
+.mb-0--n {
+  margin-bottom: -0rem;
+}
+.ml-0--n {
+  margin-left: -0rem;
+}
+.mt-4--n {
+  margin-top: -0.25rem;
+}
+.mr-4--n {
+  margin-right: -0.25rem;
+}
+.mb-4--n {
+  margin-bottom: -0.25rem;
+}
+.ml-4--n {
+  margin-left: -0.25rem;
+}
+.mt-8--n {
+  margin-top: -0.5rem;
+}
+.mr-8--n {
+  margin-right: -0.5rem;
+}
+.mb-8--n {
+  margin-bottom: -0.5rem;
+}
+.ml-8--n {
+  margin-left: -0.5rem;
+}
+.mt-12--n {
+  margin-top: -0.75rem;
+}
+.mr-12--n {
+  margin-right: -0.75rem;
+}
+.mb-12--n {
+  margin-bottom: -0.75rem;
+}
+.ml-12--n {
+  margin-left: -0.75rem;
+}
+.mt-16--n {
+  margin-top: -1rem;
+}
+.mr-16--n {
+  margin-right: -1rem;
+}
+.mb-16--n {
+  margin-bottom: -1rem;
+}
+.ml-16--n {
+  margin-left: -1rem;
+}
+.mt-20--n {
+  margin-top: -1.25rem;
+}
+.mr-20--n {
+  margin-right: -1.25rem;
+}
+.mb-20--n {
+  margin-bottom: -1.25rem;
+}
+.ml-20--n {
+  margin-left: -1.25rem;
+}
+.mt-24--n {
+  margin-top: -1.5rem;
+}
+.mr-24--n {
+  margin-right: -1.5rem;
+}
+.mb-24--n {
+  margin-bottom: -1.5rem;
+}
+.ml-24--n {
+  margin-left: -1.5rem;
+}
+.mt-28--n {
+  margin-top: -1.75rem;
+}
+.mr-28--n {
+  margin-right: -1.75rem;
+}
+.mb-28--n {
+  margin-bottom: -1.75rem;
+}
+.ml-28--n {
+  margin-left: -1.75rem;
+}
+.mt-32--n {
+  margin-top: -2rem;
+}
+.mr-32--n {
+  margin-right: -2rem;
+}
+.mb-32--n {
+  margin-bottom: -2rem;
+}
+.ml-32--n {
+  margin-left: -2rem;
+}
+.mt-36--n {
+  margin-top: -2.25rem;
+}
+.mr-36--n {
+  margin-right: -2.25rem;
+}
+.mb-36--n {
+  margin-bottom: -2.25rem;
+}
+.ml-36--n {
+  margin-left: -2.25rem;
+}
+.mt-40--n {
+  margin-top: -2.5rem;
+}
+.mr-40--n {
+  margin-right: -2.5rem;
+}
+.mb-40--n {
+  margin-bottom: -2.5rem;
+}
+.ml-40--n {
+  margin-left: -2.5rem;
+}
+.mt-44--n {
+  margin-top: -2.75rem;
+}
+.mr-44--n {
+  margin-right: -2.75rem;
+}
+.mb-44--n {
+  margin-bottom: -2.75rem;
+}
+.ml-44--n {
+  margin-left: -2.75rem;
+}
+.mt-48--n {
+  margin-top: -3rem;
+}
+.mr-48--n {
+  margin-right: -3rem;
+}
+.mb-48--n {
+  margin-bottom: -3rem;
+}
+.ml-48--n {
+  margin-left: -3rem;
+}
 .mt-auto {
   margin-top: auto;
 }
