@@ -46,39 +46,6 @@
 
 		$i: $i + 4;
 	}
-	// Negative margin
-	@while $i <= 48 {
-		&t {
-			&-#{$i} {
-				&--n {
-					margin-top: -#{$i * $base-rem-value}rem;
-				}
-			}
-		}
-		&r {
-			&-#{$i} {
-				&--n {
-					margin-right: -#{$i * $base-rem-value}rem;
-				}
-			}
-		}
-		&b {
-			&-#{$i} {
-				&--n {
-					margin-bottom: -#{$i * $base-rem-value}rem;
-				}
-			}
-		}
-		&l {
-			&-#{$i} {
-				&--n {
-					margin-left: -#{$i * $base-rem-value}rem;
-				}
-			}
-		}
-
-		$i: $i + 4;
-	}
 	// Margin auto class
 	&t {
 		&-auto {
@@ -119,6 +86,34 @@
 			margin-bottom: auto;
 			margin-left: auto;
 		}
+	}
+}
+
+// Negative margin
+.negm {
+	@while $i <= 48 {
+		&t {
+			&-#{$i} {
+				margin-top: -#{$i * $base-rem-value}rem;
+			}
+		}
+		&r {
+			&-#{$i} {
+				margin-right: -#{$i * $base-rem-value}rem;
+			}
+		}
+		&b {
+			&-#{$i} {
+				margin-bottom: -#{$i * $base-rem-value}rem;
+			}
+		}
+		&l {
+			&-#{$i} {
+				margin-left: -#{$i * $base-rem-value}rem;
+			}
+		}
+
+		$i: $i + 4;
 	}
 }
 
@@ -169,39 +164,6 @@
 
 			$i: $i + 4;
 		}
-		// Negative margin
-		@while $i <= 48 {
-			&t {
-				&-#{$breakpoint}-#{$i} {
-					&--n {
-						margin-top: -#{$i * $base-rem-value}rem;
-					}
-				}
-			}
-			&r {
-				&-#{$breakpoint}-#{$i} {
-					&--n {
-						margin-right: -#{$i * $base-rem-value}rem;
-					}
-				}
-			}
-			&b {
-				&-#{$breakpoint}-#{$i} {
-					&--n {
-						margin-bottom: -#{$i * $base-rem-value}rem;
-					}
-				}
-			}
-			&l {
-				&-#{$breakpoint}-#{$i} {
-					&--n {
-						margin-left: -#{$i * $base-rem-value}rem;
-					}
-				}
-			}
-
-			$i: $i + 4;
-		}
 		// Margin auto class
 		&t {
 			&-#{$breakpoint}-auto {
@@ -242,6 +204,33 @@
 				margin-bottom: auto;
 				margin-left: auto;
 			}
+		}
+	}
+	// Negative margin
+	.negm {
+		@while $i <= 48 {
+			&t {
+				&-#{$breakpoint}-#{$i} {
+					margin-top: -#{$i * $base-rem-value}rem;
+				}
+			}
+			&r {
+				&-#{$breakpoint}-#{$i} {
+					margin-right: -#{$i * $base-rem-value}rem;
+				}
+			}
+			&b {
+				&-#{$breakpoint}-#{$i} {
+					margin-bottom: -#{$i * $base-rem-value}rem;
+				}
+			}
+			&l {
+				&-#{$breakpoint}-#{$i} {
+					margin-left: -#{$i * $base-rem-value}rem;
+				}
+			}
+
+			$i: $i + 4;
 		}
 	}
 }
