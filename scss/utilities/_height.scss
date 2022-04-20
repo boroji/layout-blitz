@@ -18,3 +18,24 @@
 .h-auto {
 	height: auto;
 }
+
+@mixin height($breakpoint) {
+	@while $i <= 120 {
+		.h-#{$breakpoint}-#{$i} {
+			height: #{$i}rem;
+		}
+
+		.min-h-#{$breakpoint}-#{$i} {
+			min-height: #{$i}rem;
+		}
+		$i: $i + 5;
+	}
+
+	.h-#{$breakpoint}-fill {
+		height: 100%;
+	}
+
+	.h-#{$breakpoint}-auto {
+		height: auto;
+	}
+}

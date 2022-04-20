@@ -6,28 +6,33 @@
 	@include padding('xs');
 	@include margin('xs');
 	@include width('xs');
+	@include height('xs');
 }
 @media (min-width: $sm-breakpoint) {
 	@include gap('sm');
 	@include padding('sm');
 	@include margin('sm');
 	@include width('sm');
+	@include height('sm');
 }
 @media (min-width: $md-breakpoint) {
 	@include gap('md');
 	@include padding('md');
 	@include margin('md');
 	@include width('md');
+	@include height('md');
 }
 @media (min-width: $lg-breakpoint) {
 	@include gap('lg');
 	@include padding('lg');
 	@include margin('lg');
 	@include width('lg');
+	@include height('lg');
 }
 @media (min-width: $xl-breakpoint) {
 	@include gap('xl');
 	@include padding('xl');
 	@include margin('xl');
 	@include width('xl');
+	@include height('xl');
 }
