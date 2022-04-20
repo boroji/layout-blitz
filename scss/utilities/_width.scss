@@ -5,7 +5,7 @@
 		width: #{$i}rem;
 	}
 
-	.max-w-#{$i} {
+	.maxw-#{$i} {
 		max-width: #{$i}rem;
 	}
 	$i: $i + 5;

@@ -5,7 +5,7 @@
 		height: #{$i}rem;
 	}
 
-	.min-h-#{$i} {
+	.minh-#{$i} {
 		min-height: #{$i}rem;
 	}
 	$i: $i + 5;
