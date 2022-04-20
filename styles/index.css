@@ -1674,6 +1674,59 @@ html {
   order: 16;
 }
 
+@media (max-width: 29.9375rem) {
+  .gap-xs-0 {
+    gap: 0rem;
+  }
+
+  .gap-xs-4 {
+    gap: 0.25rem;
+  }
+
+  .gap-xs-8 {
+    gap: 0.5rem;
+  }
+
+  .gap-xs-12 {
+    gap: 0.75rem;
+  }
+
+  .gap-xs-16 {
+    gap: 1rem;
+  }
+
+  .gap-xs-20 {
+    gap: 1.25rem;
+  }
+
+  .gap-xs-24 {
+    gap: 1.5rem;
+  }
+
+  .gap-xs-28 {
+    gap: 1.75rem;
+  }
+
+  .gap-xs-32 {
+    gap: 2rem;
+  }
+
+  .gap-xs-36 {
+    gap: 2.25rem;
+  }
+
+  .gap-xs-40 {
+    gap: 2.5rem;
+  }
+
+  .gap-xs-44 {
+    gap: 2.75rem;
+  }
+
+  .gap-xs-48 {
+    gap: 3rem;
+  }
+}
 @media (min-width: 30rem) {
   .gap-xs-0 {
     gap: 0rem;

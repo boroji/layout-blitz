@@ -1,6 +1,9 @@
 @use './units' as *;
 @use '../scss/utilities/' as *;
 
+@media (max-width: ($xs-breakpoint - $base-rem-value)) {
+	@include gap('xs');
+}
 @media (min-width: $xs-breakpoint) {
 	@include gap('xs');
 }
