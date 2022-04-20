@@ -45,3 +45,51 @@
 		$i: $i + 4;
 	}
 }
+
+@mixin padding($name) {
+	@while $i <= 48 {
+		.p {
+			&t {
+				&-#{$name}-#{$i} {
+					padding-top: #{$i * $base-rem-value}rem;
+				}
+			}
+			&r {
+				&-#{$name}-#{$i} {
+					padding-right: #{$i * $base-rem-value}rem;
+				}
+			}
+			&b {
+				&-#{$name}-#{$i} {
+					padding-bottom: #{$i * $base-rem-value}rem;
+				}
+			}
+			&l {
+				&-#{$name}-#{$i} {
+					padding-left: #{$i * $base-rem-value}rem;
+				}
+			}
+			&y {
+				&-#{$name}-#{$i} {
+					padding-top: #{$i * $base-rem-value}rem;
+					padding-bottom: #{$i * $base-rem-value}rem;
+				}
+			}
+			&x {
+				&-#{$name}-#{$i} {
+					padding-right: #{$i * $base-rem-value}rem;
+					padding-left: #{$i * $base-rem-value}rem;
+				}
+			}
+			&a {
+				&-#{$name}-#{$i} {
+					padding-top: #{$i * $base-rem-value}rem;
+					padding-right: #{$i * $base-rem-value}rem;
+					padding-bottom: #{$i * $base-rem-value}rem;
+					padding-left: #{$i * $base-rem-value}rem;
+				}
+			}
+		}
+		$i: $i + 4;
+	}
+}

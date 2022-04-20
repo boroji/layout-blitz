@@ -3,19 +3,25 @@
 
 @media (max-width: ($xs-breakpoint - $base-rem-value)) {
 	@include gap('xs');
+	@include padding('xs');
 }
 @media (min-width: $xs-breakpoint) {
 	@include gap('xs');
+	@include padding('xs');
 }
 @media (min-width: $sm-breakpoint) {
 	@include gap('sm');
+	@include padding('sm');
 }
 @media (min-width: $md-breakpoint) {
 	@include gap('md');
+	@include padding('md');
 }
 @media (min-width: $lg-breakpoint) {
 	@include gap('lg');
+	@include padding('lg');
 }
 @media (min-width: $xl-breakpoint) {
 	@include gap('xl');
+	@include padding('xl');
 }
