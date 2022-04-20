@@ -121,3 +121,127 @@
 		}
 	}
 }
+
+@mixin margin($breakpoint) {
+	.m {
+		// Positive margin
+		@while $i <= 48 {
+			&t {
+				&-#{$breakpoint}-#{$i} {
+					margin-top: #{$i * $base-rem-value}rem;
+				}
+			}
+			&r {
+				&-#{$breakpoint}-#{$i} {
+					margin-right: #{$i * $base-rem-value}rem;
+				}
+			}
+			&b {
+				&-#{$breakpoint}-#{$i} {
+					margin-bottom: #{$i * $base-rem-value}rem;
+				}
+			}
+			&l {
+				&-#{$breakpoint}-#{$i} {
+					margin-left: #{$i * $base-rem-value}rem;
+				}
+			}
+			&y {
+				&-#{$breakpoint}-#{$i} {
+					margin-top: #{$i * $base-rem-value}rem;
+					margin-bottom: #{$i * $base-rem-value}rem;
+				}
+			}
+			&x {
+				&-#{$breakpoint}-#{$i} {
+					margin-right: #{$i * $base-rem-value}rem;
+					margin-left: #{$i * $base-rem-value}rem;
+				}
+			}
+			&a {
+				&-#{$breakpoint}-#{$i} {
+					margin-top: #{$i * $base-rem-value}rem;
+					margin-right: #{$i * $base-rem-value}rem;
+					margin-bottom: #{$i * $base-rem-value}rem;
+					margin-left: #{$i * $base-rem-value}rem;
+				}
+			}
+
+			$i: $i + 4;
+		}
+		// Negative margin
+		@while $i <= 48 {
+			&t {
+				&-#{$breakpoint}-#{$i} {
+					&--n {
+						margin-top: -#{$i * $base-rem-value}rem;
+					}
+				}
+			}
+			&r {
+				&-#{$breakpoint}-#{$i} {
+					&--n {
+						margin-right: -#{$i * $base-rem-value}rem;
+					}
+				}
+			}
+			&b {
+				&-#{$breakpoint}-#{$i} {
+					&--n {
+						margin-bottom: -#{$i * $base-rem-value}rem;
+					}
+				}
+			}
+			&l {
+				&-#{$breakpoint}-#{$i} {
+					&--n {
+						margin-left: -#{$i * $base-rem-value}rem;
+					}
+				}
+			}
+
+			$i: $i + 4;
+		}
+		// Margin auto class
+		&t {
+			&-#{$breakpoint}-auto {
+				margin-top: auto;
+			}
+		}
+		&r {
+			&-#{$breakpoint}-auto {
+				margin-right: auto;
+			}
+		}
+		&b {
+			&-#{$breakpoint}-auto {
+				margin-bottom: auto;
+			}
+		}
+		&l {
+			&-#{$breakpoint}-auto {
+				margin-left: auto;
+			}
+		}
+		&y {
+			&-#{$breakpoint}-auto {
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+		}
+		&x {
+			&-#{$breakpoint}-auto {
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+		&a {
+			&-#{$breakpoint}-auto {
+				margin-top: auto;
+				margin-right: auto;
+				margin-bottom: auto;
+				margin-left: auto;
+			}
+		}
+	}
+}

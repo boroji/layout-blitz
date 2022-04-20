@@ -46,43 +46,43 @@
 	}
 }
 
-@mixin padding($name) {
+@mixin padding($breakpoint) {
 	@while $i <= 48 {
 		.p {
 			&t {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-top: #{$i * $base-rem-value}rem;
 				}
 			}
 			&r {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-right: #{$i * $base-rem-value}rem;
 				}
 			}
 			&b {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-bottom: #{$i * $base-rem-value}rem;
 				}
 			}
 			&l {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-left: #{$i * $base-rem-value}rem;
 				}
 			}
 			&y {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-top: #{$i * $base-rem-value}rem;
 					padding-bottom: #{$i * $base-rem-value}rem;
 				}
 			}
 			&x {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-right: #{$i * $base-rem-value}rem;
 					padding-left: #{$i * $base-rem-value}rem;
 				}
 			}
 			&a {
-				&-#{$name}-#{$i} {
+				&-#{$breakpoint}-#{$i} {
 					padding-top: #{$i * $base-rem-value}rem;
 					padding-right: #{$i * $base-rem-value}rem;
 					padding-bottom: #{$i * $base-rem-value}rem;

@@ -4,20 +4,25 @@
 @media (min-width: $xs-breakpoint) {
 	@include gap('xs');
 	@include padding('xs');
+	@include margin('xs');
 }
 @media (min-width: $sm-breakpoint) {
 	@include gap('sm');
 	@include padding('sm');
+	@include margin('sm');
 }
 @media (min-width: $md-breakpoint) {
 	@include gap('md');
 	@include padding('md');
+	@include margin('md');
 }
 @media (min-width: $lg-breakpoint) {
 	@include gap('lg');
 	@include padding('lg');
+	@include margin('lg');
 }
 @media (min-width: $xl-breakpoint) {
 	@include gap('xl');
 	@include padding('xl');
+	@include margin('xl');
 }
