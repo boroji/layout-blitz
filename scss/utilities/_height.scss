@@ -25,7 +25,7 @@
 			height: #{$i}rem;
 		}
 
-		.min-h-#{$breakpoint}-#{$i} {
+		.minh-#{$breakpoint}-#{$i} {
 			min-height: #{$i}rem;
 		}
 		$i: $i + 5;

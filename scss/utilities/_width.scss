@@ -25,7 +25,7 @@
 			width: #{$i}rem;
 		}
 
-		.max-w-#{$breakpoint}-#{$i} {
+		.maxw-#{$breakpoint}-#{$i} {
 			max-width: #{$i}rem;
 		}
 		$i: $i + 5;
