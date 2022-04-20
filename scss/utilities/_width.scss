@@ -18,3 +18,24 @@
 .w-auto {
 	width: auto;
 }
+
+@mixin width($breakpoint) {
+	@while $i <= 120 {
+		.w-#{$breakpoint}-#{$i} {
+			width: #{$i}rem;
+		}
+
+		.max-w-#{$breakpoint}-#{$i} {
+			max-width: #{$i}rem;
+		}
+		$i: $i + 5;
+	}
+
+	.w-#{$breakpoint}-fill {
+		width: 100%;
+	}
+
+	.w-#{$breakpoint}-auto {
+		width: auto;
+	}
+}
