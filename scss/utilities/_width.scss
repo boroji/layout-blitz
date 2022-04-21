@@ -8,7 +8,7 @@
 	.maxw-#{$i} {
 		max-width: #{$i}rem;
 	}
-	$i: $i + 5;
+	$i: $i + 4;
 }
 
 .w-fill {

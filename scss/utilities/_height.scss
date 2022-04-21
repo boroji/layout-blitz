@@ -8,7 +8,7 @@
 	.minh-#{$i} {
 		min-height: #{$i}rem;
 	}
-	$i: $i + 5;
+	$i: $i + 4;
 }
 
 .h-fill {
