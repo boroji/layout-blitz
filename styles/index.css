@@ -3509,6 +3509,18 @@ html {
     flex-basis: 120rem;
   }
 
+  .col-xs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .row-xs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .wrap-xs-0 {
     flex-wrap: nowrap;
   }
@@ -5573,6 +5585,18 @@ html {
 
   .base-sm-120 {
     flex-basis: 120rem;
+  }
+
+  .col-sm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .row-sm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .wrap-sm-0 {
@@ -7641,6 +7665,18 @@ html {
     flex-basis: 120rem;
   }
 
+  .col-md {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .row-md {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .wrap-md-0 {
     flex-wrap: nowrap;
   }
@@ -9707,6 +9743,18 @@ html {
     flex-basis: 120rem;
   }
 
+  .col-lg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .row-lg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .wrap-lg-0 {
     flex-wrap: nowrap;
   }
@@ -11771,6 +11819,18 @@ html {
 
   .base-xl-120 {
     flex-basis: 120rem;
+  }
+
+  .col-xl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .row-xl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .wrap-xl-0 {

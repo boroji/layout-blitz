@@ -15,6 +15,18 @@
 }
 
 @mixin flex($breakpoint) {
+	.col-#{$breakpoint} {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.row-#{$breakpoint} {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
 	.wrap-#{$breakpoint}-0 {
 		flex-wrap: nowrap;
 	}
