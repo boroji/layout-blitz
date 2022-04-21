@@ -12,6 +12,7 @@
 		@include basis($key);
 		@include flex($key);
 		@include grid($key);
+		@include grid-col($key);
 		@include grow($key);
 		@include shrink($key);
 		@include order($key);

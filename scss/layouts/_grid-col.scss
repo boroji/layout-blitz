@@ -1,0 +1,23 @@
+@for $i from 1 through 16 {
+	.col {
+		&-start-#{$i} {
+			grid-column-start: $i;
+		}
+		&-end-#{$i} {
+			grid-column-end: $i;
+		}
+	}
+}
+
+@mixin grid-col($breakpoint) {
+	@for $i from 1 through 16 {
+		.col {
+			&-start-#{$breakpoint}-#{$i} {
+				grid-column-start: $i;
+			}
+			&-end-#{$breakpoint}-#{$i} {
+				grid-column-end: $i;
+			}
+		}
+	}
+}
