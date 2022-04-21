@@ -1,13 +1,15 @@
 @use '../units' as *;
 
-@while $i <= 120 {
+// Fluid grid
+@while $i <= 48 {
 	.fluid-#{$i} {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
 	}
-	$i: $i + 5;
+	$i: $i + 4;
 }
 
+// Repeat grid rows and grid columns
 @for $i from 1 through 16 {
 	.row {
 		&-#{$i} {
@@ -39,5 +41,13 @@
 				display: grid;
 			}
 		}
+	}
+
+	@while $i <= 48 {
+		.fluid-#{$breakpoint}-#{$i} {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
+		}
+		$i: $i + 4;
 	}
 }
