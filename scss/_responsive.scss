@@ -2,8 +2,13 @@
 @use './utilities/' as *;
 @use './layouts/' as *;
 
+@each $key, $each-breakpoint-size in $breakpoints {
+	@media (min-width: $each-breakpoint-size) {
+		@include gap($key);
+	}
+}
+
 @media (min-width: $xs-breakpoint) {
-	@include gap('xs');
 	@include padding('xs');
 	@include margin('xs');
 	@include width('xs');
@@ -17,7 +22,6 @@
 	@include justify('xs');
 }
 @media (min-width: $sm-breakpoint) {
-	@include gap('sm');
 	@include padding('sm');
 	@include margin('sm');
 	@include width('sm');
@@ -31,7 +35,6 @@
 	@include justify('sm');
 }
 @media (min-width: $md-breakpoint) {
-	@include gap('md');
 	@include padding('md');
 	@include margin('md');
 	@include width('md');
@@ -45,7 +48,6 @@
 	@include justify('md');
 }
 @media (min-width: $lg-breakpoint) {
-	@include gap('lg');
 	@include padding('lg');
 	@include margin('lg');
 	@include width('lg');
@@ -59,7 +61,6 @@
 	@include justify('lg');
 }
 @media (min-width: $xl-breakpoint) {
-	@include gap('xl');
 	@include padding('xl');
 	@include margin('xl');
 	@include width('xl');
