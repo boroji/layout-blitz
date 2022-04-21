@@ -48,3 +48,56 @@
 		}
 	}
 }
+
+@mixin align($breakpoint) {
+	.a {
+		&i {
+			&-#{$breakpoint}-fill {
+				align-items: stretch;
+			}
+			&-#{$breakpoint}-center {
+				align-items: center;
+			}
+			&-#{$breakpoint}-start {
+				align-items: start;
+			}
+			&-#{$breakpoint}-end {
+				align-items: end;
+			}
+		}
+		&s {
+			&-#{$breakpoint}-fill {
+				align-self: stretch;
+			}
+			&-#{$breakpoint}-center {
+				align-self: center;
+			}
+			&-#{$breakpoint}-start {
+				align-self: start;
+			}
+			&-#{$breakpoint}-end {
+				align-self: end;
+			}
+		}
+		&c {
+			&-#{$breakpoint}-center {
+				align-content: center;
+			}
+			&-#{$breakpoint}-start {
+				align-content: start;
+			}
+			&-#{$breakpoint}-end {
+				align-content: end;
+			}
+			&-#{$breakpoint}-around {
+				align-content: space-around;
+			}
+			&-#{$breakpoint}-between {
+				align-content: space-between;
+			}
+			&-#{$breakpoint}-even {
+				align-content: space-evenly;
+			}
+		}
+	}
+}
