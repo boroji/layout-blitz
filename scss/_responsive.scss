@@ -1,5 +1,6 @@
 @use './units' as *;
-@use '../scss/utilities/' as *;
+@use './utilities/' as *;
+@use './layouts/' as *;
 
 @media (min-width: $xs-breakpoint) {
 	@include gap('xs');
@@ -7,6 +8,7 @@
 	@include margin('xs');
 	@include width('xs');
 	@include height('xs');
+	@include basis('xs');
 }
 @media (min-width: $sm-breakpoint) {
 	@include gap('sm');
@@ -14,6 +16,7 @@
 	@include margin('sm');
 	@include width('sm');
 	@include height('sm');
+	@include basis('sm');
 }
 @media (min-width: $md-breakpoint) {
 	@include gap('md');
@@ -21,6 +24,7 @@
 	@include margin('md');
 	@include width('md');
 	@include height('md');
+	@include basis('md');
 }
 @media (min-width: $lg-breakpoint) {
 	@include gap('lg');
@@ -28,6 +32,7 @@
 	@include margin('lg');
 	@include width('lg');
 	@include height('lg');
+	@include basis('lg');
 }
 @media (min-width: $xl-breakpoint) {
 	@include gap('xl');
@@ -35,4 +40,5 @@
 	@include margin('xl');
 	@include width('xl');
 	@include height('xl');
+	@include basis('xl');
 }

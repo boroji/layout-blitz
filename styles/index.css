@@ -3016,6 +3016,106 @@ html {
   .h-xs-auto {
     height: auto;
   }
+
+  .base-xs-0 {
+    flex-basis: 0rem;
+  }
+
+  .base-xs-5 {
+    flex-basis: 5rem;
+  }
+
+  .base-xs-10 {
+    flex-basis: 10rem;
+  }
+
+  .base-xs-15 {
+    flex-basis: 15rem;
+  }
+
+  .base-xs-20 {
+    flex-basis: 20rem;
+  }
+
+  .base-xs-25 {
+    flex-basis: 25rem;
+  }
+
+  .base-xs-30 {
+    flex-basis: 30rem;
+  }
+
+  .base-xs-35 {
+    flex-basis: 35rem;
+  }
+
+  .base-xs-40 {
+    flex-basis: 40rem;
+  }
+
+  .base-xs-45 {
+    flex-basis: 45rem;
+  }
+
+  .base-xs-50 {
+    flex-basis: 50rem;
+  }
+
+  .base-xs-55 {
+    flex-basis: 55rem;
+  }
+
+  .base-xs-60 {
+    flex-basis: 60rem;
+  }
+
+  .base-xs-65 {
+    flex-basis: 65rem;
+  }
+
+  .base-xs-70 {
+    flex-basis: 70rem;
+  }
+
+  .base-xs-75 {
+    flex-basis: 75rem;
+  }
+
+  .base-xs-80 {
+    flex-basis: 80rem;
+  }
+
+  .base-xs-85 {
+    flex-basis: 85rem;
+  }
+
+  .base-xs-90 {
+    flex-basis: 90rem;
+  }
+
+  .base-xs-95 {
+    flex-basis: 95rem;
+  }
+
+  .base-xs-100 {
+    flex-basis: 100rem;
+  }
+
+  .base-xs-105 {
+    flex-basis: 105rem;
+  }
+
+  .base-xs-110 {
+    flex-basis: 110rem;
+  }
+
+  .base-xs-115 {
+    flex-basis: 115rem;
+  }
+
+  .base-xs-120 {
+    flex-basis: 120rem;
+  }
 }
 @media (min-width: 45rem) {
   .gap-sm-0 {
@@ -4357,6 +4457,106 @@ html {
 
   .h-sm-auto {
     height: auto;
+  }
+
+  .base-sm-0 {
+    flex-basis: 0rem;
+  }
+
+  .base-sm-5 {
+    flex-basis: 5rem;
+  }
+
+  .base-sm-10 {
+    flex-basis: 10rem;
+  }
+
+  .base-sm-15 {
+    flex-basis: 15rem;
+  }
+
+  .base-sm-20 {
+    flex-basis: 20rem;
+  }
+
+  .base-sm-25 {
+    flex-basis: 25rem;
+  }
+
+  .base-sm-30 {
+    flex-basis: 30rem;
+  }
+
+  .base-sm-35 {
+    flex-basis: 35rem;
+  }
+
+  .base-sm-40 {
+    flex-basis: 40rem;
+  }
+
+  .base-sm-45 {
+    flex-basis: 45rem;
+  }
+
+  .base-sm-50 {
+    flex-basis: 50rem;
+  }
+
+  .base-sm-55 {
+    flex-basis: 55rem;
+  }
+
+  .base-sm-60 {
+    flex-basis: 60rem;
+  }
+
+  .base-sm-65 {
+    flex-basis: 65rem;
+  }
+
+  .base-sm-70 {
+    flex-basis: 70rem;
+  }
+
+  .base-sm-75 {
+    flex-basis: 75rem;
+  }
+
+  .base-sm-80 {
+    flex-basis: 80rem;
+  }
+
+  .base-sm-85 {
+    flex-basis: 85rem;
+  }
+
+  .base-sm-90 {
+    flex-basis: 90rem;
+  }
+
+  .base-sm-95 {
+    flex-basis: 95rem;
+  }
+
+  .base-sm-100 {
+    flex-basis: 100rem;
+  }
+
+  .base-sm-105 {
+    flex-basis: 105rem;
+  }
+
+  .base-sm-110 {
+    flex-basis: 110rem;
+  }
+
+  .base-sm-115 {
+    flex-basis: 115rem;
+  }
+
+  .base-sm-120 {
+    flex-basis: 120rem;
   }
 }
 @media (min-width: 60rem) {
@@ -5700,6 +5900,106 @@ html {
   .h-md-auto {
     height: auto;
   }
+
+  .base-md-0 {
+    flex-basis: 0rem;
+  }
+
+  .base-md-5 {
+    flex-basis: 5rem;
+  }
+
+  .base-md-10 {
+    flex-basis: 10rem;
+  }
+
+  .base-md-15 {
+    flex-basis: 15rem;
+  }
+
+  .base-md-20 {
+    flex-basis: 20rem;
+  }
+
+  .base-md-25 {
+    flex-basis: 25rem;
+  }
+
+  .base-md-30 {
+    flex-basis: 30rem;
+  }
+
+  .base-md-35 {
+    flex-basis: 35rem;
+  }
+
+  .base-md-40 {
+    flex-basis: 40rem;
+  }
+
+  .base-md-45 {
+    flex-basis: 45rem;
+  }
+
+  .base-md-50 {
+    flex-basis: 50rem;
+  }
+
+  .base-md-55 {
+    flex-basis: 55rem;
+  }
+
+  .base-md-60 {
+    flex-basis: 60rem;
+  }
+
+  .base-md-65 {
+    flex-basis: 65rem;
+  }
+
+  .base-md-70 {
+    flex-basis: 70rem;
+  }
+
+  .base-md-75 {
+    flex-basis: 75rem;
+  }
+
+  .base-md-80 {
+    flex-basis: 80rem;
+  }
+
+  .base-md-85 {
+    flex-basis: 85rem;
+  }
+
+  .base-md-90 {
+    flex-basis: 90rem;
+  }
+
+  .base-md-95 {
+    flex-basis: 95rem;
+  }
+
+  .base-md-100 {
+    flex-basis: 100rem;
+  }
+
+  .base-md-105 {
+    flex-basis: 105rem;
+  }
+
+  .base-md-110 {
+    flex-basis: 110rem;
+  }
+
+  .base-md-115 {
+    flex-basis: 115rem;
+  }
+
+  .base-md-120 {
+    flex-basis: 120rem;
+  }
 }
 @media (min-width: 75rem) {
   .gap-lg-0 {
@@ -7042,6 +7342,106 @@ html {
   .h-lg-auto {
     height: auto;
   }
+
+  .base-lg-0 {
+    flex-basis: 0rem;
+  }
+
+  .base-lg-5 {
+    flex-basis: 5rem;
+  }
+
+  .base-lg-10 {
+    flex-basis: 10rem;
+  }
+
+  .base-lg-15 {
+    flex-basis: 15rem;
+  }
+
+  .base-lg-20 {
+    flex-basis: 20rem;
+  }
+
+  .base-lg-25 {
+    flex-basis: 25rem;
+  }
+
+  .base-lg-30 {
+    flex-basis: 30rem;
+  }
+
+  .base-lg-35 {
+    flex-basis: 35rem;
+  }
+
+  .base-lg-40 {
+    flex-basis: 40rem;
+  }
+
+  .base-lg-45 {
+    flex-basis: 45rem;
+  }
+
+  .base-lg-50 {
+    flex-basis: 50rem;
+  }
+
+  .base-lg-55 {
+    flex-basis: 55rem;
+  }
+
+  .base-lg-60 {
+    flex-basis: 60rem;
+  }
+
+  .base-lg-65 {
+    flex-basis: 65rem;
+  }
+
+  .base-lg-70 {
+    flex-basis: 70rem;
+  }
+
+  .base-lg-75 {
+    flex-basis: 75rem;
+  }
+
+  .base-lg-80 {
+    flex-basis: 80rem;
+  }
+
+  .base-lg-85 {
+    flex-basis: 85rem;
+  }
+
+  .base-lg-90 {
+    flex-basis: 90rem;
+  }
+
+  .base-lg-95 {
+    flex-basis: 95rem;
+  }
+
+  .base-lg-100 {
+    flex-basis: 100rem;
+  }
+
+  .base-lg-105 {
+    flex-basis: 105rem;
+  }
+
+  .base-lg-110 {
+    flex-basis: 110rem;
+  }
+
+  .base-lg-115 {
+    flex-basis: 115rem;
+  }
+
+  .base-lg-120 {
+    flex-basis: 120rem;
+  }
 }
 @media (min-width: 90rem) {
   .gap-xl-0 {
@@ -8383,5 +8783,105 @@ html {
 
   .h-xl-auto {
     height: auto;
+  }
+
+  .base-xl-0 {
+    flex-basis: 0rem;
+  }
+
+  .base-xl-5 {
+    flex-basis: 5rem;
+  }
+
+  .base-xl-10 {
+    flex-basis: 10rem;
+  }
+
+  .base-xl-15 {
+    flex-basis: 15rem;
+  }
+
+  .base-xl-20 {
+    flex-basis: 20rem;
+  }
+
+  .base-xl-25 {
+    flex-basis: 25rem;
+  }
+
+  .base-xl-30 {
+    flex-basis: 30rem;
+  }
+
+  .base-xl-35 {
+    flex-basis: 35rem;
+  }
+
+  .base-xl-40 {
+    flex-basis: 40rem;
+  }
+
+  .base-xl-45 {
+    flex-basis: 45rem;
+  }
+
+  .base-xl-50 {
+    flex-basis: 50rem;
+  }
+
+  .base-xl-55 {
+    flex-basis: 55rem;
+  }
+
+  .base-xl-60 {
+    flex-basis: 60rem;
+  }
+
+  .base-xl-65 {
+    flex-basis: 65rem;
+  }
+
+  .base-xl-70 {
+    flex-basis: 70rem;
+  }
+
+  .base-xl-75 {
+    flex-basis: 75rem;
+  }
+
+  .base-xl-80 {
+    flex-basis: 80rem;
+  }
+
+  .base-xl-85 {
+    flex-basis: 85rem;
+  }
+
+  .base-xl-90 {
+    flex-basis: 90rem;
+  }
+
+  .base-xl-95 {
+    flex-basis: 95rem;
+  }
+
+  .base-xl-100 {
+    flex-basis: 100rem;
+  }
+
+  .base-xl-105 {
+    flex-basis: 105rem;
+  }
+
+  .base-xl-110 {
+    flex-basis: 110rem;
+  }
+
+  .base-xl-115 {
+    flex-basis: 115rem;
+  }
+
+  .base-xl-120 {
+    flex-basis: 120rem;
   }
 }/*# sourceMappingURL=index.css.map */
