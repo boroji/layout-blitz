@@ -12,6 +12,7 @@
 	@include flex('xs');
 	@include grow('xs');
 	@include shrink('xs');
+	@include order('xs');
 }
 @media (min-width: $sm-breakpoint) {
 	@include gap('sm');
@@ -23,6 +24,7 @@
 	@include flex('sm');
 	@include grow('sm');
 	@include shrink('sm');
+	@include order('sm');
 }
 @media (min-width: $md-breakpoint) {
 	@include gap('md');
@@ -34,6 +36,7 @@
 	@include flex('md');
 	@include grow('md');
 	@include shrink('md');
+	@include order('md');
 }
 @media (min-width: $lg-breakpoint) {
 	@include gap('lg');
@@ -45,6 +48,7 @@
 	@include flex('lg');
 	@include grow('lg');
 	@include shrink('lg');
+	@include order('lg');
 }
 @media (min-width: $xl-breakpoint) {
 	@include gap('xl');
@@ -56,4 +60,5 @@
 	@include flex('xl');
 	@include grow('xl');
 	@include shrink('xl');
+	@include order('xl');
 }
