@@ -3,3 +3,11 @@
 		flex-shrink: #{$i};
 	}
 }
+
+@mixin shrink($breakpoint) {
+	@for $i from 0 through 8 {
+		.trim-#{$breakpoint}-#{$i} {
+			flex-shrink: #{$i};
+		}
+	}
+}
