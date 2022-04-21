@@ -1,2 +1,5 @@
 .DS_Store
 index.html
+styles/index.css.map
+styles/index.min.css
+styles/index.min.css.map
