@@ -1361,6 +1361,134 @@ html {
   flex-wrap: nowrap;
 }
 
+.row-1 {
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.col-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.row-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.row-4 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.row-5 {
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.col-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.row-6 {
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.col-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.row-7 {
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.col-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.row-8 {
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.col-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.row-9 {
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.col-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.row-10 {
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.col-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.row-11 {
+  grid-template-rows: repeat(11, 1fr);
+}
+
+.col-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.row-12 {
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.col-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.row-13 {
+  grid-template-rows: repeat(13, 1fr);
+}
+
+.col-13 {
+  grid-template-columns: repeat(13, 1fr);
+}
+
+.row-14 {
+  grid-template-rows: repeat(14, 1fr);
+}
+
+.col-14 {
+  grid-template-columns: repeat(14, 1fr);
+}
+
+.row-15 {
+  grid-template-rows: repeat(15, 1fr);
+}
+
+.col-15 {
+  grid-template-columns: repeat(15, 1fr);
+}
+
+.row-16 {
+  grid-template-rows: repeat(16, 1fr);
+}
+
+.col-16 {
+  grid-template-columns: repeat(16, 1fr);
+}
+
 .base-0 {
   flex-basis: 0rem;
 }
@@ -3121,6 +3249,134 @@ html {
     flex-wrap: nowrap;
   }
 
+  .row-xs-1 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .col-xs-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .row-xs-2 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .col-xs-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-xs-3 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .col-xs-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .row-xs-4 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .col-xs-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-xs-5 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .col-xs-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .row-xs-6 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .col-xs-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .row-xs-7 {
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+  .col-xs-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .row-xs-8 {
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .col-xs-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .row-xs-9 {
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .col-xs-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .row-xs-10 {
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .col-xs-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .row-xs-11 {
+    grid-template-rows: repeat(11, 1fr);
+  }
+
+  .col-xs-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  .row-xs-12 {
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .col-xs-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .row-xs-13 {
+    grid-template-rows: repeat(13, 1fr);
+  }
+
+  .col-xs-13 {
+    grid-template-columns: repeat(13, 1fr);
+  }
+
+  .row-xs-14 {
+    grid-template-rows: repeat(14, 1fr);
+  }
+
+  .col-xs-14 {
+    grid-template-columns: repeat(14, 1fr);
+  }
+
+  .row-xs-15 {
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  .col-xs-15 {
+    grid-template-columns: repeat(15, 1fr);
+  }
+
+  .row-xs-16 {
+    grid-template-rows: repeat(16, 1fr);
+  }
+
+  .col-xs-16 {
+    grid-template-columns: repeat(16, 1fr);
+  }
+
   .grow-xs-0 {
     flex-grow: 0;
   }
@@ -4779,6 +5035,134 @@ html {
 
   .wrap-sm-0 {
     flex-wrap: nowrap;
+  }
+
+  .row-sm-1 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .col-sm-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .row-sm-2 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .col-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-sm-3 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .col-sm-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .row-sm-4 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .col-sm-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-sm-5 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .col-sm-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .row-sm-6 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .col-sm-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .row-sm-7 {
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+  .col-sm-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .row-sm-8 {
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .col-sm-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .row-sm-9 {
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .col-sm-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .row-sm-10 {
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .col-sm-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .row-sm-11 {
+    grid-template-rows: repeat(11, 1fr);
+  }
+
+  .col-sm-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  .row-sm-12 {
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .col-sm-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .row-sm-13 {
+    grid-template-rows: repeat(13, 1fr);
+  }
+
+  .col-sm-13 {
+    grid-template-columns: repeat(13, 1fr);
+  }
+
+  .row-sm-14 {
+    grid-template-rows: repeat(14, 1fr);
+  }
+
+  .col-sm-14 {
+    grid-template-columns: repeat(14, 1fr);
+  }
+
+  .row-sm-15 {
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  .col-sm-15 {
+    grid-template-columns: repeat(15, 1fr);
+  }
+
+  .row-sm-16 {
+    grid-template-rows: repeat(16, 1fr);
+  }
+
+  .col-sm-16 {
+    grid-template-columns: repeat(16, 1fr);
   }
 
   .grow-sm-0 {
@@ -6441,6 +6825,134 @@ html {
     flex-wrap: nowrap;
   }
 
+  .row-md-1 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .col-md-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .row-md-2 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .col-md-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-md-3 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .col-md-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .row-md-4 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .col-md-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-md-5 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .col-md-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .row-md-6 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .col-md-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .row-md-7 {
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+  .col-md-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .row-md-8 {
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .col-md-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .row-md-9 {
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .col-md-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .row-md-10 {
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .col-md-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .row-md-11 {
+    grid-template-rows: repeat(11, 1fr);
+  }
+
+  .col-md-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  .row-md-12 {
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .col-md-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .row-md-13 {
+    grid-template-rows: repeat(13, 1fr);
+  }
+
+  .col-md-13 {
+    grid-template-columns: repeat(13, 1fr);
+  }
+
+  .row-md-14 {
+    grid-template-rows: repeat(14, 1fr);
+  }
+
+  .col-md-14 {
+    grid-template-columns: repeat(14, 1fr);
+  }
+
+  .row-md-15 {
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  .col-md-15 {
+    grid-template-columns: repeat(15, 1fr);
+  }
+
+  .row-md-16 {
+    grid-template-rows: repeat(16, 1fr);
+  }
+
+  .col-md-16 {
+    grid-template-columns: repeat(16, 1fr);
+  }
+
   .grow-md-0 {
     flex-grow: 0;
   }
@@ -8101,6 +8613,134 @@ html {
     flex-wrap: nowrap;
   }
 
+  .row-lg-1 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .col-lg-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .row-lg-2 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .col-lg-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-lg-3 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .col-lg-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .row-lg-4 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .col-lg-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-lg-5 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .col-lg-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .row-lg-6 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .col-lg-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .row-lg-7 {
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+  .col-lg-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .row-lg-8 {
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .col-lg-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .row-lg-9 {
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .col-lg-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .row-lg-10 {
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .col-lg-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .row-lg-11 {
+    grid-template-rows: repeat(11, 1fr);
+  }
+
+  .col-lg-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  .row-lg-12 {
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .col-lg-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .row-lg-13 {
+    grid-template-rows: repeat(13, 1fr);
+  }
+
+  .col-lg-13 {
+    grid-template-columns: repeat(13, 1fr);
+  }
+
+  .row-lg-14 {
+    grid-template-rows: repeat(14, 1fr);
+  }
+
+  .col-lg-14 {
+    grid-template-columns: repeat(14, 1fr);
+  }
+
+  .row-lg-15 {
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  .col-lg-15 {
+    grid-template-columns: repeat(15, 1fr);
+  }
+
+  .row-lg-16 {
+    grid-template-rows: repeat(16, 1fr);
+  }
+
+  .col-lg-16 {
+    grid-template-columns: repeat(16, 1fr);
+  }
+
   .grow-lg-0 {
     flex-grow: 0;
   }
@@ -9759,6 +10399,134 @@ html {
 
   .wrap-xl-0 {
     flex-wrap: nowrap;
+  }
+
+  .row-xl-1 {
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .col-xl-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .row-xl-2 {
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .col-xl-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-xl-3 {
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .col-xl-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .row-xl-4 {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .col-xl-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-xl-5 {
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .col-xl-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .row-xl-6 {
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .col-xl-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .row-xl-7 {
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+  .col-xl-7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .row-xl-8 {
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .col-xl-8 {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .row-xl-9 {
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .col-xl-9 {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .row-xl-10 {
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .col-xl-10 {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .row-xl-11 {
+    grid-template-rows: repeat(11, 1fr);
+  }
+
+  .col-xl-11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  .row-xl-12 {
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .col-xl-12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .row-xl-13 {
+    grid-template-rows: repeat(13, 1fr);
+  }
+
+  .col-xl-13 {
+    grid-template-columns: repeat(13, 1fr);
+  }
+
+  .row-xl-14 {
+    grid-template-rows: repeat(14, 1fr);
+  }
+
+  .col-xl-14 {
+    grid-template-columns: repeat(14, 1fr);
+  }
+
+  .row-xl-15 {
+    grid-template-rows: repeat(15, 1fr);
+  }
+
+  .col-xl-15 {
+    grid-template-columns: repeat(15, 1fr);
+  }
+
+  .row-xl-16 {
+    grid-template-rows: repeat(16, 1fr);
+  }
+
+  .col-xl-16 {
+    grid-template-columns: repeat(16, 1fr);
   }
 
   .grow-xl-0 {

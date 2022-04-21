@@ -1,0 +1,29 @@
+@for $i from 1 through 16 {
+	.row {
+		&-#{$i} {
+			grid-template-rows: repeat($i, 1fr);
+		}
+	}
+
+	.col {
+		&-#{$i} {
+			grid-template-columns: repeat($i, 1fr);
+		}
+	}
+}
+
+@mixin grid($breakpoint) {
+	@for $i from 1 through 16 {
+		.row {
+			&-#{$breakpoint}-#{$i} {
+				grid-template-rows: repeat($i, 1fr);
+			}
+		}
+
+		.col {
+			&-#{$breakpoint}-#{$i} {
+				grid-template-columns: repeat($i, 1fr);
+			}
+		}
+	}
+}
