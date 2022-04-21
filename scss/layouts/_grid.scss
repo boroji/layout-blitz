@@ -1,3 +1,12 @@
+@use '../units' as *;
+
+@while $i <= 120 {
+	.fluid-#{$i} {
+		grid-template-columns: repeat(autofit, minmax(#{$i}rem, 1fr));
+	}
+	$i: $i + 5;
+}
+
 @for $i from 1 through 16 {
 	.row {
 		&-#{$i} {

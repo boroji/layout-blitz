@@ -1361,6 +1361,106 @@ html {
   flex-wrap: nowrap;
 }
 
+.fluid-0 {
+  grid-template-columns: repeat(autofit, minmax(0rem, 1fr));
+}
+
+.fluid-5 {
+  grid-template-columns: repeat(autofit, minmax(5rem, 1fr));
+}
+
+.fluid-10 {
+  grid-template-columns: repeat(autofit, minmax(10rem, 1fr));
+}
+
+.fluid-15 {
+  grid-template-columns: repeat(autofit, minmax(15rem, 1fr));
+}
+
+.fluid-20 {
+  grid-template-columns: repeat(autofit, minmax(20rem, 1fr));
+}
+
+.fluid-25 {
+  grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
+}
+
+.fluid-30 {
+  grid-template-columns: repeat(autofit, minmax(30rem, 1fr));
+}
+
+.fluid-35 {
+  grid-template-columns: repeat(autofit, minmax(35rem, 1fr));
+}
+
+.fluid-40 {
+  grid-template-columns: repeat(autofit, minmax(40rem, 1fr));
+}
+
+.fluid-45 {
+  grid-template-columns: repeat(autofit, minmax(45rem, 1fr));
+}
+
+.fluid-50 {
+  grid-template-columns: repeat(autofit, minmax(50rem, 1fr));
+}
+
+.fluid-55 {
+  grid-template-columns: repeat(autofit, minmax(55rem, 1fr));
+}
+
+.fluid-60 {
+  grid-template-columns: repeat(autofit, minmax(60rem, 1fr));
+}
+
+.fluid-65 {
+  grid-template-columns: repeat(autofit, minmax(65rem, 1fr));
+}
+
+.fluid-70 {
+  grid-template-columns: repeat(autofit, minmax(70rem, 1fr));
+}
+
+.fluid-75 {
+  grid-template-columns: repeat(autofit, minmax(75rem, 1fr));
+}
+
+.fluid-80 {
+  grid-template-columns: repeat(autofit, minmax(80rem, 1fr));
+}
+
+.fluid-85 {
+  grid-template-columns: repeat(autofit, minmax(85rem, 1fr));
+}
+
+.fluid-90 {
+  grid-template-columns: repeat(autofit, minmax(90rem, 1fr));
+}
+
+.fluid-95 {
+  grid-template-columns: repeat(autofit, minmax(95rem, 1fr));
+}
+
+.fluid-100 {
+  grid-template-columns: repeat(autofit, minmax(100rem, 1fr));
+}
+
+.fluid-105 {
+  grid-template-columns: repeat(autofit, minmax(105rem, 1fr));
+}
+
+.fluid-110 {
+  grid-template-columns: repeat(autofit, minmax(110rem, 1fr));
+}
+
+.fluid-115 {
+  grid-template-columns: repeat(autofit, minmax(115rem, 1fr));
+}
+
+.fluid-120 {
+  grid-template-columns: repeat(autofit, minmax(120rem, 1fr));
+}
+
 .row-1 {
   grid-template-rows: repeat(1, 1fr);
   display: grid;
