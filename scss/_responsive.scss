@@ -14,6 +14,7 @@
 	@include shrink('xs');
 	@include order('xs');
 	@include align('xs');
+	@include justify('xs');
 }
 @media (min-width: $sm-breakpoint) {
 	@include gap('sm');
@@ -27,6 +28,7 @@
 	@include shrink('sm');
 	@include order('sm');
 	@include align('sm');
+	@include justify('sm');
 }
 @media (min-width: $md-breakpoint) {
 	@include gap('md');
@@ -40,6 +42,7 @@
 	@include shrink('md');
 	@include order('md');
 	@include align('md');
+	@include justify('md');
 }
 @media (min-width: $lg-breakpoint) {
 	@include gap('lg');
@@ -53,6 +56,7 @@
 	@include shrink('lg');
 	@include order('lg');
 	@include align('lg');
+	@include justify('lg');
 }
 @media (min-width: $xl-breakpoint) {
 	@include gap('xl');
@@ -66,4 +70,5 @@
 	@include shrink('xl');
 	@include order('xl');
 	@include align('xl');
+	@include justify('xl');
 }

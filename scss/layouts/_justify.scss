@@ -34,3 +34,42 @@
 		}
 	}
 }
+
+@mixin justify($breakpoint) {
+	.j {
+		&c {
+			&-#{$breakpoint}-center {
+				justify-content: center;
+			}
+			&-#{$breakpoint}-start {
+				justify-content: start;
+			}
+			&-#{$breakpoint}-end {
+				justify-content: end;
+			}
+			&-#{$breakpoint}-around {
+				justify-content: space-around;
+			}
+			&-#{$breakpoint}-between {
+				justify-content: space-between;
+			}
+			&-#{$breakpoint}-even {
+				justify-content: space-evenly;
+			}
+		}
+		&s {
+			&-#{$breakpoint}-fill {
+				justify-self: stretch;
+			}
+			&-#{$breakpoint}-center {
+				justify-self: center;
+			}
+			&-#{$breakpoint}-start {
+				justify-self: start;
+			}
+			&-#{$breakpoint}-end {
+				justify-self: end;
+			}
+		}
+	}
+}

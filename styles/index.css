@@ -3303,6 +3303,37 @@ html {
   .ac-xs-even {
     align-content: space-evenly;
   }
+
+  .jc-xs-center {
+    justify-content: center;
+  }
+  .jc-xs-start {
+    justify-content: start;
+  }
+  .jc-xs-end {
+    justify-content: end;
+  }
+  .jc-xs-around {
+    justify-content: space-around;
+  }
+  .jc-xs-between {
+    justify-content: space-between;
+  }
+  .jc-xs-even {
+    justify-content: space-evenly;
+  }
+  .js-xs-fill {
+    justify-self: stretch;
+  }
+  .js-xs-center {
+    justify-self: center;
+  }
+  .js-xs-start {
+    justify-self: start;
+  }
+  .js-xs-end {
+    justify-self: end;
+  }
 }
 @media (min-width: 45rem) {
   .gap-sm-0 {
@@ -4931,6 +4962,37 @@ html {
   }
   .ac-sm-even {
     align-content: space-evenly;
+  }
+
+  .jc-sm-center {
+    justify-content: center;
+  }
+  .jc-sm-start {
+    justify-content: start;
+  }
+  .jc-sm-end {
+    justify-content: end;
+  }
+  .jc-sm-around {
+    justify-content: space-around;
+  }
+  .jc-sm-between {
+    justify-content: space-between;
+  }
+  .jc-sm-even {
+    justify-content: space-evenly;
+  }
+  .js-sm-fill {
+    justify-self: stretch;
+  }
+  .js-sm-center {
+    justify-self: center;
+  }
+  .js-sm-start {
+    justify-self: start;
+  }
+  .js-sm-end {
+    justify-self: end;
   }
 }
 @media (min-width: 60rem) {
@@ -6561,6 +6623,37 @@ html {
   .ac-md-even {
     align-content: space-evenly;
   }
+
+  .jc-md-center {
+    justify-content: center;
+  }
+  .jc-md-start {
+    justify-content: start;
+  }
+  .jc-md-end {
+    justify-content: end;
+  }
+  .jc-md-around {
+    justify-content: space-around;
+  }
+  .jc-md-between {
+    justify-content: space-between;
+  }
+  .jc-md-even {
+    justify-content: space-evenly;
+  }
+  .js-md-fill {
+    justify-self: stretch;
+  }
+  .js-md-center {
+    justify-self: center;
+  }
+  .js-md-start {
+    justify-self: start;
+  }
+  .js-md-end {
+    justify-self: end;
+  }
 }
 @media (min-width: 75rem) {
   .gap-lg-0 {
@@ -8190,6 +8283,37 @@ html {
   .ac-lg-even {
     align-content: space-evenly;
   }
+
+  .jc-lg-center {
+    justify-content: center;
+  }
+  .jc-lg-start {
+    justify-content: start;
+  }
+  .jc-lg-end {
+    justify-content: end;
+  }
+  .jc-lg-around {
+    justify-content: space-around;
+  }
+  .jc-lg-between {
+    justify-content: space-between;
+  }
+  .jc-lg-even {
+    justify-content: space-evenly;
+  }
+  .js-lg-fill {
+    justify-self: stretch;
+  }
+  .js-lg-center {
+    justify-self: center;
+  }
+  .js-lg-start {
+    justify-self: start;
+  }
+  .js-lg-end {
+    justify-self: end;
+  }
 }
 @media (min-width: 90rem) {
   .gap-xl-0 {
@@ -9818,5 +9942,36 @@ html {
   }
   .ac-xl-even {
     align-content: space-evenly;
+  }
+
+  .jc-xl-center {
+    justify-content: center;
+  }
+  .jc-xl-start {
+    justify-content: start;
+  }
+  .jc-xl-end {
+    justify-content: end;
+  }
+  .jc-xl-around {
+    justify-content: space-around;
+  }
+  .jc-xl-between {
+    justify-content: space-between;
+  }
+  .jc-xl-even {
+    justify-content: space-evenly;
+  }
+  .js-xl-fill {
+    justify-self: stretch;
+  }
+  .js-xl-center {
+    justify-self: center;
+  }
+  .js-xl-start {
+    justify-self: start;
+  }
+  .js-xl-end {
+    justify-self: end;
   }
 }/*# sourceMappingURL=index.css.map */
