@@ -5,71 +5,16 @@
 @each $key, $each-breakpoint-size in $breakpoints {
 	@media (min-width: $each-breakpoint-size) {
 		@include gap($key);
+		@include padding($key);
+		@include margin($key);
+		@include width($key);
+		@include height($key);
+		@include basis($key);
+		@include flex($key);
+		@include grow($key);
+		@include shrink($key);
+		@include order($key);
+		@include align($key);
+		@include justify($key);
 	}
-}
-
-@media (min-width: $xs-breakpoint) {
-	@include padding('xs');
-	@include margin('xs');
-	@include width('xs');
-	@include height('xs');
-	@include basis('xs');
-	@include flex('xs');
-	@include grow('xs');
-	@include shrink('xs');
-	@include order('xs');
-	@include align('xs');
-	@include justify('xs');
-}
-@media (min-width: $sm-breakpoint) {
-	@include padding('sm');
-	@include margin('sm');
-	@include width('sm');
-	@include height('sm');
-	@include basis('sm');
-	@include flex('sm');
-	@include grow('sm');
-	@include shrink('sm');
-	@include order('sm');
-	@include align('sm');
-	@include justify('sm');
-}
-@media (min-width: $md-breakpoint) {
-	@include padding('md');
-	@include margin('md');
-	@include width('md');
-	@include height('md');
-	@include basis('md');
-	@include flex('md');
-	@include grow('md');
-	@include shrink('md');
-	@include order('md');
-	@include align('md');
-	@include justify('md');
-}
-@media (min-width: $lg-breakpoint) {
-	@include padding('lg');
-	@include margin('lg');
-	@include width('lg');
-	@include height('lg');
-	@include basis('lg');
-	@include flex('lg');
-	@include grow('lg');
-	@include shrink('lg');
-	@include order('lg');
-	@include align('lg');
-	@include justify('lg');
-}
-@media (min-width: $xl-breakpoint) {
-	@include padding('xl');
-	@include margin('xl');
-	@include width('xl');
-	@include height('xl');
-	@include basis('xl');
-	@include flex('xl');
-	@include grow('xl');
-	@include shrink('xl');
-	@include order('xl');
-	@include align('xl');
-	@include justify('xl');
 }
