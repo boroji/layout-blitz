@@ -13,6 +13,7 @@
 		@include flex($key);
 		@include grid($key);
 		@include grid-col($key);
+		@include grid-row($key);
 		@include grow($key);
 		@include shrink($key);
 		@include order($key);

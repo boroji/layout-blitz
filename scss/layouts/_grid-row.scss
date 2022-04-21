@@ -1,0 +1,31 @@
+@for $i from 1 through 16 {
+	.r {
+		&s-#{$i} {
+			grid-row-start: $i;
+		}
+		&e-#{$i} {
+			grid-row-end: $i;
+		}
+	}
+}
+
+.re-fill {
+	grid-row-end: -1;
+}
+
+@mixin grid-row($breakpoint) {
+	@for $i from 1 through 17 {
+		.r {
+			&s-#{$breakpoint}-#{$i} {
+				grid-row-start: $i;
+			}
+			&e-#{$breakpoint}-#{$i} {
+				grid-row-end: $i;
+			}
+		}
+	}
+
+	.re-#{$breakpoint}-fill {
+		grid-row-end: -1;
+	}
+}
