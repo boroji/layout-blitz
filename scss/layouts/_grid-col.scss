@@ -1,23 +1,31 @@
 @for $i from 1 through 16 {
-	.col {
-		&-start-#{$i} {
+	.c {
+		&s-#{$i} {
 			grid-column-start: $i;
 		}
-		&-end-#{$i} {
+		&e-#{$i} {
 			grid-column-end: $i;
 		}
 	}
 }
 
+.ce-fill {
+	grid-column-end: -1;
+}
+
 @mixin grid-col($breakpoint) {
-	@for $i from 1 through 16 {
-		.col {
-			&-start-#{$breakpoint}-#{$i} {
+	@for $i from 1 through 17 {
+		.c {
+			&s-#{$breakpoint}-#{$i} {
 				grid-column-start: $i;
 			}
-			&-end-#{$breakpoint}-#{$i} {
+			&e-#{$breakpoint}-#{$i} {
 				grid-column-end: $i;
 			}
 		}
+	}
+
+	.ce-#{$breakpoint}-fill {
+		grid-column-end: -1;
 	}
 }
