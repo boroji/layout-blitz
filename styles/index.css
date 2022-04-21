@@ -1362,102 +1362,127 @@ html {
 }
 
 .fluid-0 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(0rem, 1fr));
 }
 
 .fluid-5 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
 }
 
 .fluid-10 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 
 .fluid-15 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .fluid-20 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .fluid-25 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .fluid-30 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 .fluid-35 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
 }
 
 .fluid-40 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 }
 
 .fluid-45 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
 }
 
 .fluid-50 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
 }
 
 .fluid-55 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(55rem, 1fr));
 }
 
 .fluid-60 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
 }
 
 .fluid-65 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(65rem, 1fr));
 }
 
 .fluid-70 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(70rem, 1fr));
 }
 
 .fluid-75 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(75rem, 1fr));
 }
 
 .fluid-80 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80rem, 1fr));
 }
 
 .fluid-85 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(85rem, 1fr));
 }
 
 .fluid-90 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(90rem, 1fr));
 }
 
 .fluid-95 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(95rem, 1fr));
 }
 
 .fluid-100 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100rem, 1fr));
 }
 
 .fluid-105 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(105rem, 1fr));
 }
 
 .fluid-110 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(110rem, 1fr));
 }
 
 .fluid-115 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(115rem, 1fr));
 }
 
 .fluid-120 {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120rem, 1fr));
 }
 

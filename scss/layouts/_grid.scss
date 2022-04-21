@@ -2,6 +2,7 @@
 
 @while $i <= 120 {
 	.fluid-#{$i} {
+		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
 	}
 	$i: $i + 5;
