@@ -3116,6 +3116,10 @@ html {
   .base-xs-120 {
     flex-basis: 120rem;
   }
+
+  .wrap-xs-0 {
+    flex-wrap: nowrap;
+  }
 }
 @media (min-width: 45rem) {
   .gap-sm-0 {
@@ -4557,6 +4561,10 @@ html {
 
   .base-sm-120 {
     flex-basis: 120rem;
+  }
+
+  .wrap-sm-0 {
+    flex-wrap: nowrap;
   }
 }
 @media (min-width: 60rem) {
@@ -6000,6 +6008,10 @@ html {
   .base-md-120 {
     flex-basis: 120rem;
   }
+
+  .wrap-md-0 {
+    flex-wrap: nowrap;
+  }
 }
 @media (min-width: 75rem) {
   .gap-lg-0 {
@@ -7442,6 +7454,10 @@ html {
   .base-lg-120 {
     flex-basis: 120rem;
   }
+
+  .wrap-lg-0 {
+    flex-wrap: nowrap;
+  }
 }
 @media (min-width: 90rem) {
   .gap-xl-0 {
@@ -8883,5 +8899,9 @@ html {
 
   .base-xl-120 {
     flex-basis: 120rem;
+  }
+
+  .wrap-xl-0 {
+    flex-wrap: nowrap;
   }
 }/*# sourceMappingURL=index.css.map */

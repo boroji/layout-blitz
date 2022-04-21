@@ -13,3 +13,9 @@
 .wrap-0 {
 	flex-wrap: nowrap;
 }
+
+@mixin flex($breakpoint) {
+	.wrap-#{$breakpoint}-0 {
+		flex-wrap: nowrap;
+	}
+}
