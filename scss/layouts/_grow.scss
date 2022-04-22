@@ -1,11 +1,11 @@
-@for $i from 0 through 8 {
+@for $i from 0 through 4 {
 	.grow-#{$i} {
 		flex-grow: #{$i};
 	}
 }
 
 @mixin grow($breakpoint) {
-	@for $i from 0 through 8 {
+	@for $i from 0 through 4 {
 		.grow-#{$breakpoint}-#{$i} {
 			flex-grow: #{$i};
 		}

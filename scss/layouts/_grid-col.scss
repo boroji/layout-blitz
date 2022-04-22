@@ -1,4 +1,4 @@
-@for $i from 1 through 16 {
+@for $i from 1 through 8 {
 	.c {
 		&s-#{$i} {
 			grid-column-start: $i;
@@ -14,7 +14,7 @@
 }
 
 @mixin grid-col($breakpoint) {
-	@for $i from 1 through 17 {
+	@for $i from 1 through 9 {
 		.c {
 			&s-#{$breakpoint}-#{$i} {
 				grid-column-start: $i;

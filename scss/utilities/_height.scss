@@ -8,7 +8,7 @@
 	.minh-#{$i} {
 		min-height: #{$i}rem;
 	}
-	$i: $i + 4;
+	$i: $i + 8;
 }
 
 .h-fill {
@@ -28,7 +28,7 @@
 		.minh-#{$breakpoint}-#{$i} {
 			min-height: #{$i}rem;
 		}
-		$i: $i + 5;
+		$i: $i + 8;
 	}
 
 	.h-#{$breakpoint}-fill {

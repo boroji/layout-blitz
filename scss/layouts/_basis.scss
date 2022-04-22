@@ -4,7 +4,7 @@
 	.base-#{$i} {
 		flex-basis: #{$i}rem;
 	}
-	$i: $i + 5;
+	$i: $i + 8;
 }
 
 @mixin basis($breakpoint) {
@@ -12,6 +12,6 @@
 		.base-#{$breakpoint}-#{$i} {
 			flex-basis: #{$i}rem;
 		}
-		$i: $i + 5;
+		$i: $i + 8;
 	}
 }

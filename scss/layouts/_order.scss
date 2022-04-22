@@ -1,11 +1,11 @@
-@for $i from 0 through 16 {
+@for $i from 0 through 8 {
 	.order-#{$i} {
 		order: #{$i};
 	}
 }
 
 @mixin order($breakpoint) {
-	@for $i from 0 through 16 {
+	@for $i from 0 through 8 {
 		.order-#{$breakpoint}-#{$i} {
 			order: #{$i};
 		}

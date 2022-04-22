@@ -42,7 +42,7 @@
 				padding-left: #{$i * $base-rem-value}rem;
 			}
 		}
-		$i: $i + 4;
+		$i: $i + 8;
 	}
 }
 
@@ -90,6 +90,6 @@
 				}
 			}
 		}
-		$i: $i + 4;
+		$i: $i + 8;
 	}
 }

@@ -8,7 +8,7 @@
 	.maxw-#{$i} {
 		max-width: #{$i}rem;
 	}
-	$i: $i + 4;
+	$i: $i + 8;
 }
 
 .w-fill {
@@ -28,7 +28,7 @@
 		.maxw-#{$breakpoint}-#{$i} {
 			max-width: #{$i}rem;
 		}
-		$i: $i + 5;
+		$i: $i + 8;
 	}
 
 	.w-#{$breakpoint}-fill {

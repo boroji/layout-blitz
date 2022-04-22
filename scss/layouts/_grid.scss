@@ -6,11 +6,11 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
 	}
-	$i: $i + 4;
+	$i: $i + 8;
 }
 
 // Repeat grid rows and grid columns
-@for $i from 1 through 16 {
+@for $i from 1 through 8 {
 	.row {
 		&-#{$i} {
 			grid-template-rows: repeat($i, 1fr);
@@ -27,7 +27,7 @@
 }
 
 @mixin grid($breakpoint) {
-	@for $i from 1 through 16 {
+	@for $i from 1 through 8 {
 		.row {
 			&-#{$breakpoint}-#{$i} {
 				grid-template-rows: repeat($i, 1fr);
@@ -48,6 +48,6 @@
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
 		}
-		$i: $i + 4;
+		$i: $i + 8;
 	}
 }
