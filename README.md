@@ -2,4 +2,4 @@
 
 ### In the name of Allah, the most compassionate and merciful
 
-#### For this project, I am designing a CSS framework to easily insert HTML macros into Atlassian Confluence
+#### For this project, I am designing a CSS framework to easily develop rapid flexbox and css grid layouts
