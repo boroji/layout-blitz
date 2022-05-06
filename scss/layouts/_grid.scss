@@ -1,12 +1,12 @@
 @use '../units' as *;
 
 // Fluid grid
-@while $i <= 48 {
+@while $i <= 720 {
 	.fluid-#{$i} {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(#{$i * $base-rem-value}rem, 1fr));
 	}
-	$i: $i + 8;
+	$i: $i + 48;
 }
 
 // Repeat grid rows and grid columns
@@ -43,11 +43,11 @@
 		}
 	}
 
-	@while $i <= 48 {
+	@while $i <= 720 {
 		.fluid-#{$breakpoint}-#{$i} {
 			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(#{$i}rem, 1fr));
+			grid-template-columns: repeat(auto-fit, minmax(#{$i * $base-rem-value}rem, 1fr));
 		}
-		$i: $i + 8;
+		$i: $i + 48;
 	}
 }

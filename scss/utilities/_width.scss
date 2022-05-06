@@ -1,14 +1,14 @@
 @use '../units' as *;
 
-@while $i <= 120 {
+@while $i <= 1920 {
 	.w-#{$i} {
-		width: #{$i}rem;
+		width: #{$i * $base-rem-value}rem;
 	}
 
 	.maxw-#{$i} {
-		max-width: #{$i}rem;
+		max-width: #{$i * $base-rem-value}rem;
 	}
-	$i: $i + 8;
+	$i: $i + 48;
 }
 
 .w-fill {
@@ -20,15 +20,15 @@
 }
 
 @mixin width($breakpoint) {
-	@while $i <= 120 {
+	@while $i <= 1920 {
 		.w-#{$breakpoint}-#{$i} {
-			width: #{$i}rem;
+			width: #{$i * $base-rem-value}rem;
 		}
 
 		.maxw-#{$breakpoint}-#{$i} {
-			max-width: #{$i}rem;
+			max-width: #{$i * $base-rem-value}rem;
 		}
-		$i: $i + 8;
+		$i: $i + 48;
 	}
 
 	.w-#{$breakpoint}-fill {

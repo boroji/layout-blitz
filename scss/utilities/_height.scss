@@ -1,14 +1,14 @@
 @use '../units' as *;
 
-@while $i <= 120 {
+@while $i <= 1920 {
 	.h-#{$i} {
-		height: #{$i}rem;
+		height: #{$i * $base-rem-value}rem;
 	}
 
 	.minh-#{$i} {
-		min-height: #{$i}rem;
+		min-height: #{$i * $base-rem-value}rem;
 	}
-	$i: $i + 8;
+	$i: $i + 48;
 }
 
 .h-fill {
@@ -20,15 +20,15 @@
 }
 
 @mixin height($breakpoint) {
-	@while $i <= 120 {
+	@while $i <= 1920 {
 		.h-#{$breakpoint}-#{$i} {
-			height: #{$i}rem;
+			height: #{$i * $base-rem-value}rem;
 		}
 
 		.minh-#{$breakpoint}-#{$i} {
-			min-height: #{$i}rem;
+			min-height: #{$i * $base-rem-value}rem;
 		}
-		$i: $i + 8;
+		$i: $i + 48;
 	}
 
 	.h-#{$breakpoint}-fill {

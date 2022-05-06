@@ -1,17 +1,17 @@
 @use '../units' as *;
 
-@while $i <= 120 {
+@while $i <= 720 {
 	.base-#{$i} {
-		flex-basis: #{$i}rem;
+		flex-basis: #{$i * $base-rem-value}rem;
 	}
-	$i: $i + 8;
+	$i: $i + 48;
 }
 
 @mixin basis($breakpoint) {
-	@while $i <= 120 {
+	@while $i <= 720 {
 		.base-#{$breakpoint}-#{$i} {
-			flex-basis: #{$i}rem;
+			flex-basis: #{$i * $base-rem-value}rem;
 		}
-		$i: $i + 8;
+		$i: $i + 48;
 	}
 }
