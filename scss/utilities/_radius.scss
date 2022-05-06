@@ -1,0 +1,102 @@
+@use '../units' as *;
+
+.r {
+	@while $i <= 48 {
+		&tl {
+			&-#{$i} {
+				border-top-left-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		&tr {
+			&-#{$i} {
+				border-top-right-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		&br {
+			&-#{$i} {
+				border-bottom-right-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		&bl {
+			&-#{$i} {
+				border-bottom-left-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		&y {
+			&-#{$i} {
+				border-top-left-radius: #{$i * $base-rem-value}rem;
+				border-top-right-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		&x {
+			&-#{$i} {
+				border-bottom-right-radius: #{$i * $base-rem-value}rem;
+				border-bottom-left-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		&a {
+			&-#{$i} {
+				border-top-right-radius: #{$i * $base-rem-value}rem;
+				border-top-left-radius: #{$i * $base-rem-value}rem;
+				border-bottom-right-radius: #{$i * $base-rem-value}rem;
+				border-bottom-left-radius: #{$i * $base-rem-value}rem;
+			}
+		}
+		$i: $i + 4;
+	}
+}
+
+@mixin radius($breakpoint) {
+	.r {
+		@while $i <= 48 {
+			&tl {
+				&-#{$breakpoint}-#{$i} {
+					border-top-left-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			&tr {
+				&-#{$breakpoint}-#{$i} {
+					border-top-right-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			&br {
+				&-#{$breakpoint}-#{$i} {
+					border-bottom-right-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			&bl {
+				&-#{$breakpoint}-#{$i} {
+					border-bottom-left-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			&y {
+				&-#{$breakpoint}-#{$i} {
+					border-top-left-radius: #{$i * $base-rem-value}rem;
+					border-top-right-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			&x {
+				&-#{$breakpoint}-#{$i} {
+					border-bottom-right-radius: #{$i * $base-rem-value}rem;
+					border-bottom-left-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			&a {
+				&-#{$breakpoint}-#{$i} {
+					border-top-right-radius: #{$i * $base-rem-value}rem;
+					border-top-left-radius: #{$i * $base-rem-value}rem;
+					border-bottom-right-radius: #{$i * $base-rem-value}rem;
+					border-bottom-left-radius: #{$i * $base-rem-value}rem;
+				}
+			}
+			$i: $i + 4;
+		}
+	}
+}
+
+.round {
+	border-top-right-radius: 100rem;
+	border-top-left-radius: 100rem;
+	border-bottom-right-radius: 100rem;
+	border-bottom-left-radius: 100rem;
+}
