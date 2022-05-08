@@ -1,113 +1,3 @@
-:root {
-  --gr-100: hsl(0, 0%, 100%);
-  --gr-98: hsl(0, 0%, 98%);
-  --gr-96: hsl(0, 0%, 96%);
-  --gr-94: hsl(0, 0%, 94%);
-  --gr-92: hsl(0, 0%, 92%);
-  --gr-90: hsl(0, 0%, 90%);
-  --gr-80: hsl(0, 0%, 80%);
-  --gr-70: hsl(0, 0%, 70%);
-  --gr-60: hsl(0, 0%, 60%);
-  --gr-50: hsl(0, 0%, 50%);
-  --gr-40: hsl(0, 0%, 40%);
-  --gr-30: hsl(0, 0%, 30%);
-  --gr-20: hsl(0, 0%, 20%);
-  --gr-10: hsl(0, 0%, 10%);
-  --pr-98: hsl(240, 75%, 98%);
-  --pr-96: hsl(240, 75%, 96%);
-  --pr-94: hsl(240, 75%, 94%);
-  --pr-92: hsl(240, 75%, 92%);
-  --pr-90: hsl(240, 75%, 90%);
-  --pr-80: hsl(240, 75%, 80%);
-  --pr-70: hsl(240, 75%, 70%);
-  --pr-60: hsl(240, 75%, 60%);
-  --pr-50: hsl(240, 75%, 50%);
-  --pr-40: hsl(240, 75%, 40%);
-  --pr-30: hsl(240, 75%, 30%);
-  --pr-20: hsl(240, 75%, 20%);
-  --se-98: hsl(240, 45%, 98%);
-  --se-96: hsl(240, 45%, 96%);
-  --se-94: hsl(240, 45%, 94%);
-  --se-92: hsl(240, 45%, 92%);
-  --se-90: hsl(240, 45%, 90%);
-  --se-80: hsl(240, 45%, 80%);
-  --se-70: hsl(240, 45%, 70%);
-  --se-60: hsl(240, 45%, 60%);
-  --se-50: hsl(240, 45%, 50%);
-  --se-40: hsl(240, 45%, 40%);
-  --se-30: hsl(240, 45%, 30%);
-  --se-20: hsl(240, 45%, 20%);
-  --te-98: hsl(240, 15%, 98%);
-  --te-96: hsl(240, 15%, 96%);
-  --te-94: hsl(240, 15%, 94%);
-  --te-92: hsl(240, 15%, 92%);
-  --te-90: hsl(240, 15%, 90%);
-  --te-80: hsl(240, 15%, 80%);
-  --te-70: hsl(240, 15%, 70%);
-  --te-60: hsl(240, 15%, 60%);
-  --te-50: hsl(240, 15%, 50%);
-  --te-40: hsl(240, 15%, 40%);
-  --te-30: hsl(240, 15%, 30%);
-  --te-20: hsl(240, 15%, 20%);
-  --er-98: hsl(0, 45%, 98%);
-  --er-96: hsl(0, 45%, 96%);
-  --er-94: hsl(0, 45%, 94%);
-  --er-92: hsl(0, 45%, 92%);
-  --er-90: hsl(0, 45%, 90%);
-  --er-80: hsl(0, 45%, 80%);
-  --er-70: hsl(0, 45%, 70%);
-  --er-60: hsl(0, 45%, 60%);
-  --er-50: hsl(0, 45%, 50%);
-  --er-40: hsl(0, 45%, 40%);
-  --er-30: hsl(0, 45%, 30%);
-  --er-20: hsl(0, 45%, 20%);
-  -wa-98: hsl(37deg, 45%, 98%);
-  -wa-96: hsl(37deg, 45%, 96%);
-  -wa-94: hsl(37deg, 45%, 94%);
-  -wa-92: hsl(37deg, 45%, 92%);
-  -wa-90: hsl(37deg, 45%, 90%);
-  -wa-80: hsl(37deg, 45%, 80%);
-  -wa-70: hsl(37deg, 45%, 70%);
-  -wa-60: hsl(37deg, 45%, 60%);
-  -wa-50: hsl(37deg, 45%, 50%);
-  -wa-40: hsl(37deg, 45%, 40%);
-  -wa-30: hsl(37deg, 45%, 30%);
-  -wa-20: hsl(37deg, 45%, 20%);
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-}
-
-html,
-body {
-  font-size: 16px;
-}
-
-*::-webkit-scrollbar {
-  width: 0.5rem !important;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--gray-98) !important;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--gray-90) !important;
-  border-radius: 1rem !important;
-  border: none !important;
-}
-
 .pt-0 {
   padding-top: 0rem;
 }
@@ -1257,6 +1147,379 @@ body {
 
 .w-1776 {
   width: 111rem;
+}
+
+.maxw-1776 {
+  max-width: 111rem;
+}
+
+.w-1824 {
+  width: 114rem;
+}
+
+.maxw-1824 {
+  max-width: 114rem;
+}
+
+.w-1872 {
+  width: 117rem;
+}
+
+.maxw-1872 {
+  max-width: 117rem;
+}
+
+.w-1920 {
+  width: 120rem;
+}
+
+.maxw-1920 {
+  max-width: 120rem;
+}
+
+.w-fill {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-0 {
+  height: 0rem;
+}
+
+.minh-0 {
+  min-height: 0rem;
+}
+
+.h-48 {
+  height: 3rem;
+}
+
+.minh-48 {
+  min-height: 3rem;
+}
+
+.h-96 {
+  height: 6rem;
+}
+
+.minh-96 {
+  min-height: 6rem;
+}
+
+.h-144 {
+  height: 9rem;
+}
+
+.minh-144 {
+  min-height: 9rem;
+}
+
+.h-192 {
+  height: 12rem;
+}
+
+.minh-192 {
+  min-height: 12rem;
+}
+
+.h-240 {
+  height: 15rem;
+}
+
+.minh-240 {
+  min-height: 15rem;
+}
+
+.h-288 {
+  height: 18rem;
+}
+
+.minh-288 {
+  min-height: 18rem;
+}
+
+.h-336 {
+  height: 21rem;
+}
+
+.minh-336 {
+  min-height: 21rem;
+}
+
+.h-384 {
+  height: 24rem;
+}
+
+.minh-384 {
+  min-height: 24rem;
+}
+
+.h-432 {
+  height: 27rem;
+}
+
+.minh-432 {
+  min-height: 27rem;
+}
+
+.h-480 {
+  height: 30rem;
+}
+
+.minh-480 {
+  min-height: 30rem;
+}
+
+.h-528 {
+  height: 33rem;
+}
+
+.minh-528 {
+  min-height: 33rem;
+}
+
+.h-576 {
+  height: 36rem;
+}
+
+.minh-576 {
+  min-height: 36rem;
+}
+
+.h-624 {
+  height: 39rem;
+}
+
+.minh-624 {
+  min-height: 39rem;
+}
+
+.h-672 {
+  height: 42rem;
+}
+
+.minh-672 {
+  min-height: 42rem;
+}
+
+.h-720 {
+  height: 45rem;
+}
+
+.minh-720 {
+  min-height: 45rem;
+}
+
+.h-768 {
+  height: 48rem;
+}
+
+.minh-768 {
+  min-height: 48rem;
+}
+
+.h-816 {
+  height: 51rem;
+}
+
+.minh-816 {
+  min-height: 51rem;
+}
+
+.h-864 {
+  height: 54rem;
+}
+
+.minh-864 {
+  min-height: 54rem;
+}
+
+.h-912 {
+  height: 57rem;
+}
+
+.minh-912 {
+  min-height: 57rem;
+}
+
+.h-960 {
+  height: 60rem;
+}
+
+.minh-960 {
+  min-height: 60rem;
+}
+
+.h-1008 {
+  height: 63rem;
+}
+
+.minh-1008 {
+  min-height: 63rem;
+}
+
+.h-1056 {
+  height: 66rem;
+}
+
+.minh-1056 {
+  min-height: 66rem;
+}
+
+.h-1104 {
+  height: 69rem;
+}
+
+.minh-1104 {
+  min-height: 69rem;
+}
+
+.h-1152 {
+  height: 72rem;
+}
+
+.minh-1152 {
+  min-height: 72rem;
+}
+
+.h-1200 {
+  height: 75rem;
+}
+
+.minh-1200 {
+  min-height: 75rem;
+}
+
+.h-1248 {
+  height: 78rem;
+}
+
+.minh-1248 {
+  min-height: 78rem;
+}
+
+.h-1296 {
+  height: 81rem;
+}
+
+.minh-1296 {
+  min-height: 81rem;
+}
+
+.h-1344 {
+  height: 84rem;
+}
+
+.minh-1344 {
+  min-height: 84rem;
+}
+
+.h-1392 {
+  height: 87rem;
+}
+
+.minh-1392 {
+  min-height: 87rem;
+}
+
+.h-1440 {
+  height: 90rem;
+}
+
+.minh-1440 {
+  min-height: 90rem;
+}
+
+.h-1488 {
+  height: 93rem;
+}
+
+.minh-1488 {
+  min-height: 93rem;
+}
+
+.h-1536 {
+  height: 96rem;
+}
+
+.minh-1536 {
+  min-height: 96rem;
+}
+
+.h-1584 {
+  height: 99rem;
+}
+
+.minh-1584 {
+  min-height: 99rem;
+}
+
+.h-1632 {
+  height: 102rem;
+}
+
+.minh-1632 {
+  min-height: 102rem;
+}
+
+.h-1680 {
+  height: 105rem;
+}
+
+.minh-1680 {
+  min-height: 105rem;
+}
+
+.h-1728 {
+  height: 108rem;
+}
+
+.minh-1728 {
+  min-height: 108rem;
+}
+
+.h-1776 {
+  height: 111rem;
+}
+
+.minh-1776 {
+  min-height: 111rem;
+}
+
+.h-1824 {
+  height: 114rem;
+}
+
+.minh-1824 {
+  min-height: 114rem;
+}
+
+.h-1872 {
+  height: 117rem;
+}
+
+.minh-1872 {
+  min-height: 117rem;
+}
+
+.h-1920 {
+  height: 120rem;
+}
+
+.minh-1920 {
+  min-height: 120rem;
+}
+
+.h-fill {
+  height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}/*# sourceMappingURL=index.css.map */ width: 111rem;
 }
 
 .maxw-1776 {
