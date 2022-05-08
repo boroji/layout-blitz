@@ -1,3 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--gray-98) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--gray-90) !important;
+  border-radius: 1rem !important;
+  border: none !important;
+}
+
 .pt-0 {
   padding-top: 0rem;
 }
@@ -2475,29 +2508,6 @@
 }
 .bb-5 {
   border-bottom: 0.125rem solid hsl(0deg, 0%, 94%);
-}
-.bl-5 {
-  border-left: 0.125rem solid hsl(0deg, 0%, 94%);
-}
-.ba-5 {
-  border: 0.125rem solid hsl(0deg, 0%, 94%);
-}
-
-.dbt-5 {
-  border-top: 0.125rem dashed hsl(0deg, 0%, 80%);
-}
-.dbr-5 {
-  border-right: 0.125rem dashed hsl(0deg, 0%, 80%);
-}
-.dbb-5 {
-  border-bottom: 0.125rem dashed hsl(0deg, 0%, 80%);
-}
-.dbl-5 {
-  border-left: 0.125rem dashed hsl(0deg, 0%, 80%);
-}
-.dba-5 {
-  border: 0.125rem dashed hsl(0deg, 0%, 80%);
-}/*# sourceMappingURL=index.css.map */der-bottom: 0.125rem solid hsl(0deg, 0%, 94%);
 }
 .bl-5 {
   border-left: 0.125rem solid hsl(0deg, 0%, 94%);
