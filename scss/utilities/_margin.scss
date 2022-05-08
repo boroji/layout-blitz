@@ -90,7 +90,7 @@
 }
 
 // Negative margin
-.negm {
+.nm {
 	@while $i <= 48 {
 		&t {
 			&-#{$i} {
@@ -207,7 +207,7 @@
 		}
 	}
 	// Negative margin
-	.negm {
+	.nm {
 		@while $i <= 48 {
 			&t {
 				&-#{$breakpoint}-#{$i} {
