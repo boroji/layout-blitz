@@ -1,0 +1,47 @@
+@use '../color' as *;
+
+$border-map: (
+	'0': 0rem,
+	'1': 0.0625rem,
+	'2': 0.078125rem,
+	'3': 0.09375rem,
+	'4': 0.109375rem,
+	'5': 0.125rem,
+);
+
+@each $border-key, $single-border in $border-map {
+	.b {
+		&t-#{$border-key} {
+			border-top: $single-border solid $gr-94;
+		}
+		&r-#{$border-key} {
+			border-right: $single-border solid $gr-94;
+		}
+		&b-#{$border-key} {
+			border-bottom: $single-border solid $gr-94;
+		}
+		&l-#{$border-key} {
+			border-left: $single-border solid $gr-94;
+		}
+		&a-#{$border-key} {
+			border: $single-border solid $gr-94;
+		}
+	}
+	.db {
+		&t-#{$border-key} {
+			border-top: $single-border dashed $gr-80;
+		}
+		&r-#{$border-key} {
+			border-right: $single-border dashed $gr-80;
+		}
+		&b-#{$border-key} {
+			border-bottom: $single-border dashed $gr-80;
+		}
+		&l-#{$border-key} {
+			border-left: $single-border dashed $gr-80;
+		}
+		&a-#{$border-key} {
+			border: $single-border dashed $gr-80;
+		}
+	}
+}
