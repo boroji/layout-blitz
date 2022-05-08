@@ -1,0 +1,11 @@
+@use '../color' as *;
+
+@each $color-key, $single-color in $color-map {
+	.bg-#{$color-key} {
+		background-color: $single-color;
+	}
+
+	.cl-#{$color-key} {
+		color: $single-color;
+	}
+}
