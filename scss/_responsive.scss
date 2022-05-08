@@ -12,6 +12,7 @@
 		@include width($key);
 		@include height($key);
 		@include line-height($key);
+		@include word-spacing($key);
 		@include letter-spacing($key);
 		@include type-length($key);
 		@include type-size($key);

@@ -1,0 +1,41 @@
+$word-spacing: (
+	'0': 0rem,
+	'1': 0.015625rem,
+	'2': 0.03125rem,
+	'3': 0.046875rem,
+	'4': 0.0625rem,
+);
+
+$word-spacing-negative: (
+	'0': 0rem,
+	'1': -0.015625rem,
+	'2': -0.03125rem,
+	'3': -0.046875rem,
+	'4': -0.0625rem,
+);
+
+@each $word-spacing-key, $single-spacing in $word-spacing {
+	.ws-#{$word-spacing-key} {
+		word-spacing: $single-spacing;
+	}
+}
+
+@each $word-spacing-negative-key, $single-spacing-negative in $word-spacing-negative {
+	.nws-#{$word-spacing-negative-key} {
+		word-spacing: $single-spacing-negative;
+	}
+}
+
+@mixin word-spacing($breakpoint) {
+	@each $word-spacing-key, $single-spacing in $word-spacing {
+		.ws-#{$breakpoint}-#{$word-spacing-key} {
+			word-spacing: $single-spacing;
+		}
+	}
+
+	@each $word-spacing-negative-key, $single-spacing-negative in $word-spacing-negative {
+		.nws-#{$breakpoint}-#{$word-spacing-negative-key} {
+			word-spacing: $single-spacing-negative;
+		}
+	}
+}

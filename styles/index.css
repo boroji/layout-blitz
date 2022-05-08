@@ -2636,6 +2636,46 @@ html {
   width: min(90ch, 100%);
 }
 
+.ws-0 {
+  word-spacing: 0rem;
+}
+
+.ws-1 {
+  word-spacing: 0.015625rem;
+}
+
+.ws-2 {
+  word-spacing: 0.03125rem;
+}
+
+.ws-3 {
+  word-spacing: 0.046875rem;
+}
+
+.ws-4 {
+  word-spacing: 0.0625rem;
+}
+
+.nws-0 {
+  word-spacing: 0rem;
+}
+
+.nws-1 {
+  word-spacing: -0.015625rem;
+}
+
+.nws-2 {
+  word-spacing: -0.03125rem;
+}
+
+.nws-3 {
+  word-spacing: -0.046875rem;
+}
+
+.nws-4 {
+  word-spacing: -0.0625rem;
+}
+
 @media (min-width: 30rem) {
   .gap-sm-0 {
     gap: 0rem;
@@ -4181,6 +4221,46 @@ html {
 
   .lh-sm-5 {
     line-height: 200%;
+  }
+
+  .ws-sm-0 {
+    word-spacing: 0rem;
+  }
+
+  .ws-sm-1 {
+    word-spacing: 0.015625rem;
+  }
+
+  .ws-sm-2 {
+    word-spacing: 0.03125rem;
+  }
+
+  .ws-sm-3 {
+    word-spacing: 0.046875rem;
+  }
+
+  .ws-sm-4 {
+    word-spacing: 0.0625rem;
+  }
+
+  .nws-sm-0 {
+    word-spacing: 0rem;
+  }
+
+  .nws-sm-1 {
+    word-spacing: -0.015625rem;
+  }
+
+  .nws-sm-2 {
+    word-spacing: -0.03125rem;
+  }
+
+  .nws-sm-3 {
+    word-spacing: -0.046875rem;
+  }
+
+  .nws-sm-4 {
+    word-spacing: -0.0625rem;
   }
 
   .ls-sm-0 {
@@ -6817,6 +6897,46 @@ html {
     line-height: 200%;
   }
 
+  .ws-md-0 {
+    word-spacing: 0rem;
+  }
+
+  .ws-md-1 {
+    word-spacing: 0.015625rem;
+  }
+
+  .ws-md-2 {
+    word-spacing: 0.03125rem;
+  }
+
+  .ws-md-3 {
+    word-spacing: 0.046875rem;
+  }
+
+  .ws-md-4 {
+    word-spacing: 0.0625rem;
+  }
+
+  .nws-md-0 {
+    word-spacing: 0rem;
+  }
+
+  .nws-md-1 {
+    word-spacing: -0.015625rem;
+  }
+
+  .nws-md-2 {
+    word-spacing: -0.03125rem;
+  }
+
+  .nws-md-3 {
+    word-spacing: -0.046875rem;
+  }
+
+  .nws-md-4 {
+    word-spacing: -0.0625rem;
+  }
+
   .ls-md-0 {
     letter-spacing: 0rem;
   }
@@ -9449,6 +9569,46 @@ html {
 
   .lh-lg-5 {
     line-height: 200%;
+  }
+
+  .ws-lg-0 {
+    word-spacing: 0rem;
+  }
+
+  .ws-lg-1 {
+    word-spacing: 0.015625rem;
+  }
+
+  .ws-lg-2 {
+    word-spacing: 0.03125rem;
+  }
+
+  .ws-lg-3 {
+    word-spacing: 0.046875rem;
+  }
+
+  .ws-lg-4 {
+    word-spacing: 0.0625rem;
+  }
+
+  .nws-lg-0 {
+    word-spacing: 0rem;
+  }
+
+  .nws-lg-1 {
+    word-spacing: -0.015625rem;
+  }
+
+  .nws-lg-2 {
+    word-spacing: -0.03125rem;
+  }
+
+  .nws-lg-3 {
+    word-spacing: -0.046875rem;
+  }
+
+  .nws-lg-4 {
+    word-spacing: -0.0625rem;
   }
 
   .ls-lg-0 {
