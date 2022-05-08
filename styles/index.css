@@ -3106,499 +3106,169 @@ body {
   letter-spacing: -0.0625rem;
 }
 
-.lead-100 {
-  font-size: 2.566rem;
-  font-weight: 100;
-}
-
-.lead-200 {
+.lead-light {
   font-size: 2.566rem;
   font-weight: 200;
 }
 
-.lead-300 {
-  font-size: 2.566rem;
-  font-weight: 300;
-}
-
-.lead-400 {
+.lead-regular {
   font-size: 2.566rem;
   font-weight: 400;
 }
 
-.lead-500 {
-  font-size: 2.566rem;
-  font-weight: 500;
-}
-
-.lead-600 {
-  font-size: 2.566rem;
-  font-weight: 600;
-}
-
-.lead-700 {
+.lead-bold {
   font-size: 2.566rem;
   font-weight: 700;
 }
 
-.lead-800 {
-  font-size: 2.566rem;
-  font-weight: 800;
-}
-
-.lead-900 {
-  font-size: 2.566rem;
-  font-weight: 900;
-}
-
-.title-100 {
-  font-size: 2.281rem;
-  font-weight: 100;
-}
-
-.title-200 {
+.title-light {
   font-size: 2.281rem;
   font-weight: 200;
 }
 
-.title-300 {
-  font-size: 2.281rem;
-  font-weight: 300;
-}
-
-.title-400 {
+.title-regular {
   font-size: 2.281rem;
   font-weight: 400;
 }
 
-.title-500 {
-  font-size: 2.281rem;
-  font-weight: 500;
-}
-
-.title-600 {
-  font-size: 2.281rem;
-  font-weight: 600;
-}
-
-.title-700 {
+.title-bold {
   font-size: 2.281rem;
   font-weight: 700;
 }
 
-.title-800 {
-  font-size: 2.281rem;
-  font-weight: 800;
-}
-
-.title-900 {
-  font-size: 2.281rem;
-  font-weight: 900;
-}
-
-.h1-100 {
-  font-size: 2rem;
-  font-weight: 100;
-}
-
-.h1-200 {
+.h1-light {
   font-size: 2rem;
   font-weight: 200;
 }
 
-.h1-300 {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.h1-400 {
+.h1-regular {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.h1-500 {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.h1-600 {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.h1-700 {
+.h1-bold {
   font-size: 2rem;
   font-weight: 700;
 }
 
-.h1-800 {
-  font-size: 2rem;
-  font-weight: 800;
-}
-
-.h1-900 {
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.h2-100 {
-  font-size: 1.812rem;
-  font-weight: 100;
-}
-
-.h2-200 {
+.h2-light {
   font-size: 1.812rem;
   font-weight: 200;
 }
 
-.h2-300 {
-  font-size: 1.812rem;
-  font-weight: 300;
-}
-
-.h2-400 {
+.h2-regular {
   font-size: 1.812rem;
   font-weight: 400;
 }
 
-.h2-500 {
-  font-size: 1.812rem;
-  font-weight: 500;
-}
-
-.h2-600 {
-  font-size: 1.812rem;
-  font-weight: 600;
-}
-
-.h2-700 {
+.h2-bold {
   font-size: 1.812rem;
   font-weight: 700;
 }
 
-.h2-800 {
-  font-size: 1.812rem;
-  font-weight: 800;
-}
-
-.h2-900 {
-  font-size: 1.812rem;
-  font-weight: 900;
-}
-
-.h3-100 {
-  font-size: 1.625rem;
-  font-weight: 100;
-}
-
-.h3-200 {
+.h3-light {
   font-size: 1.625rem;
   font-weight: 200;
 }
 
-.h3-300 {
-  font-size: 1.625rem;
-  font-weight: 300;
-}
-
-.h3-400 {
+.h3-regular {
   font-size: 1.625rem;
   font-weight: 400;
 }
 
-.h3-500 {
-  font-size: 1.625rem;
-  font-weight: 500;
-}
-
-.h3-600 {
-  font-size: 1.625rem;
-  font-weight: 600;
-}
-
-.h3-700 {
+.h3-bold {
   font-size: 1.625rem;
   font-weight: 700;
 }
 
-.h3-800 {
-  font-size: 1.625rem;
-  font-weight: 800;
-}
-
-.h3-900 {
-  font-size: 1.625rem;
-  font-weight: 900;
-}
-
-.h4-100 {
-  font-size: 1.438rem;
-  font-weight: 100;
-}
-
-.h4-200 {
+.h4-light {
   font-size: 1.438rem;
   font-weight: 200;
 }
 
-.h4-300 {
-  font-size: 1.438rem;
-  font-weight: 300;
-}
-
-.h4-400 {
+.h4-regular {
   font-size: 1.438rem;
   font-weight: 400;
 }
 
-.h4-500 {
-  font-size: 1.438rem;
-  font-weight: 500;
-}
-
-.h4-600 {
-  font-size: 1.438rem;
-  font-weight: 600;
-}
-
-.h4-700 {
+.h4-bold {
   font-size: 1.438rem;
   font-weight: 700;
 }
 
-.h4-800 {
-  font-size: 1.438rem;
-  font-weight: 800;
-}
-
-.h4-900 {
-  font-size: 1.438rem;
-  font-weight: 900;
-}
-
-.h5-100 {
-  font-size: 1.25rem;
-  font-weight: 100;
-}
-
-.h5-200 {
+.h5-light {
   font-size: 1.25rem;
   font-weight: 200;
 }
 
-.h5-300 {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-.h5-400 {
+.h5-regular {
   font-size: 1.25rem;
   font-weight: 400;
 }
 
-.h5-500 {
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-
-.h5-600 {
-  font-size: 1.25rem;
-  font-weight: 600;
-}
-
-.h5-700 {
+.h5-bold {
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-.h5-800 {
-  font-size: 1.25rem;
-  font-weight: 800;
-}
-
-.h5-900 {
-  font-size: 1.25rem;
-  font-weight: 900;
-}
-
-.h6-100 {
-  font-size: 1.125rem;
-  font-weight: 100;
-}
-
-.h6-200 {
+.h6-light {
   font-size: 1.125rem;
   font-weight: 200;
 }
 
-.h6-300 {
-  font-size: 1.125rem;
-  font-weight: 300;
-}
-
-.h6-400 {
+.h6-regular {
   font-size: 1.125rem;
   font-weight: 400;
 }
 
-.h6-500 {
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-
-.h6-600 {
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-
-.h6-700 {
+.h6-bold {
   font-size: 1.125rem;
   font-weight: 700;
 }
 
-.h6-800 {
-  font-size: 1.125rem;
-  font-weight: 800;
-}
-
-.h6-900 {
-  font-size: 1.125rem;
-  font-weight: 900;
-}
-
-.p-100 {
-  font-size: 1rem;
-  font-weight: 100;
-}
-
-.p-200 {
+.p-light {
   font-size: 1rem;
   font-weight: 200;
 }
 
-.p-300 {
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.p-400 {
+.p-regular {
   font-size: 1rem;
   font-weight: 400;
 }
 
-.p-500 {
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.p-600 {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.p-700 {
+.p-bold {
   font-size: 1rem;
   font-weight: 700;
 }
 
-.p-800 {
-  font-size: 1rem;
-  font-weight: 800;
-}
-
-.p-900 {
-  font-size: 1rem;
-  font-weight: 900;
-}
-
-.sub-100 {
-  font-size: 0.875rem;
-  font-weight: 100;
-}
-
-.sub-200 {
+.sub-light {
   font-size: 0.875rem;
   font-weight: 200;
 }
 
-.sub-300 {
-  font-size: 0.875rem;
-  font-weight: 300;
-}
-
-.sub-400 {
+.sub-regular {
   font-size: 0.875rem;
   font-weight: 400;
 }
 
-.sub-500 {
-  font-size: 0.875rem;
-  font-weight: 500;
-}
-
-.sub-600 {
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-
-.sub-700 {
+.sub-bold {
   font-size: 0.875rem;
   font-weight: 700;
 }
 
-.sub-800 {
-  font-size: 0.875rem;
-  font-weight: 800;
-}
-
-.sub-900 {
-  font-size: 0.875rem;
-  font-weight: 900;
-}
-
-.cap-100 {
-  font-size: 0.702rem;
-  font-weight: 100;
-}
-
-.cap-200 {
+.cap-light {
   font-size: 0.702rem;
   font-weight: 200;
 }
 
-.cap-300 {
-  font-size: 0.702rem;
-  font-weight: 300;
-}
-
-.cap-400 {
+.cap-regular {
   font-size: 0.702rem;
   font-weight: 400;
 }
 
-.cap-500 {
-  font-size: 0.702rem;
-  font-weight: 500;
-}
-
-.cap-600 {
-  font-size: 0.702rem;
-  font-weight: 600;
-}
-
-.cap-700 {
+.cap-bold {
   font-size: 0.702rem;
   font-weight: 700;
-}
-
-.cap-800 {
-  font-size: 0.702rem;
-  font-weight: 800;
-}
-
-.cap-900 {
-  font-size: 0.702rem;
-  font-weight: 900;
 }
 
 .cc-0 {
@@ -5326,499 +4996,169 @@ body {
     width: min(90ch, 100%);
   }
 
-  .lead-br-100 {
-    font-size: 2.566rem;
-    font-weight: 100;
-  }
-
-  .lead-br-200 {
+  .lead-br-light {
     font-size: 2.566rem;
     font-weight: 200;
   }
 
-  .lead-br-300 {
-    font-size: 2.566rem;
-    font-weight: 300;
-  }
-
-  .lead-br-400 {
+  .lead-br-regular {
     font-size: 2.566rem;
     font-weight: 400;
   }
 
-  .lead-br-500 {
-    font-size: 2.566rem;
-    font-weight: 500;
-  }
-
-  .lead-br-600 {
-    font-size: 2.566rem;
-    font-weight: 600;
-  }
-
-  .lead-br-700 {
+  .lead-br-bold {
     font-size: 2.566rem;
     font-weight: 700;
   }
 
-  .lead-br-800 {
-    font-size: 2.566rem;
-    font-weight: 800;
-  }
-
-  .lead-br-900 {
-    font-size: 2.566rem;
-    font-weight: 900;
-  }
-
-  .title-br-100 {
-    font-size: 2.281rem;
-    font-weight: 100;
-  }
-
-  .title-br-200 {
+  .title-br-light {
     font-size: 2.281rem;
     font-weight: 200;
   }
 
-  .title-br-300 {
-    font-size: 2.281rem;
-    font-weight: 300;
-  }
-
-  .title-br-400 {
+  .title-br-regular {
     font-size: 2.281rem;
     font-weight: 400;
   }
 
-  .title-br-500 {
-    font-size: 2.281rem;
-    font-weight: 500;
-  }
-
-  .title-br-600 {
-    font-size: 2.281rem;
-    font-weight: 600;
-  }
-
-  .title-br-700 {
+  .title-br-bold {
     font-size: 2.281rem;
     font-weight: 700;
   }
 
-  .title-br-800 {
-    font-size: 2.281rem;
-    font-weight: 800;
-  }
-
-  .title-br-900 {
-    font-size: 2.281rem;
-    font-weight: 900;
-  }
-
-  .h1-br-100 {
-    font-size: 2rem;
-    font-weight: 100;
-  }
-
-  .h1-br-200 {
+  .h1-br-light {
     font-size: 2rem;
     font-weight: 200;
   }
 
-  .h1-br-300 {
-    font-size: 2rem;
-    font-weight: 300;
-  }
-
-  .h1-br-400 {
+  .h1-br-regular {
     font-size: 2rem;
     font-weight: 400;
   }
 
-  .h1-br-500 {
-    font-size: 2rem;
-    font-weight: 500;
-  }
-
-  .h1-br-600 {
-    font-size: 2rem;
-    font-weight: 600;
-  }
-
-  .h1-br-700 {
+  .h1-br-bold {
     font-size: 2rem;
     font-weight: 700;
   }
 
-  .h1-br-800 {
-    font-size: 2rem;
-    font-weight: 800;
-  }
-
-  .h1-br-900 {
-    font-size: 2rem;
-    font-weight: 900;
-  }
-
-  .h2-br-100 {
-    font-size: 1.812rem;
-    font-weight: 100;
-  }
-
-  .h2-br-200 {
+  .h2-br-light {
     font-size: 1.812rem;
     font-weight: 200;
   }
 
-  .h2-br-300 {
-    font-size: 1.812rem;
-    font-weight: 300;
-  }
-
-  .h2-br-400 {
+  .h2-br-regular {
     font-size: 1.812rem;
     font-weight: 400;
   }
 
-  .h2-br-500 {
-    font-size: 1.812rem;
-    font-weight: 500;
-  }
-
-  .h2-br-600 {
-    font-size: 1.812rem;
-    font-weight: 600;
-  }
-
-  .h2-br-700 {
+  .h2-br-bold {
     font-size: 1.812rem;
     font-weight: 700;
   }
 
-  .h2-br-800 {
-    font-size: 1.812rem;
-    font-weight: 800;
-  }
-
-  .h2-br-900 {
-    font-size: 1.812rem;
-    font-weight: 900;
-  }
-
-  .h3-br-100 {
-    font-size: 1.625rem;
-    font-weight: 100;
-  }
-
-  .h3-br-200 {
+  .h3-br-light {
     font-size: 1.625rem;
     font-weight: 200;
   }
 
-  .h3-br-300 {
-    font-size: 1.625rem;
-    font-weight: 300;
-  }
-
-  .h3-br-400 {
+  .h3-br-regular {
     font-size: 1.625rem;
     font-weight: 400;
   }
 
-  .h3-br-500 {
-    font-size: 1.625rem;
-    font-weight: 500;
-  }
-
-  .h3-br-600 {
-    font-size: 1.625rem;
-    font-weight: 600;
-  }
-
-  .h3-br-700 {
+  .h3-br-bold {
     font-size: 1.625rem;
     font-weight: 700;
   }
 
-  .h3-br-800 {
-    font-size: 1.625rem;
-    font-weight: 800;
-  }
-
-  .h3-br-900 {
-    font-size: 1.625rem;
-    font-weight: 900;
-  }
-
-  .h4-br-100 {
-    font-size: 1.438rem;
-    font-weight: 100;
-  }
-
-  .h4-br-200 {
+  .h4-br-light {
     font-size: 1.438rem;
     font-weight: 200;
   }
 
-  .h4-br-300 {
-    font-size: 1.438rem;
-    font-weight: 300;
-  }
-
-  .h4-br-400 {
+  .h4-br-regular {
     font-size: 1.438rem;
     font-weight: 400;
   }
 
-  .h4-br-500 {
-    font-size: 1.438rem;
-    font-weight: 500;
-  }
-
-  .h4-br-600 {
-    font-size: 1.438rem;
-    font-weight: 600;
-  }
-
-  .h4-br-700 {
+  .h4-br-bold {
     font-size: 1.438rem;
     font-weight: 700;
   }
 
-  .h4-br-800 {
-    font-size: 1.438rem;
-    font-weight: 800;
-  }
-
-  .h4-br-900 {
-    font-size: 1.438rem;
-    font-weight: 900;
-  }
-
-  .h5-br-100 {
-    font-size: 1.25rem;
-    font-weight: 100;
-  }
-
-  .h5-br-200 {
+  .h5-br-light {
     font-size: 1.25rem;
     font-weight: 200;
   }
 
-  .h5-br-300 {
-    font-size: 1.25rem;
-    font-weight: 300;
-  }
-
-  .h5-br-400 {
+  .h5-br-regular {
     font-size: 1.25rem;
     font-weight: 400;
   }
 
-  .h5-br-500 {
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-
-  .h5-br-600 {
-    font-size: 1.25rem;
-    font-weight: 600;
-  }
-
-  .h5-br-700 {
+  .h5-br-bold {
     font-size: 1.25rem;
     font-weight: 700;
   }
 
-  .h5-br-800 {
-    font-size: 1.25rem;
-    font-weight: 800;
-  }
-
-  .h5-br-900 {
-    font-size: 1.25rem;
-    font-weight: 900;
-  }
-
-  .h6-br-100 {
-    font-size: 1.125rem;
-    font-weight: 100;
-  }
-
-  .h6-br-200 {
+  .h6-br-light {
     font-size: 1.125rem;
     font-weight: 200;
   }
 
-  .h6-br-300 {
-    font-size: 1.125rem;
-    font-weight: 300;
-  }
-
-  .h6-br-400 {
+  .h6-br-regular {
     font-size: 1.125rem;
     font-weight: 400;
   }
 
-  .h6-br-500 {
-    font-size: 1.125rem;
-    font-weight: 500;
-  }
-
-  .h6-br-600 {
-    font-size: 1.125rem;
-    font-weight: 600;
-  }
-
-  .h6-br-700 {
+  .h6-br-bold {
     font-size: 1.125rem;
     font-weight: 700;
   }
 
-  .h6-br-800 {
-    font-size: 1.125rem;
-    font-weight: 800;
-  }
-
-  .h6-br-900 {
-    font-size: 1.125rem;
-    font-weight: 900;
-  }
-
-  .p-br-100 {
-    font-size: 1rem;
-    font-weight: 100;
-  }
-
-  .p-br-200 {
+  .p-br-light {
     font-size: 1rem;
     font-weight: 200;
   }
 
-  .p-br-300 {
-    font-size: 1rem;
-    font-weight: 300;
-  }
-
-  .p-br-400 {
+  .p-br-regular {
     font-size: 1rem;
     font-weight: 400;
   }
 
-  .p-br-500 {
-    font-size: 1rem;
-    font-weight: 500;
-  }
-
-  .p-br-600 {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-
-  .p-br-700 {
+  .p-br-bold {
     font-size: 1rem;
     font-weight: 700;
   }
 
-  .p-br-800 {
-    font-size: 1rem;
-    font-weight: 800;
-  }
-
-  .p-br-900 {
-    font-size: 1rem;
-    font-weight: 900;
-  }
-
-  .sub-br-100 {
-    font-size: 0.875rem;
-    font-weight: 100;
-  }
-
-  .sub-br-200 {
+  .sub-br-light {
     font-size: 0.875rem;
     font-weight: 200;
   }
 
-  .sub-br-300 {
-    font-size: 0.875rem;
-    font-weight: 300;
-  }
-
-  .sub-br-400 {
+  .sub-br-regular {
     font-size: 0.875rem;
     font-weight: 400;
   }
 
-  .sub-br-500 {
-    font-size: 0.875rem;
-    font-weight: 500;
-  }
-
-  .sub-br-600 {
-    font-size: 0.875rem;
-    font-weight: 600;
-  }
-
-  .sub-br-700 {
+  .sub-br-bold {
     font-size: 0.875rem;
     font-weight: 700;
   }
 
-  .sub-br-800 {
-    font-size: 0.875rem;
-    font-weight: 800;
-  }
-
-  .sub-br-900 {
-    font-size: 0.875rem;
-    font-weight: 900;
-  }
-
-  .cap-br-100 {
-    font-size: 0.702rem;
-    font-weight: 100;
-  }
-
-  .cap-br-200 {
+  .cap-br-light {
     font-size: 0.702rem;
     font-weight: 200;
   }
 
-  .cap-br-300 {
-    font-size: 0.702rem;
-    font-weight: 300;
-  }
-
-  .cap-br-400 {
+  .cap-br-regular {
     font-size: 0.702rem;
     font-weight: 400;
   }
 
-  .cap-br-500 {
-    font-size: 0.702rem;
-    font-weight: 500;
-  }
-
-  .cap-br-600 {
-    font-size: 0.702rem;
-    font-weight: 600;
-  }
-
-  .cap-br-700 {
+  .cap-br-bold {
     font-size: 0.702rem;
     font-weight: 700;
-  }
-
-  .cap-br-800 {
-    font-size: 0.702rem;
-    font-weight: 800;
-  }
-
-  .cap-br-900 {
-    font-size: 0.702rem;
-    font-weight: 900;
   }
 
   .base-br-0 {
