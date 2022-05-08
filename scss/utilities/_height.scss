@@ -1,13 +1,15 @@
 @use '../units' as *;
 
-@each $height-key, $single-height in $maping-units {
-	.h-#{$height-key} {
-		height: $single-height;
+@while $i <= 1920 {
+	.h-#{$x} {
+		height: #{$i * $base-rem-value}rem;
 	}
 
-	.minh-#{$height-key} {
-		height: $single-height;
+	.minh-#{$x} {
+		min-height: #{$i * $base-rem-value}rem;
 	}
+	$i: $i + 48;
+	$x: $x + 1;
 }
 
 .h-fill {
@@ -19,14 +21,16 @@
 }
 
 @mixin height($breakpoint) {
-	@each $height-key, $single-height in $maping-units {
-		.h-#{$height-key}--#{$breakpoint} {
-			height: $single-height;
+	@while $i <= 1920 {
+		.h-#{$breakpoint}-#{$x} {
+			height: #{$i * $base-rem-value}rem;
 		}
 
-		.minh-#{$height-key}--#{$breakpoint} {
-			height: $single-height;
+		.minh-#{$breakpoint}-#{$x} {
+			min-height: #{$i * $base-rem-value}rem;
 		}
+		$i: $i + 48;
+		$x: $x + 1;
 	}
 
 	.h-fill--#{$breakpoint} {

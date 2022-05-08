@@ -1,13 +1,15 @@
 @use '../units' as *;
 
-@each $width-key, $single-width in $maping-units {
-	.w-#{$width-key} {
-		width: $single-width;
+@while $i <= 1920 {
+	.w-#{$x} {
+		width: #{$i * $base-rem-value}rem;
 	}
 
-	.maxw-#{$width-key} {
-		width: min($single-width, 100%);
+	.maxw-#{$x} {
+		width: min(#{$i * $base-rem-value}rem, 100%);
 	}
+	$i: $i + 48;
+	$x: $x + 1;
 }
 
 .w-fill {
@@ -19,14 +21,16 @@
 }
 
 @mixin width($breakpoint) {
-	@each $width-key, $single-width in $maping-units {
-		.w-#{$width-key}--#{$breakpoint} {
-			width: $single-width;
+	@while $i <= 1920 {
+		.w-#{$breakpoint}-#{$x} {
+			width: #{$i * $base-rem-value}rem;
 		}
 
-		.maxw-#{$width-key}--#{$breakpoint} {
-			width: min($single-width, 100%);
+		.maxw-#{$breakpoint}-#{$x} {
+			width: min(#{$i * $base-rem-value}rem, 100%);
 		}
+		$i: $i + 48;
+		$x: $x + 1;
 	}
 
 	.w-fill--#{$breakpoint} {
