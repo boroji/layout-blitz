@@ -12,6 +12,7 @@
 		@include width($key);
 		@include height($key);
 		@include letter-spacing($key);
+		@include type-generator($key);
 		@include basis($key);
 		@include flex($key);
 		@include grid($key);
