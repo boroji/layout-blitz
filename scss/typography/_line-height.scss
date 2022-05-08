@@ -13,7 +13,7 @@ $typography-height: (
 	}
 }
 
-@mixin letter-spacing($breakpoint) {
+@mixin line-height($breakpoint) {
 	@each $height-key, $single-height in $typography-height {
 		.lh-#{$breakpoint}-#{$height-key} {
 			line-height: $single-height;

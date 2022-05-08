@@ -2073,6 +2073,46 @@ html {
   line-height: 200%;
 }
 
+.ls-0 {
+  letter-spacing: 0rem;
+}
+
+.ls-1 {
+  letter-spacing: 0.015625rem;
+}
+
+.ls-2 {
+  letter-spacing: 0.03125rem;
+}
+
+.ls-3 {
+  letter-spacing: 0.046875rem;
+}
+
+.ls-4 {
+  letter-spacing: 0.0625rem;
+}
+
+.nls-0 {
+  letter-spacing: 0rem;
+}
+
+.nls-1 {
+  letter-spacing: -0.015625rem;
+}
+
+.nls-2 {
+  letter-spacing: -0.03125rem;
+}
+
+.nls-3 {
+  letter-spacing: -0.046875rem;
+}
+
+.nls-4 {
+  letter-spacing: -0.0625rem;
+}
+
 .lead-100 {
   font-size: 2.566rem;
   font-weight: 100;
@@ -4113,6 +4153,46 @@ html {
 
   .lh-sm-5 {
     line-height: 200%;
+  }
+
+  .ls-sm-0 {
+    letter-spacing: 0rem;
+  }
+
+  .ls-sm-1 {
+    letter-spacing: 0.015625rem;
+  }
+
+  .ls-sm-2 {
+    letter-spacing: 0.03125rem;
+  }
+
+  .ls-sm-3 {
+    letter-spacing: 0.046875rem;
+  }
+
+  .ls-sm-4 {
+    letter-spacing: 0.0625rem;
+  }
+
+  .nls-sm-0 {
+    letter-spacing: 0rem;
+  }
+
+  .nls-sm-1 {
+    letter-spacing: -0.015625rem;
+  }
+
+  .nls-sm-2 {
+    letter-spacing: -0.03125rem;
+  }
+
+  .nls-sm-3 {
+    letter-spacing: -0.046875rem;
+  }
+
+  .nls-sm-4 {
+    letter-spacing: -0.0625rem;
   }
 
   .lead-sm-100 {
@@ -6681,6 +6761,46 @@ html {
     line-height: 200%;
   }
 
+  .ls-md-0 {
+    letter-spacing: 0rem;
+  }
+
+  .ls-md-1 {
+    letter-spacing: 0.015625rem;
+  }
+
+  .ls-md-2 {
+    letter-spacing: 0.03125rem;
+  }
+
+  .ls-md-3 {
+    letter-spacing: 0.046875rem;
+  }
+
+  .ls-md-4 {
+    letter-spacing: 0.0625rem;
+  }
+
+  .nls-md-0 {
+    letter-spacing: 0rem;
+  }
+
+  .nls-md-1 {
+    letter-spacing: -0.015625rem;
+  }
+
+  .nls-md-2 {
+    letter-spacing: -0.03125rem;
+  }
+
+  .nls-md-3 {
+    letter-spacing: -0.046875rem;
+  }
+
+  .nls-md-4 {
+    letter-spacing: -0.0625rem;
+  }
+
   .lead-md-100 {
     font-size: 2.566rem;
     font-weight: 100;
@@ -9245,6 +9365,46 @@ html {
 
   .lh-lg-5 {
     line-height: 200%;
+  }
+
+  .ls-lg-0 {
+    letter-spacing: 0rem;
+  }
+
+  .ls-lg-1 {
+    letter-spacing: 0.015625rem;
+  }
+
+  .ls-lg-2 {
+    letter-spacing: 0.03125rem;
+  }
+
+  .ls-lg-3 {
+    letter-spacing: 0.046875rem;
+  }
+
+  .ls-lg-4 {
+    letter-spacing: 0.0625rem;
+  }
+
+  .nls-lg-0 {
+    letter-spacing: 0rem;
+  }
+
+  .nls-lg-1 {
+    letter-spacing: -0.015625rem;
+  }
+
+  .nls-lg-2 {
+    letter-spacing: -0.03125rem;
+  }
+
+  .nls-lg-3 {
+    letter-spacing: -0.046875rem;
+  }
+
+  .nls-lg-4 {
+    letter-spacing: -0.0625rem;
   }
 
   .lead-lg-100 {

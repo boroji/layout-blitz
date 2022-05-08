@@ -11,6 +11,7 @@
 		@include margin($key);
 		@include width($key);
 		@include height($key);
+		@include line-height($key);
 		@include letter-spacing($key);
 		@include type-generator($key);
 		@include basis($key);

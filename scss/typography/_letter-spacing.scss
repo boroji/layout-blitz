@@ -1,0 +1,42 @@
+$letter-spacing: (
+	'0': 0rem,
+	'1': 0.015625rem,
+	'2': 0.03125rem,
+	'3': 0.046875rem,
+	'4': 0.0625rem,
+);
+
+$letter-spacing-negative: (
+	'0': 0rem,
+	'1': -0.015625rem,
+	'2': -0.03125rem,
+	'3': -0.046875rem,
+	'4': -0.0625rem,
+);
+
+@each $letter-spacing-key, $single-spacing in $letter-spacing {
+	.ls-#{$letter-spacing-key} {
+		letter-spacing: $single-spacing;
+	}
+}
+
+@each $letter-spacing-negative-key, $single-spacing-negative in $letter-spacing-negative {
+	.nls-#{$letter-spacing-negative-key} {
+		letter-spacing: $single-spacing-negative;
+	}
+}
+
+@mixin letter-spacing($breakpoint) {
+	@each $letter-spacing-key, $single-spacing in $letter-spacing {
+		.ls-#{$breakpoint}-#{$letter-spacing-key} {
+			letter-spacing: $single-spacing;
+		}
+	}
+
+	@each $letter-spacing-negative-key, $single-spacing-negative in $letter-spacing-negative
+	{
+		.nls-#{$breakpoint}-#{$letter-spacing-negative-key} {
+			letter-spacing: $single-spacing-negative;
+		}
+	}
+}
