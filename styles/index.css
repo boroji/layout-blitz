@@ -1666,6 +1666,678 @@ body {
   color: hsl(0deg, 0%, 10%);
 }
 
+.bg-pr-98 {
+  background-color: hsl(240deg, 75%, 98%);
+}
+
+.cl-pr-98 {
+  color: hsl(240deg, 75%, 98%);
+}
+
+.bg-pr-96 {
+  background-color: hsl(240deg, 75%, 96%);
+}
+
+.cl-pr-96 {
+  color: hsl(240deg, 75%, 96%);
+}
+
+.bg-pr-94 {
+  background-color: hsl(240deg, 75%, 94%);
+}
+
+.cl-pr-94 {
+  color: hsl(240deg, 75%, 94%);
+}
+
+.bg-pr-92 {
+  background-color: hsl(240deg, 75%, 92%);
+}
+
+.cl-pr-92 {
+  color: hsl(240deg, 75%, 92%);
+}
+
+.bg-pr-90 {
+  background-color: hsl(240deg, 75%, 90%);
+}
+
+.cl-pr-90 {
+  color: hsl(240deg, 75%, 90%);
+}
+
+.bg-pr-80 {
+  background-color: hsl(240deg, 75%, 80%);
+}
+
+.cl-pr-80 {
+  color: hsl(240deg, 75%, 80%);
+}
+
+.bg-pr-70 {
+  background-color: hsl(240deg, 75%, 70%);
+}
+
+.cl-pr-70 {
+  color: hsl(240deg, 75%, 70%);
+}
+
+.bg-pr-60 {
+  background-color: hsl(240deg, 75%, 60%);
+}
+
+.cl-pr-60 {
+  color: hsl(240deg, 75%, 60%);
+}
+
+.bg-pr-50 {
+  background-color: hsl(240deg, 75%, 50%);
+}
+
+.cl-pr-50 {
+  color: hsl(240deg, 75%, 50%);
+}
+
+.bg-pr-40 {
+  background-color: hsl(240deg, 75%, 40%);
+}
+
+.cl-pr-40 {
+  color: hsl(240deg, 75%, 40%);
+}
+
+.bg-pr-30 {
+  background-color: hsl(240deg, 75%, 30%);
+}
+
+.cl-pr-30 {
+  color: hsl(240deg, 75%, 30%);
+}
+
+.bg-pr-20 {
+  background-color: hsl(240deg, 75%, 20%);
+}
+
+.cl-pr-20 {
+  color: hsl(240deg, 75%, 20%);
+}
+
+.bg-se-98 {
+  background-color: hsl(240deg, 45%, 98%);
+}
+
+.cl-se-98 {
+  color: hsl(240deg, 45%, 98%);
+}
+
+.bg-se-96 {
+  background-color: hsl(240deg, 45%, 96%);
+}
+
+.cl-se-96 {
+  color: hsl(240deg, 45%, 96%);
+}
+
+.bg-se-94 {
+  background-color: hsl(240deg, 45%, 94%);
+}
+
+.cl-se-94 {
+  color: hsl(240deg, 45%, 94%);
+}
+
+.bg-se-92 {
+  background-color: hsl(240deg, 45%, 92%);
+}
+
+.cl-se-92 {
+  color: hsl(240deg, 45%, 92%);
+}
+
+.bg-se-90 {
+  background-color: hsl(240deg, 45%, 90%);
+}
+
+.cl-se-90 {
+  color: hsl(240deg, 45%, 90%);
+}
+
+.bg-se-80 {
+  background-color: hsl(240deg, 45%, 80%);
+}
+
+.cl-se-80 {
+  color: hsl(240deg, 45%, 80%);
+}
+
+.bg-se-70 {
+  background-color: hsl(240deg, 45%, 70%);
+}
+
+.cl-se-70 {
+  color: hsl(240deg, 45%, 70%);
+}
+
+.bg-se-60 {
+  background-color: hsl(240deg, 45%, 60%);
+}
+
+.cl-se-60 {
+  color: hsl(240deg, 45%, 60%);
+}
+
+.bg-se-50 {
+  background-color: hsl(240deg, 45%, 50%);
+}
+
+.cl-se-50 {
+  color: hsl(240deg, 45%, 50%);
+}
+
+.bg-se-40 {
+  background-color: hsl(240deg, 45%, 40%);
+}
+
+.cl-se-40 {
+  color: hsl(240deg, 45%, 40%);
+}
+
+.bg-se-30 {
+  background-color: hsl(240deg, 45%, 30%);
+}
+
+.cl-se-30 {
+  color: hsl(240deg, 45%, 30%);
+}
+
+.bg-se-20 {
+  background-color: hsl(240deg, 45%, 20%);
+}
+
+.cl-se-20 {
+  color: hsl(240deg, 45%, 20%);
+}
+
+.bg-te-98 {
+  background-color: hsl(240deg, 15%, 98%);
+}
+
+.cl-te-98 {
+  color: hsl(240deg, 15%, 98%);
+}
+
+.bg-te-96 {
+  background-color: hsl(240deg, 15%, 96%);
+}
+
+.cl-te-96 {
+  color: hsl(240deg, 15%, 96%);
+}
+
+.bg-te-94 {
+  background-color: hsl(240deg, 15%, 94%);
+}
+
+.cl-te-94 {
+  color: hsl(240deg, 15%, 94%);
+}
+
+.bg-te-92 {
+  background-color: hsl(240deg, 15%, 92%);
+}
+
+.cl-te-92 {
+  color: hsl(240deg, 15%, 92%);
+}
+
+.bg-te-90 {
+  background-color: hsl(240deg, 15%, 90%);
+}
+
+.cl-te-90 {
+  color: hsl(240deg, 15%, 90%);
+}
+
+.bg-te-80 {
+  background-color: hsl(240deg, 15%, 80%);
+}
+
+.cl-te-80 {
+  color: hsl(240deg, 15%, 80%);
+}
+
+.bg-te-70 {
+  background-color: hsl(240deg, 15%, 70%);
+}
+
+.cl-te-70 {
+  color: hsl(240deg, 15%, 70%);
+}
+
+.bg-te-60 {
+  background-color: hsl(240deg, 15%, 60%);
+}
+
+.cl-te-60 {
+  color: hsl(240deg, 15%, 60%);
+}
+
+.bg-te-50 {
+  background-color: hsl(240deg, 15%, 50%);
+}
+
+.cl-te-50 {
+  color: hsl(240deg, 15%, 50%);
+}
+
+.bg-te-40 {
+  background-color: hsl(240deg, 15%, 40%);
+}
+
+.cl-te-40 {
+  color: hsl(240deg, 15%, 40%);
+}
+
+.bg-te-30 {
+  background-color: hsl(240deg, 15%, 30%);
+}
+
+.cl-te-30 {
+  color: hsl(240deg, 15%, 30%);
+}
+
+.bg-te-20 {
+  background-color: hsl(240deg, 15%, 20%);
+}
+
+.cl-te-20 {
+  color: hsl(240deg, 15%, 20%);
+}
+
+.bg-er-98 {
+  background-color: hsl(0deg, 45%, 98%);
+}
+
+.cl-er-98 {
+  color: hsl(0deg, 45%, 98%);
+}
+
+.bg-er-96 {
+  background-color: hsl(0deg, 45%, 96%);
+}
+
+.cl-er-96 {
+  color: hsl(0deg, 45%, 96%);
+}
+
+.bg-er-94 {
+  background-color: hsl(0deg, 45%, 94%);
+}
+
+.cl-er-94 {
+  color: hsl(0deg, 45%, 94%);
+}
+
+.bg-er-92 {
+  background-color: hsl(0deg, 45%, 92%);
+}
+
+.cl-er-92 {
+  color: hsl(0deg, 45%, 92%);
+}
+
+.bg-er-90 {
+  background-color: hsl(0deg, 45%, 90%);
+}
+
+.cl-er-90 {
+  color: hsl(0deg, 45%, 90%);
+}
+
+.bg-er-80 {
+  background-color: hsl(0deg, 45%, 80%);
+}
+
+.cl-er-80 {
+  color: hsl(0deg, 45%, 80%);
+}
+
+.bg-er-70 {
+  background-color: hsl(0deg, 45%, 70%);
+}
+
+.cl-er-70 {
+  color: hsl(0deg, 45%, 70%);
+}
+
+.bg-er-60 {
+  background-color: hsl(0deg, 45%, 60%);
+}
+
+.cl-er-60 {
+  color: hsl(0deg, 45%, 60%);
+}
+
+.bg-er-50 {
+  background-color: hsl(0deg, 45%, 50%);
+}
+
+.cl-er-50 {
+  color: hsl(0deg, 45%, 50%);
+}
+
+.bg-er-40 {
+  background-color: hsl(0deg, 45%, 40%);
+}
+
+.cl-er-40 {
+  color: hsl(0deg, 45%, 40%);
+}
+
+.bg-er-30 {
+  background-color: hsl(0deg, 45%, 30%);
+}
+
+.cl-er-30 {
+  color: hsl(0deg, 45%, 30%);
+}
+
+.bg-er-20 {
+  background-color: hsl(0deg, 45%, 20%);
+}
+
+.cl-er-20 {
+  color: hsl(0deg, 45%, 20%);
+}
+
+.bg-wa-98 {
+  background-color: hsl(37deg, 45%, 98%);
+}
+
+.cl-wa-98 {
+  color: hsl(37deg, 45%, 98%);
+}
+
+.bg-wa-96 {
+  background-color: hsl(37deg, 45%, 96%);
+}
+
+.cl-wa-96 {
+  color: hsl(37deg, 45%, 96%);
+}
+
+.bg-wa-94 {
+  background-color: hsl(37deg, 45%, 94%);
+}
+
+.cl-wa-94 {
+  color: hsl(37deg, 45%, 94%);
+}
+
+.bg-wa-92 {
+  background-color: hsl(37deg, 45%, 92%);
+}
+
+.cl-wa-92 {
+  color: hsl(37deg, 45%, 92%);
+}
+
+.bg-wa-90 {
+  background-color: hsl(37deg, 45%, 90%);
+}
+
+.cl-wa-90 {
+  color: hsl(37deg, 45%, 90%);
+}
+
+.bg-wa-80 {
+  background-color: hsl(37deg, 45%, 80%);
+}
+
+.cl-wa-80 {
+  color: hsl(37deg, 45%, 80%);
+}
+
+.bg-wa-70 {
+  background-color: hsl(37deg, 45%, 70%);
+}
+
+.cl-wa-70 {
+  color: hsl(37deg, 45%, 70%);
+}
+
+.bg-wa-60 {
+  background-color: hsl(37deg, 45%, 60%);
+}
+
+.cl-wa-60 {
+  color: hsl(37deg, 45%, 60%);
+}
+
+.bg-wa-50 {
+  background-color: hsl(37deg, 45%, 50%);
+}
+
+.cl-wa-50 {
+  color: hsl(37deg, 45%, 50%);
+}
+
+.bg-wa-40 {
+  background-color: hsl(37deg, 45%, 40%);
+}
+
+.cl-wa-40 {
+  color: hsl(37deg, 45%, 40%);
+}
+
+.bg-wa-30 {
+  background-color: hsl(37deg, 45%, 30%);
+}
+
+.cl-wa-30 {
+  color: hsl(37deg, 45%, 30%);
+}
+
+.bg-wa-20 {
+  background-color: hsl(37deg, 45%, 20%);
+}
+
+.cl-wa-20 {
+  color: hsl(37deg, 45%, 20%);
+}
+
+.bg-ad-98 {
+  background-color: hsl(270deg, 45%, 98%);
+}
+
+.cl-ad-98 {
+  color: hsl(270deg, 45%, 98%);
+}
+
+.bg-ad-96 {
+  background-color: hsl(270deg, 45%, 96%);
+}
+
+.cl-ad-96 {
+  color: hsl(270deg, 45%, 96%);
+}
+
+.bg-ad-94 {
+  background-color: hsl(270deg, 45%, 94%);
+}
+
+.cl-ad-94 {
+  color: hsl(270deg, 45%, 94%);
+}
+
+.bg-ad-92 {
+  background-color: hsl(270deg, 45%, 92%);
+}
+
+.cl-ad-92 {
+  color: hsl(270deg, 45%, 92%);
+}
+
+.bg-ad-90 {
+  background-color: hsl(270deg, 45%, 90%);
+}
+
+.cl-ad-90 {
+  color: hsl(270deg, 45%, 90%);
+}
+
+.bg-ad-80 {
+  background-color: hsl(270deg, 45%, 80%);
+}
+
+.cl-ad-80 {
+  color: hsl(270deg, 45%, 80%);
+}
+
+.bg-ad-70 {
+  background-color: hsl(270deg, 45%, 70%);
+}
+
+.cl-ad-70 {
+  color: hsl(270deg, 45%, 70%);
+}
+
+.bg-ad-60 {
+  background-color: hsl(270deg, 45%, 60%);
+}
+
+.cl-ad-60 {
+  color: hsl(270deg, 45%, 60%);
+}
+
+.bg-ad-50 {
+  background-color: hsl(270deg, 45%, 50%);
+}
+
+.cl-ad-50 {
+  color: hsl(270deg, 45%, 50%);
+}
+
+.bg-ad-40 {
+  background-color: hsl(270deg, 45%, 40%);
+}
+
+.cl-ad-40 {
+  color: hsl(270deg, 45%, 40%);
+}
+
+.bg-ad-30 {
+  background-color: hsl(270deg, 45%, 30%);
+}
+
+.cl-ad-30 {
+  color: hsl(270deg, 45%, 30%);
+}
+
+.bg-ad-20 {
+  background-color: hsl(270deg, 45%, 20%);
+}
+
+.cl-ad-20 {
+  color: hsl(270deg, 45%, 20%);
+}
+
+.bg-su-98 {
+  background-color: hsl(149deg, 45%, 98%);
+}
+
+.cl-su-98 {
+  color: hsl(149deg, 45%, 98%);
+}
+
+.bg-su-96 {
+  background-color: hsl(149deg, 45%, 96%);
+}
+
+.cl-su-96 {
+  color: hsl(149deg, 45%, 96%);
+}
+
+.bg-su-94 {
+  background-color: hsl(149deg, 45%, 94%);
+}
+
+.cl-su-94 {
+  color: hsl(149deg, 45%, 94%);
+}
+
+.bg-su-92 {
+  background-color: hsl(149deg, 45%, 92%);
+}
+
+.cl-su-92 {
+  color: hsl(149deg, 45%, 92%);
+}
+
+.bg-su-90 {
+  background-color: hsl(149deg, 45%, 90%);
+}
+
+.cl-su-90 {
+  color: hsl(149deg, 45%, 90%);
+}
+
+.bg-su-80 {
+  background-color: hsl(149deg, 45%, 80%);
+}
+
+.cl-su-80 {
+  color: hsl(149deg, 45%, 80%);
+}
+
+.bg-su-70 {
+  background-color: hsl(149deg, 45%, 70%);
+}
+
+.cl-su-70 {
+  color: hsl(149deg, 45%, 70%);
+}
+
+.bg-su-60 {
+  background-color: hsl(149deg, 45%, 60%);
+}
+
+.cl-su-60 {
+  color: hsl(149deg, 45%, 60%);
+}
+
+.bg-su-50 {
+  background-color: hsl(149deg, 45%, 50%);
+}
+
+.cl-su-50 {
+  color: hsl(149deg, 45%, 50%);
+}
+
+.bg-su-40 {
+  background-color: hsl(149deg, 45%, 40%);
+}
+
+.cl-su-40 {
+  color: hsl(149deg, 45%, 40%);
+}
+
+.bg-su-30 {
+  background-color: hsl(149deg, 45%, 30%);
+}
+
+.cl-su-30 {
+  color: hsl(149deg, 45%, 30%);
+}
+
+.bg-su-20 {
+  background-color: hsl(149deg, 45%, 20%);
+}
+
+.cl-su-20 {
+  color: hsl(149deg, 45%, 20%);
+}
+
 .col {
   display: flex;
   flex-direction: column;
