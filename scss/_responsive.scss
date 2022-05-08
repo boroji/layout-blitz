@@ -1,6 +1,7 @@
 @use './units' as *;
 @use './utilities/' as *;
 @use './layouts/' as *;
+@use './typography/' as *;
 
 @each $key, $each-breakpoint-size in $breakpoints {
 	@media (min-width: $each-breakpoint-size) {
@@ -10,6 +11,7 @@
 		@include margin($key);
 		@include width($key);
 		@include height($key);
+		@include letter-spacing($key);
 		@include basis($key);
 		@include flex($key);
 		@include grid($key);

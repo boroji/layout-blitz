@@ -1,0 +1,22 @@
+$typography-height: (
+	'0': 100%,
+	'1': 120%,
+	'2': 140%,
+	'3': 160%,
+	'4': 180%,
+	'5': 200%,
+);
+
+@each $height-key, $single-height in $typography-height {
+	.lh-#{$height-key} {
+		line-height: $single-height;
+	}
+}
+
+@mixin letter-spacing($breakpoint) {
+	@each $height-key, $single-height in $typography-height {
+		.lh-#{$breakpoint}-#{$height-key} {
+			line-height: $single-height;
+		}
+	}
+}
