@@ -33,7 +33,7 @@ $typography-weights: (
 	}
 }
 
-@mixin type-generator($breakpoint) {
+@mixin type-size($breakpoint) {
 	@each $type-key, $single-type in $typography-sizes {
 		@each $weight-key, $single-weight in $typography-weights {
 			.#{$type-key}-#{$breakpoint}-#{$weight-key} {

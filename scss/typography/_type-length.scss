@@ -1,0 +1,23 @@
+$typography-length: (
+	'0': 100%,
+	'1': 40ch,
+	'2': 50ch,
+	'3': 60ch,
+	'4': 70ch,
+	'5': 80ch,
+	'6': 90ch,
+);
+
+@each $length-key, $single-length in $typography-length {
+	.cc-#{$length-key} {
+		width: min($single-length, 100%);
+	}
+}
+
+@mixin type-length($breakpoint) {
+	@each $length-key, $single-length in $typography-length {
+		.cc-#{$breakpoint}-#{$length-key} {
+			width: min($single-length, 100%);
+		}
+	}
+}

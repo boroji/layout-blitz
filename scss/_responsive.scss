@@ -13,7 +13,8 @@
 		@include height($key);
 		@include line-height($key);
 		@include letter-spacing($key);
-		@include type-generator($key);
+		@include type-length($key);
+		@include type-size($key);
 		@include basis($key);
 		@include flex($key);
 		@include grid($key);
