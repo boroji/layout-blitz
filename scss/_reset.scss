@@ -1,0 +1,35 @@
+@use './color' as *;
+@use './px' as *;
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+html,
+body {
+	font-size: 16px;
+}
+
+*::-webkit-scrollbar {
+	width: $px-8 !important;
+}
+
+*::-webkit-scrollbar-track {
+	background: var(--gray-98) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--gray-90) !important;
+	border-radius: $px-16 !important;
+	border: none !important;
+}

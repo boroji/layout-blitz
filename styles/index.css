@@ -65,8 +65,23 @@
   margin-left: 0;
 }
 
-html {
+html,
+body {
   font-size: 16px;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--gray-98) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--gray-90) !important;
+  border-radius: 1rem !important;
+  border: none !important;
 }
 
 .pt-0 {
