@@ -6,7 +6,7 @@
 	}
 
 	.maxw-#{$i} {
-		max-width: #{$i * $base-rem-value}rem;
+		width: min(#{$i * $base-rem-value}rem, 100%);
 	}
 	$i: $i + 48;
 }
@@ -15,8 +15,8 @@
 	width: 100%;
 }
 
-.w-auto {
-	width: auto;
+.w-fit {
+	width: fit-content;
 }
 
 @mixin width($breakpoint) {
@@ -26,7 +26,7 @@
 		}
 
 		.maxw-#{$breakpoint}-#{$i} {
-			max-width: #{$i * $base-rem-value}rem;
+			width: min(#{$i * $base-rem-value}rem, 100%);
 		}
 		$i: $i + 48;
 	}
@@ -35,7 +35,7 @@
 		width: 100%;
 	}
 
-	.w-#{$breakpoint}-auto {
-		width: auto;
+	.w-#{$breakpoint}-fit {
+		width: fit-content;
 	}
 }
