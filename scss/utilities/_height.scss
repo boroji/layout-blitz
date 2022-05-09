@@ -5,7 +5,7 @@
 		height: #{$i * $base-rem-value}rem;
 	}
 
-	.minh-#{$x} {
+	.mh-#{$x} {
 		min-height: #{$i * $base-rem-value}rem;
 	}
 	$i: $i + 48;
@@ -26,7 +26,7 @@
 			height: #{$i * $base-rem-value}rem;
 		}
 
-		.minh-#{$breakpoint}-#{$x} {
+		.mh-#{$breakpoint}-#{$x} {
 			min-height: #{$i * $base-rem-value}rem;
 		}
 		$i: $i + 48;
