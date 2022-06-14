@@ -1,0 +1,14 @@
+.d {
+	&-inline {
+		display: inline-block;
+	}
+	&-block {
+		display: block;
+	}
+	&-none {
+		display: none;
+	}
+	&-hide {
+		visibility: hidden;
+	}
+}

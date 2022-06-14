@@ -1,5 +1,4 @@
 @use '../color' as *;
-
 $border-map: (
 	'0': 0rem,
 	'1': 0.0625rem,
@@ -12,36 +11,36 @@ $border-map: (
 @each $border-key, $single-border in $border-map {
 	.b {
 		&t-#{$border-key} {
-			border-top: $single-border solid $gr-94;
+			border-top: $single-border solid var(--gray-94);
 		}
 		&r-#{$border-key} {
-			border-right: $single-border solid $gr-94;
+			border-right: $single-border solid var(--gray-94);
 		}
 		&b-#{$border-key} {
-			border-bottom: $single-border solid $gr-94;
+			border-bottom: $single-border solid var(--gray-94);
 		}
 		&l-#{$border-key} {
-			border-left: $single-border solid $gr-94;
+			border-left: $single-border solid var(--gray-94);
 		}
 		&a-#{$border-key} {
-			border: $single-border solid $gr-94;
+			border: $single-border solid var(--gray-94);
 		}
 	}
 	.db {
 		&t-#{$border-key} {
-			border-top: $single-border dashed $gr-80;
+			border-top: $single-border dashed var(--gray-80);
 		}
 		&r-#{$border-key} {
-			border-right: $single-border dashed $gr-80;
+			border-right: $single-border dashed var(--gray-80);
 		}
 		&b-#{$border-key} {
-			border-bottom: $single-border dashed $gr-80;
+			border-bottom: $single-border dashed var(--gray-80);
 		}
 		&l-#{$border-key} {
-			border-left: $single-border dashed $gr-80;
+			border-left: $single-border dashed var(--gray-80);
 		}
 		&a-#{$border-key} {
-			border: $single-border dashed $gr-80;
+			border: $single-border dashed var(--gray-80);
 		}
 	}
 }

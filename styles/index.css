@@ -1,3 +1,82 @@
+:root {
+  --gray-100: hsl(0, 0%, 100%);
+  --gray-98: hsl(0, 0%, 98%);
+  --gray-96: hsl(0, 0%, 96%);
+  --gray-94: hsl(0, 0%, 94%);
+  --gray-92: hsl(0, 0%, 92%);
+  --gray-90: hsl(0, 0%, 90%);
+  --gray-88: hsl(0, 0%, 88%);
+  --gray-80: hsl(0, 0%, 80%);
+  --gray-70: hsl(0, 0%, 70%);
+  --gray-60: hsl(0, 0%, 60%);
+  --gray-50: hsl(0, 0%, 50%);
+  --gray-40: hsl(0, 0%, 40%);
+  --gray-30: hsl(0, 0%, 30%);
+  --gray-20: hsl(0, 0%, 20%);
+  --gray-10: hsl(0, 0%, 10%);
+  --primary-98: hsl(120, 100%, 98%);
+  --primary-96: hsl(120, 100%, 96%);
+  --primary-94: hsl(120, 100%, 94%);
+  --primary-92: hsl(120, 100%, 92%);
+  --primary-90: hsl(120, 100%, 90%);
+  --primary-88: hsl(120, 100%, 88%);
+  --primary-50: hsl(120, 100%, 50%);
+  --primary-40: hsl(120, 100%, 40%);
+  --primary-30: hsl(120, 100%, 27%);
+  --primary-25: hsl(120, 95%, 26%);
+  --primary-20: hsl(120, 95%, 20%);
+  --secondary-98: hsl(149, 51%, 98%);
+  --secondary-96: hsl(149, 51%, 96%);
+  --secondary-94: hsl(149, 51%, 94%);
+  --secondary-92: hsl(149, 51%, 92%);
+  --secondary-90: hsl(149, 51%, 90%);
+  --secondary-88: hsl(149, 51%, 88%);
+  --secondary-40: hsl(149, 51%, 40%);
+  --secondary-30: hsl(149, 51%, 30%);
+  --secondary-20: hsl(149, 51%, 21%);
+  --tertiary-98: hsl(120, 15%, 98%);
+  --tertiary-96: hsl(120, 15%, 96%);
+  --tertiary-94: hsl(120, 15%, 94%);
+  --tertiary-92: hsl(120, 15%, 92%);
+  --tertiary-90: hsl(120, 15%, 90%);
+  --tertiary-88: hsl(120, 15%, 88%);
+  --tertiary-40: hsl(120, 15%, 40%);
+  --tertiary-30: hsl(120, 15%, 30%);
+  --tertiary-20: hsl(120, 15%, 20%);
+  --info-98: hsl(207, 60%, 98%);
+  --info-96: hsl(207, 60%, 96%);
+  --info-94: hsl(207, 60%, 94%);
+  --info-92: hsl(207, 60%, 92%);
+  --info-90: hsl(207, 60%, 90%);
+  --info-88: hsl(207, 60%, 88%);
+  --info-40: hsl(207, 40%, 40%);
+  --info-30: hsl(207, 25%, 40%);
+  --error-98: hsl(0, 60%, 98%);
+  --error-96: hsl(0, 60%, 96%);
+  --error-94: hsl(0, 60%, 94%);
+  --error-92: hsl(0, 60%, 92%);
+  --error-90: hsl(0, 60%, 90%);
+  --error-88: hsl(0, 60%, 88%);
+  --error-40: hsl(0, 40%, 40%);
+  --error-30: hsl(0, 25%, 40%);
+  --warning-98: hsl(37, 60%, 98%);
+  --warning-96: hsl(37, 60%, 96%);
+  --warning-94: hsl(37, 60%, 94%);
+  --warning-92: hsl(37, 60%, 92%);
+  --warning-90: hsl(37, 60%, 90%);
+  --warning-88: hsl(37, 60%, 88%);
+  --warning-40: hsl(37, 35%, 39%);
+  --warning-30: hsl(37, 25%, 40%);
+  --advice-98: hsl(270, 60%, 98%);
+  --advice-96: hsl(270, 60%, 96%);
+  --advice-94: hsl(270, 60%, 94%);
+  --advice-92: hsl(270, 60%, 92%);
+  --advice-90: hsl(270, 60%, 90%);
+  --advice-88: hsl(270, 60%, 88%);
+  --advice-40: hsl(270, 40%, 40%);
+  --advice-30: hsl(270, 25%, 40%);
+}
+
 *,
 *::after,
 *::before {
@@ -1557,979 +1636,816 @@ body {
 }
 
 .bg-gr-100 {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: var(--gray-100);
 }
 
 .cl-gr-100 {
-  color: hsl(0deg, 0%, 100%);
+  color: var(--gray-100);
 }
 
 .bg-gr-98 {
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: var(--gray-98);
 }
 
 .cl-gr-98 {
-  color: hsl(0deg, 0%, 98%);
+  color: var(--gray-98);
 }
 
 .bg-gr-96 {
-  background-color: hsl(0deg, 0%, 96%);
+  background-color: var(--gray-96);
 }
 
 .cl-gr-96 {
-  color: hsl(0deg, 0%, 96%);
+  color: var(--gray-96);
 }
 
 .bg-gr-94 {
-  background-color: hsl(0deg, 0%, 94%);
+  background-color: var(--gray-94);
 }
 
 .cl-gr-94 {
-  color: hsl(0deg, 0%, 94%);
+  color: var(--gray-94);
 }
 
 .bg-gr-92 {
-  background-color: hsl(0deg, 0%, 92%);
+  background-color: var(--gray-92);
 }
 
 .cl-gr-92 {
-  color: hsl(0deg, 0%, 92%);
+  color: var(--gray-92);
 }
 
 .bg-gr-90 {
-  background-color: hsl(0deg, 0%, 90%);
+  background-color: var(--gray-90);
 }
 
 .cl-gr-90 {
-  color: hsl(0deg, 0%, 90%);
+  color: var(--gray-90);
+}
+
+.bg-gr-88 {
+  background-color: var(--gray-88);
+}
+
+.cl-gr-88 {
+  color: var(--gray-88);
 }
 
 .bg-gr-80 {
-  background-color: hsl(0deg, 0%, 80%);
+  background-color: var(--gray-80);
 }
 
 .cl-gr-80 {
-  color: hsl(0deg, 0%, 80%);
+  color: var(--gray-80);
 }
 
 .bg-gr-70 {
-  background-color: hsl(0deg, 0%, 70%);
+  background-color: var(--gray-70);
 }
 
 .cl-gr-70 {
-  color: hsl(0deg, 0%, 70%);
+  color: var(--gray-70);
 }
 
 .bg-gr-60 {
-  background-color: hsl(0deg, 0%, 60%);
+  background-color: var(--gray-60);
 }
 
 .cl-gr-60 {
-  color: hsl(0deg, 0%, 60%);
+  color: var(--gray-60);
 }
 
 .bg-gr-50 {
-  background-color: hsl(0deg, 0%, 50%);
+  background-color: var(--gray-50);
 }
 
 .cl-gr-50 {
-  color: hsl(0deg, 0%, 50%);
+  color: var(--gray-50);
 }
 
 .bg-gr-40 {
-  background-color: hsl(0deg, 0%, 40%);
+  background-color: var(--gray-40);
 }
 
 .cl-gr-40 {
-  color: hsl(0deg, 0%, 40%);
+  color: var(--gray-40);
 }
 
 .bg-gr-30 {
-  background-color: hsl(0deg, 0%, 30%);
+  background-color: var(--gray-30);
 }
 
 .cl-gr-30 {
-  color: hsl(0deg, 0%, 30%);
+  color: var(--gray-30);
 }
 
 .bg-gr-20 {
-  background-color: hsl(0deg, 0%, 20%);
+  background-color: var(--gray-20);
 }
 
 .cl-gr-20 {
-  color: hsl(0deg, 0%, 20%);
+  color: var(--gray-20);
 }
 
 .bg-gr-10 {
-  background-color: hsl(0deg, 0%, 10%);
+  background-color: var(--gray-10);
 }
 
 .cl-gr-10 {
-  color: hsl(0deg, 0%, 10%);
+  color: var(--gray-10);
 }
 
 .bg-pr-98 {
-  background-color: hsl(240deg, 75%, 98%);
+  background-color: var(--primary-98);
 }
 
 .cl-pr-98 {
-  color: hsl(240deg, 75%, 98%);
+  color: var(--primary-98);
 }
 
 .bg-pr-96 {
-  background-color: hsl(240deg, 75%, 96%);
+  background-color: var(--primary-96);
 }
 
 .cl-pr-96 {
-  color: hsl(240deg, 75%, 96%);
+  color: var(--primary-96);
 }
 
 .bg-pr-94 {
-  background-color: hsl(240deg, 75%, 94%);
+  background-color: var(--primary-94);
 }
 
 .cl-pr-94 {
-  color: hsl(240deg, 75%, 94%);
+  color: var(--primary-94);
 }
 
 .bg-pr-92 {
-  background-color: hsl(240deg, 75%, 92%);
+  background-color: var(--primary-92);
 }
 
 .cl-pr-92 {
-  color: hsl(240deg, 75%, 92%);
+  color: var(--primary-92);
 }
 
 .bg-pr-90 {
-  background-color: hsl(240deg, 75%, 90%);
+  background-color: var(--primary-90);
 }
 
 .cl-pr-90 {
-  color: hsl(240deg, 75%, 90%);
+  color: var(--primary-90);
 }
 
-.bg-pr-80 {
-  background-color: hsl(240deg, 75%, 80%);
+.bg-pr-88 {
+  background-color: var(--primary-88);
 }
 
-.cl-pr-80 {
-  color: hsl(240deg, 75%, 80%);
-}
-
-.bg-pr-70 {
-  background-color: hsl(240deg, 75%, 70%);
-}
-
-.cl-pr-70 {
-  color: hsl(240deg, 75%, 70%);
-}
-
-.bg-pr-60 {
-  background-color: hsl(240deg, 75%, 60%);
-}
-
-.cl-pr-60 {
-  color: hsl(240deg, 75%, 60%);
+.cl-pr-88 {
+  color: var(--primary-88);
 }
 
 .bg-pr-50 {
-  background-color: hsl(240deg, 75%, 50%);
+  background-color: var(--primary-50);
 }
 
 .cl-pr-50 {
-  color: hsl(240deg, 75%, 50%);
+  color: var(--primary-50);
 }
 
 .bg-pr-40 {
-  background-color: hsl(240deg, 75%, 40%);
+  background-color: var(--primary-40);
 }
 
 .cl-pr-40 {
-  color: hsl(240deg, 75%, 40%);
+  color: var(--primary-40);
 }
 
 .bg-pr-30 {
-  background-color: hsl(240deg, 75%, 30%);
+  background-color: var(--primary-30);
 }
 
 .cl-pr-30 {
-  color: hsl(240deg, 75%, 30%);
+  color: var(--primary-30);
+}
+
+.bg-pr-25 {
+  background-color: var(--primary-25);
+}
+
+.cl-pr-25 {
+  color: var(--primary-25);
 }
 
 .bg-pr-20 {
-  background-color: hsl(240deg, 75%, 20%);
+  background-color: var(--primary-20);
 }
 
 .cl-pr-20 {
-  color: hsl(240deg, 75%, 20%);
+  color: var(--primary-20);
 }
 
 .bg-se-98 {
-  background-color: hsl(240deg, 45%, 98%);
+  background-color: var(--secondary-98);
 }
 
 .cl-se-98 {
-  color: hsl(240deg, 45%, 98%);
+  color: var(--secondary-98);
 }
 
 .bg-se-96 {
-  background-color: hsl(240deg, 45%, 96%);
+  background-color: var(--secondary-96);
 }
 
 .cl-se-96 {
-  color: hsl(240deg, 45%, 96%);
+  color: var(--secondary-96);
 }
 
 .bg-se-94 {
-  background-color: hsl(240deg, 45%, 94%);
+  background-color: var(--secondary-94);
 }
 
 .cl-se-94 {
-  color: hsl(240deg, 45%, 94%);
+  color: var(--secondary-94);
 }
 
 .bg-se-92 {
-  background-color: hsl(240deg, 45%, 92%);
+  background-color: var(--secondary-92);
 }
 
 .cl-se-92 {
-  color: hsl(240deg, 45%, 92%);
+  color: var(--secondary-92);
 }
 
 .bg-se-90 {
-  background-color: hsl(240deg, 45%, 90%);
+  background-color: var(--secondary-90);
 }
 
 .cl-se-90 {
-  color: hsl(240deg, 45%, 90%);
+  color: var(--secondary-90);
 }
 
-.bg-se-80 {
-  background-color: hsl(240deg, 45%, 80%);
+.bg-se-88 {
+  background-color: var(--secondary-88);
 }
 
-.cl-se-80 {
-  color: hsl(240deg, 45%, 80%);
-}
-
-.bg-se-70 {
-  background-color: hsl(240deg, 45%, 70%);
-}
-
-.cl-se-70 {
-  color: hsl(240deg, 45%, 70%);
-}
-
-.bg-se-60 {
-  background-color: hsl(240deg, 45%, 60%);
-}
-
-.cl-se-60 {
-  color: hsl(240deg, 45%, 60%);
-}
-
-.bg-se-50 {
-  background-color: hsl(240deg, 45%, 50%);
-}
-
-.cl-se-50 {
-  color: hsl(240deg, 45%, 50%);
+.cl-se-88 {
+  color: var(--secondary-88);
 }
 
 .bg-se-40 {
-  background-color: hsl(240deg, 45%, 40%);
+  background-color: var(--secondary-40);
 }
 
 .cl-se-40 {
-  color: hsl(240deg, 45%, 40%);
+  color: var(--secondary-40);
 }
 
 .bg-se-30 {
-  background-color: hsl(240deg, 45%, 30%);
+  background-color: var(--secondary-30);
 }
 
 .cl-se-30 {
-  color: hsl(240deg, 45%, 30%);
+  color: var(--secondary-30);
 }
 
 .bg-se-20 {
-  background-color: hsl(240deg, 45%, 20%);
+  background-color: var(--secondary-20);
 }
 
 .cl-se-20 {
-  color: hsl(240deg, 45%, 20%);
+  color: var(--secondary-20);
 }
 
 .bg-te-98 {
-  background-color: hsl(240deg, 15%, 98%);
+  background-color: var(--tertiary-98);
 }
 
 .cl-te-98 {
-  color: hsl(240deg, 15%, 98%);
+  color: var(--tertiary-98);
 }
 
 .bg-te-96 {
-  background-color: hsl(240deg, 15%, 96%);
+  background-color: var(--tertiary-96);
 }
 
 .cl-te-96 {
-  color: hsl(240deg, 15%, 96%);
+  color: var(--tertiary-96);
 }
 
 .bg-te-94 {
-  background-color: hsl(240deg, 15%, 94%);
+  background-color: var(--tertiary-94);
 }
 
 .cl-te-94 {
-  color: hsl(240deg, 15%, 94%);
+  color: var(--tertiary-94);
 }
 
 .bg-te-92 {
-  background-color: hsl(240deg, 15%, 92%);
+  background-color: var(--tertiary-92);
 }
 
 .cl-te-92 {
-  color: hsl(240deg, 15%, 92%);
+  color: var(--tertiary-92);
 }
 
 .bg-te-90 {
-  background-color: hsl(240deg, 15%, 90%);
+  background-color: var(--tertiary-90);
 }
 
 .cl-te-90 {
-  color: hsl(240deg, 15%, 90%);
+  color: var(--tertiary-90);
 }
 
-.bg-te-80 {
-  background-color: hsl(240deg, 15%, 80%);
+.bg-te-88 {
+  background-color: var(--tertiary-88);
 }
 
-.cl-te-80 {
-  color: hsl(240deg, 15%, 80%);
-}
-
-.bg-te-70 {
-  background-color: hsl(240deg, 15%, 70%);
-}
-
-.cl-te-70 {
-  color: hsl(240deg, 15%, 70%);
-}
-
-.bg-te-60 {
-  background-color: hsl(240deg, 15%, 60%);
-}
-
-.cl-te-60 {
-  color: hsl(240deg, 15%, 60%);
-}
-
-.bg-te-50 {
-  background-color: hsl(240deg, 15%, 50%);
-}
-
-.cl-te-50 {
-  color: hsl(240deg, 15%, 50%);
+.cl-te-88 {
+  color: var(--tertiary-88);
 }
 
 .bg-te-40 {
-  background-color: hsl(240deg, 15%, 40%);
+  background-color: var(--tertiary-40);
 }
 
 .cl-te-40 {
-  color: hsl(240deg, 15%, 40%);
+  color: var(--tertiary-40);
 }
 
 .bg-te-30 {
-  background-color: hsl(240deg, 15%, 30%);
+  background-color: var(--tertiary-30);
 }
 
 .cl-te-30 {
-  color: hsl(240deg, 15%, 30%);
+  color: var(--tertiary-30);
 }
 
 .bg-te-20 {
-  background-color: hsl(240deg, 15%, 20%);
+  background-color: var(--tertiary-20);
 }
 
 .cl-te-20 {
-  color: hsl(240deg, 15%, 20%);
+  color: var(--tertiary-20);
+}
+
+.bg-in-98 {
+  background-color: var(--info-98);
+}
+
+.cl-in-98 {
+  color: var(--info-98);
+}
+
+.bg-in-96 {
+  background-color: var(--info-96);
+}
+
+.cl-in-96 {
+  color: var(--info-96);
+}
+
+.bg-in-94 {
+  background-color: var(--info-94);
+}
+
+.cl-in-94 {
+  color: var(--info-94);
+}
+
+.bg-in-92 {
+  background-color: var(--info-92);
+}
+
+.cl-in-92 {
+  color: var(--info-92);
+}
+
+.bg-in-90 {
+  background-color: var(--info-90);
+}
+
+.cl-in-90 {
+  color: var(--info-90);
+}
+
+.bg-in-88 {
+  background-color: var(--info-88);
+}
+
+.cl-in-88 {
+  color: var(--info-88);
+}
+
+.bg-in-40 {
+  background-color: var(--info-40);
+}
+
+.cl-in-40 {
+  color: var(--info-40);
+}
+
+.bg-in-30 {
+  background-color: var(--info-30);
+}
+
+.cl-in-30 {
+  color: var(--info-30);
 }
 
 .bg-er-98 {
-  background-color: hsl(0deg, 45%, 98%);
+  background-color: var(--error-98);
 }
 
 .cl-er-98 {
-  color: hsl(0deg, 45%, 98%);
+  color: var(--error-98);
 }
 
 .bg-er-96 {
-  background-color: hsl(0deg, 45%, 96%);
+  background-color: var(--error-96);
 }
 
 .cl-er-96 {
-  color: hsl(0deg, 45%, 96%);
+  color: var(--error-96);
 }
 
 .bg-er-94 {
-  background-color: hsl(0deg, 45%, 94%);
+  background-color: var(--error-94);
 }
 
 .cl-er-94 {
-  color: hsl(0deg, 45%, 94%);
+  color: var(--error-94);
 }
 
 .bg-er-92 {
-  background-color: hsl(0deg, 45%, 92%);
+  background-color: var(--error-92);
 }
 
 .cl-er-92 {
-  color: hsl(0deg, 45%, 92%);
+  color: var(--error-92);
 }
 
 .bg-er-90 {
-  background-color: hsl(0deg, 45%, 90%);
+  background-color: var(--error-90);
 }
 
 .cl-er-90 {
-  color: hsl(0deg, 45%, 90%);
+  color: var(--error-90);
 }
 
-.bg-er-80 {
-  background-color: hsl(0deg, 45%, 80%);
+.bg-er-88 {
+  background-color: var(--error-88);
 }
 
-.cl-er-80 {
-  color: hsl(0deg, 45%, 80%);
-}
-
-.bg-er-70 {
-  background-color: hsl(0deg, 45%, 70%);
-}
-
-.cl-er-70 {
-  color: hsl(0deg, 45%, 70%);
-}
-
-.bg-er-60 {
-  background-color: hsl(0deg, 45%, 60%);
-}
-
-.cl-er-60 {
-  color: hsl(0deg, 45%, 60%);
-}
-
-.bg-er-50 {
-  background-color: hsl(0deg, 45%, 50%);
-}
-
-.cl-er-50 {
-  color: hsl(0deg, 45%, 50%);
+.cl-er-88 {
+  color: var(--error-88);
 }
 
 .bg-er-40 {
-  background-color: hsl(0deg, 45%, 40%);
+  background-color: var(--error-40);
 }
 
 .cl-er-40 {
-  color: hsl(0deg, 45%, 40%);
+  color: var(--error-40);
 }
 
 .bg-er-30 {
-  background-color: hsl(0deg, 45%, 30%);
+  background-color: var(--error-30);
 }
 
 .cl-er-30 {
-  color: hsl(0deg, 45%, 30%);
-}
-
-.bg-er-20 {
-  background-color: hsl(0deg, 45%, 20%);
-}
-
-.cl-er-20 {
-  color: hsl(0deg, 45%, 20%);
+  color: var(--error-30);
 }
 
 .bg-wa-98 {
-  background-color: hsl(37deg, 45%, 98%);
+  background-color: var(--warning-98);
 }
 
 .cl-wa-98 {
-  color: hsl(37deg, 45%, 98%);
+  color: var(--warning-98);
 }
 
 .bg-wa-96 {
-  background-color: hsl(37deg, 45%, 96%);
+  background-color: var(--warning-96);
 }
 
 .cl-wa-96 {
-  color: hsl(37deg, 45%, 96%);
+  color: var(--warning-96);
 }
 
 .bg-wa-94 {
-  background-color: hsl(37deg, 45%, 94%);
+  background-color: var(--warning-94);
 }
 
 .cl-wa-94 {
-  color: hsl(37deg, 45%, 94%);
+  color: var(--warning-94);
 }
 
 .bg-wa-92 {
-  background-color: hsl(37deg, 45%, 92%);
+  background-color: var(--warning-92);
 }
 
 .cl-wa-92 {
-  color: hsl(37deg, 45%, 92%);
+  color: var(--warning-92);
 }
 
 .bg-wa-90 {
-  background-color: hsl(37deg, 45%, 90%);
+  background-color: var(--warning-90);
 }
 
 .cl-wa-90 {
-  color: hsl(37deg, 45%, 90%);
+  color: var(--warning-90);
 }
 
-.bg-wa-80 {
-  background-color: hsl(37deg, 45%, 80%);
+.bg-wa-88 {
+  background-color: var(--warning-88);
 }
 
-.cl-wa-80 {
-  color: hsl(37deg, 45%, 80%);
-}
-
-.bg-wa-70 {
-  background-color: hsl(37deg, 45%, 70%);
-}
-
-.cl-wa-70 {
-  color: hsl(37deg, 45%, 70%);
-}
-
-.bg-wa-60 {
-  background-color: hsl(37deg, 45%, 60%);
-}
-
-.cl-wa-60 {
-  color: hsl(37deg, 45%, 60%);
-}
-
-.bg-wa-50 {
-  background-color: hsl(37deg, 45%, 50%);
-}
-
-.cl-wa-50 {
-  color: hsl(37deg, 45%, 50%);
+.cl-wa-88 {
+  color: var(--warning-88);
 }
 
 .bg-wa-40 {
-  background-color: hsl(37deg, 45%, 40%);
+  background-color: var(--warning-40);
 }
 
 .cl-wa-40 {
-  color: hsl(37deg, 45%, 40%);
+  color: var(--warning-40);
 }
 
 .bg-wa-30 {
-  background-color: hsl(37deg, 45%, 30%);
+  background-color: var(--warning-30);
 }
 
 .cl-wa-30 {
-  color: hsl(37deg, 45%, 30%);
-}
-
-.bg-wa-20 {
-  background-color: hsl(37deg, 45%, 20%);
-}
-
-.cl-wa-20 {
-  color: hsl(37deg, 45%, 20%);
+  color: var(--warning-30);
 }
 
 .bg-ad-98 {
-  background-color: hsl(270deg, 45%, 98%);
+  background-color: var(--advice-98);
 }
 
 .cl-ad-98 {
-  color: hsl(270deg, 45%, 98%);
+  color: var(--advice-98);
 }
 
 .bg-ad-96 {
-  background-color: hsl(270deg, 45%, 96%);
+  background-color: var(--advice-96);
 }
 
 .cl-ad-96 {
-  color: hsl(270deg, 45%, 96%);
+  color: var(--advice-96);
 }
 
 .bg-ad-94 {
-  background-color: hsl(270deg, 45%, 94%);
+  background-color: var(--advice-94);
 }
 
 .cl-ad-94 {
-  color: hsl(270deg, 45%, 94%);
+  color: var(--advice-94);
 }
 
 .bg-ad-92 {
-  background-color: hsl(270deg, 45%, 92%);
+  background-color: var(--advice-92);
 }
 
 .cl-ad-92 {
-  color: hsl(270deg, 45%, 92%);
+  color: var(--advice-92);
 }
 
 .bg-ad-90 {
-  background-color: hsl(270deg, 45%, 90%);
+  background-color: var(--advice-90);
 }
 
 .cl-ad-90 {
-  color: hsl(270deg, 45%, 90%);
+  color: var(--advice-90);
 }
 
-.bg-ad-80 {
-  background-color: hsl(270deg, 45%, 80%);
+.bg-ad-88 {
+  background-color: var(--advice-88);
 }
 
-.cl-ad-80 {
-  color: hsl(270deg, 45%, 80%);
-}
-
-.bg-ad-70 {
-  background-color: hsl(270deg, 45%, 70%);
-}
-
-.cl-ad-70 {
-  color: hsl(270deg, 45%, 70%);
-}
-
-.bg-ad-60 {
-  background-color: hsl(270deg, 45%, 60%);
-}
-
-.cl-ad-60 {
-  color: hsl(270deg, 45%, 60%);
-}
-
-.bg-ad-50 {
-  background-color: hsl(270deg, 45%, 50%);
-}
-
-.cl-ad-50 {
-  color: hsl(270deg, 45%, 50%);
+.cl-ad-88 {
+  color: var(--advice-88);
 }
 
 .bg-ad-40 {
-  background-color: hsl(270deg, 45%, 40%);
+  background-color: var(--advice-40);
 }
 
 .cl-ad-40 {
-  color: hsl(270deg, 45%, 40%);
+  color: var(--advice-40);
 }
 
 .bg-ad-30 {
-  background-color: hsl(270deg, 45%, 30%);
+  background-color: var(--advice-30);
 }
 
 .cl-ad-30 {
-  color: hsl(270deg, 45%, 30%);
-}
-
-.bg-ad-20 {
-  background-color: hsl(270deg, 45%, 20%);
-}
-
-.cl-ad-20 {
-  color: hsl(270deg, 45%, 20%);
-}
-
-.bg-su-98 {
-  background-color: hsl(149deg, 45%, 98%);
-}
-
-.cl-su-98 {
-  color: hsl(149deg, 45%, 98%);
-}
-
-.bg-su-96 {
-  background-color: hsl(149deg, 45%, 96%);
-}
-
-.cl-su-96 {
-  color: hsl(149deg, 45%, 96%);
-}
-
-.bg-su-94 {
-  background-color: hsl(149deg, 45%, 94%);
-}
-
-.cl-su-94 {
-  color: hsl(149deg, 45%, 94%);
-}
-
-.bg-su-92 {
-  background-color: hsl(149deg, 45%, 92%);
-}
-
-.cl-su-92 {
-  color: hsl(149deg, 45%, 92%);
-}
-
-.bg-su-90 {
-  background-color: hsl(149deg, 45%, 90%);
-}
-
-.cl-su-90 {
-  color: hsl(149deg, 45%, 90%);
-}
-
-.bg-su-80 {
-  background-color: hsl(149deg, 45%, 80%);
-}
-
-.cl-su-80 {
-  color: hsl(149deg, 45%, 80%);
-}
-
-.bg-su-70 {
-  background-color: hsl(149deg, 45%, 70%);
-}
-
-.cl-su-70 {
-  color: hsl(149deg, 45%, 70%);
-}
-
-.bg-su-60 {
-  background-color: hsl(149deg, 45%, 60%);
-}
-
-.cl-su-60 {
-  color: hsl(149deg, 45%, 60%);
-}
-
-.bg-su-50 {
-  background-color: hsl(149deg, 45%, 50%);
-}
-
-.cl-su-50 {
-  color: hsl(149deg, 45%, 50%);
-}
-
-.bg-su-40 {
-  background-color: hsl(149deg, 45%, 40%);
-}
-
-.cl-su-40 {
-  color: hsl(149deg, 45%, 40%);
-}
-
-.bg-su-30 {
-  background-color: hsl(149deg, 45%, 30%);
-}
-
-.cl-su-30 {
-  color: hsl(149deg, 45%, 30%);
-}
-
-.bg-su-20 {
-  background-color: hsl(149deg, 45%, 20%);
-}
-
-.cl-su-20 {
-  color: hsl(149deg, 45%, 20%);
+  color: var(--advice-30);
 }
 
 .bt-0 {
-  border-top: 0rem solid hsl(0deg, 0%, 94%);
+  border-top: 0rem solid var(--gray-94);
 }
 .br-0 {
-  border-right: 0rem solid hsl(0deg, 0%, 94%);
+  border-right: 0rem solid var(--gray-94);
 }
 .bb-0 {
-  border-bottom: 0rem solid hsl(0deg, 0%, 94%);
+  border-bottom: 0rem solid var(--gray-94);
 }
 .bl-0 {
-  border-left: 0rem solid hsl(0deg, 0%, 94%);
+  border-left: 0rem solid var(--gray-94);
 }
 .ba-0 {
-  border: 0rem solid hsl(0deg, 0%, 94%);
+  border: 0rem solid var(--gray-94);
 }
 
 .dbt-0 {
-  border-top: 0rem dashed hsl(0deg, 0%, 80%);
+  border-top: 0rem dashed var(--gray-80);
 }
 .dbr-0 {
-  border-right: 0rem dashed hsl(0deg, 0%, 80%);
+  border-right: 0rem dashed var(--gray-80);
 }
 .dbb-0 {
-  border-bottom: 0rem dashed hsl(0deg, 0%, 80%);
+  border-bottom: 0rem dashed var(--gray-80);
 }
 .dbl-0 {
-  border-left: 0rem dashed hsl(0deg, 0%, 80%);
+  border-left: 0rem dashed var(--gray-80);
 }
 .dba-0 {
-  border: 0rem dashed hsl(0deg, 0%, 80%);
+  border: 0rem dashed var(--gray-80);
 }
 
 .bt-1 {
-  border-top: 0.0625rem solid hsl(0deg, 0%, 94%);
+  border-top: 0.0625rem solid var(--gray-94);
 }
 .br-1 {
-  border-right: 0.0625rem solid hsl(0deg, 0%, 94%);
+  border-right: 0.0625rem solid var(--gray-94);
 }
 .bb-1 {
-  border-bottom: 0.0625rem solid hsl(0deg, 0%, 94%);
+  border-bottom: 0.0625rem solid var(--gray-94);
 }
 .bl-1 {
-  border-left: 0.0625rem solid hsl(0deg, 0%, 94%);
+  border-left: 0.0625rem solid var(--gray-94);
 }
 .ba-1 {
-  border: 0.0625rem solid hsl(0deg, 0%, 94%);
+  border: 0.0625rem solid var(--gray-94);
 }
 
 .dbt-1 {
-  border-top: 0.0625rem dashed hsl(0deg, 0%, 80%);
+  border-top: 0.0625rem dashed var(--gray-80);
 }
 .dbr-1 {
-  border-right: 0.0625rem dashed hsl(0deg, 0%, 80%);
+  border-right: 0.0625rem dashed var(--gray-80);
 }
 .dbb-1 {
-  border-bottom: 0.0625rem dashed hsl(0deg, 0%, 80%);
+  border-bottom: 0.0625rem dashed var(--gray-80);
 }
 .dbl-1 {
-  border-left: 0.0625rem dashed hsl(0deg, 0%, 80%);
+  border-left: 0.0625rem dashed var(--gray-80);
 }
 .dba-1 {
-  border: 0.0625rem dashed hsl(0deg, 0%, 80%);
+  border: 0.0625rem dashed var(--gray-80);
 }
 
 .bt-2 {
-  border-top: 0.078125rem solid hsl(0deg, 0%, 94%);
+  border-top: 0.078125rem solid var(--gray-94);
 }
 .br-2 {
-  border-right: 0.078125rem solid hsl(0deg, 0%, 94%);
+  border-right: 0.078125rem solid var(--gray-94);
 }
 .bb-2 {
-  border-bottom: 0.078125rem solid hsl(0deg, 0%, 94%);
+  border-bottom: 0.078125rem solid var(--gray-94);
 }
 .bl-2 {
-  border-left: 0.078125rem solid hsl(0deg, 0%, 94%);
+  border-left: 0.078125rem solid var(--gray-94);
 }
 .ba-2 {
-  border: 0.078125rem solid hsl(0deg, 0%, 94%);
+  border: 0.078125rem solid var(--gray-94);
 }
 
 .dbt-2 {
-  border-top: 0.078125rem dashed hsl(0deg, 0%, 80%);
+  border-top: 0.078125rem dashed var(--gray-80);
 }
 .dbr-2 {
-  border-right: 0.078125rem dashed hsl(0deg, 0%, 80%);
+  border-right: 0.078125rem dashed var(--gray-80);
 }
 .dbb-2 {
-  border-bottom: 0.078125rem dashed hsl(0deg, 0%, 80%);
+  border-bottom: 0.078125rem dashed var(--gray-80);
 }
 .dbl-2 {
-  border-left: 0.078125rem dashed hsl(0deg, 0%, 80%);
+  border-left: 0.078125rem dashed var(--gray-80);
 }
 .dba-2 {
-  border: 0.078125rem dashed hsl(0deg, 0%, 80%);
+  border: 0.078125rem dashed var(--gray-80);
 }
 
 .bt-3 {
-  border-top: 0.09375rem solid hsl(0deg, 0%, 94%);
+  border-top: 0.09375rem solid var(--gray-94);
 }
 .br-3 {
-  border-right: 0.09375rem solid hsl(0deg, 0%, 94%);
+  border-right: 0.09375rem solid var(--gray-94);
 }
 .bb-3 {
-  border-bottom: 0.09375rem solid hsl(0deg, 0%, 94%);
+  border-bottom: 0.09375rem solid var(--gray-94);
 }
 .bl-3 {
-  border-left: 0.09375rem solid hsl(0deg, 0%, 94%);
+  border-left: 0.09375rem solid var(--gray-94);
 }
 .ba-3 {
-  border: 0.09375rem solid hsl(0deg, 0%, 94%);
+  border: 0.09375rem solid var(--gray-94);
 }
 
 .dbt-3 {
-  border-top: 0.09375rem dashed hsl(0deg, 0%, 80%);
+  border-top: 0.09375rem dashed var(--gray-80);
 }
 .dbr-3 {
-  border-right: 0.09375rem dashed hsl(0deg, 0%, 80%);
+  border-right: 0.09375rem dashed var(--gray-80);
 }
 .dbb-3 {
-  border-bottom: 0.09375rem dashed hsl(0deg, 0%, 80%);
+  border-bottom: 0.09375rem dashed var(--gray-80);
 }
 .dbl-3 {
-  border-left: 0.09375rem dashed hsl(0deg, 0%, 80%);
+  border-left: 0.09375rem dashed var(--gray-80);
 }
 .dba-3 {
-  border: 0.09375rem dashed hsl(0deg, 0%, 80%);
+  border: 0.09375rem dashed var(--gray-80);
 }
 
 .bt-4 {
-  border-top: 0.109375rem solid hsl(0deg, 0%, 94%);
+  border-top: 0.109375rem solid var(--gray-94);
 }
 .br-4 {
-  border-right: 0.109375rem solid hsl(0deg, 0%, 94%);
+  border-right: 0.109375rem solid var(--gray-94);
 }
 .bb-4 {
-  border-bottom: 0.109375rem solid hsl(0deg, 0%, 94%);
+  border-bottom: 0.109375rem solid var(--gray-94);
 }
 .bl-4 {
-  border-left: 0.109375rem solid hsl(0deg, 0%, 94%);
+  border-left: 0.109375rem solid var(--gray-94);
 }
 .ba-4 {
-  border: 0.109375rem solid hsl(0deg, 0%, 94%);
+  border: 0.109375rem solid var(--gray-94);
 }
 
 .dbt-4 {
-  border-top: 0.109375rem dashed hsl(0deg, 0%, 80%);
+  border-top: 0.109375rem dashed var(--gray-80);
 }
 .dbr-4 {
-  border-right: 0.109375rem dashed hsl(0deg, 0%, 80%);
+  border-right: 0.109375rem dashed var(--gray-80);
 }
 .dbb-4 {
-  border-bottom: 0.109375rem dashed hsl(0deg, 0%, 80%);
+  border-bottom: 0.109375rem dashed var(--gray-80);
 }
 .dbl-4 {
-  border-left: 0.109375rem dashed hsl(0deg, 0%, 80%);
+  border-left: 0.109375rem dashed var(--gray-80);
 }
 .dba-4 {
-  border: 0.109375rem dashed hsl(0deg, 0%, 80%);
+  border: 0.109375rem dashed var(--gray-80);
 }
 
 .bt-5 {
-  border-top: 0.125rem solid hsl(0deg, 0%, 94%);
+  border-top: 0.125rem solid var(--gray-94);
 }
 .br-5 {
-  border-right: 0.125rem solid hsl(0deg, 0%, 94%);
+  border-right: 0.125rem solid var(--gray-94);
 }
 .bb-5 {
-  border-bottom: 0.125rem solid hsl(0deg, 0%, 94%);
+  border-bottom: 0.125rem solid var(--gray-94);
 }
 .bl-5 {
-  border-left: 0.125rem solid hsl(0deg, 0%, 94%);
+  border-left: 0.125rem solid var(--gray-94);
 }
 .ba-5 {
-  border: 0.125rem solid hsl(0deg, 0%, 94%);
+  border: 0.125rem solid var(--gray-94);
 }
 
 .dbt-5 {
-  border-top: 0.125rem dashed hsl(0deg, 0%, 80%);
+  border-top: 0.125rem dashed var(--gray-80);
 }
 .dbr-5 {
-  border-right: 0.125rem dashed hsl(0deg, 0%, 80%);
+  border-right: 0.125rem dashed var(--gray-80);
 }
 .dbb-5 {
-  border-bottom: 0.125rem dashed hsl(0deg, 0%, 80%);
+  border-bottom: 0.125rem dashed var(--gray-80);
 }
 .dbl-5 {
-  border-left: 0.125rem dashed hsl(0deg, 0%, 80%);
+  border-left: 0.125rem dashed var(--gray-80);
 }
 .dba-5 {
-  border: 0.125rem dashed hsl(0deg, 0%, 80%);
+  border: 0.125rem dashed var(--gray-80);
+}
+
+.d-inline {
+  display: inline-block;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+.d-hide {
+  visibility: hidden;
 }
 
 .col {
