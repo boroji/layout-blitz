@@ -1,0 +1,11 @@
+@for $i from 0 through 48 {
+	.z-#{$i} {
+		z-index: #{$i};
+	}
+}
+
+@for $i from -48 through -1 {
+	.nz#{$i} {
+		z-index: #{$i};
+	}
+}

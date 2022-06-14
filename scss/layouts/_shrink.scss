@@ -1,11 +1,11 @@
-@for $i from 0 through 4 {
+@for $i from 0 through 16 {
 	.trim-#{$i} {
 		flex-shrink: #{$i};
 	}
 }
 
 @mixin shrink($breakpoint) {
-	@for $i from 0 through 4 {
+	@for $i from 0 through 16 {
 		.trim-#{$breakpoint}-#{$i} {
 			flex-shrink: #{$i};
 		}
