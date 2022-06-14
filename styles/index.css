@@ -2448,6 +2448,24 @@ body {
   visibility: hidden;
 }
 
+.img-cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.clip {
+  overflow: clip;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+.scroll-x {
+  overflow-x: auto;
+}
+
 .col {
   display: flex;
   flex-direction: column;

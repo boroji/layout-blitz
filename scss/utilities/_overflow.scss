@@ -1,0 +1,12 @@
+.clip {
+	overflow: clip;
+}
+
+.scroll {
+	&-y {
+		overflow-y: auto;
+	}
+	&-x {
+		overflow-x: auto;
+	}
+}
