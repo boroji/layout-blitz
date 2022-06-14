@@ -14,43 +14,50 @@
   --gray-30: hsl(0, 0%, 30%);
   --gray-20: hsl(0, 0%, 20%);
   --gray-10: hsl(0, 0%, 10%);
-  --primary-98: hsl(120, 100%, 98%);
-  --primary-96: hsl(120, 100%, 96%);
-  --primary-94: hsl(120, 100%, 94%);
-  --primary-92: hsl(120, 100%, 92%);
-  --primary-90: hsl(120, 100%, 90%);
-  --primary-88: hsl(120, 100%, 88%);
-  --primary-50: hsl(120, 100%, 50%);
-  --primary-40: hsl(120, 100%, 40%);
-  --primary-30: hsl(120, 100%, 27%);
-  --primary-25: hsl(120, 95%, 26%);
-  --primary-20: hsl(120, 95%, 20%);
-  --secondary-98: hsl(149, 51%, 98%);
-  --secondary-96: hsl(149, 51%, 96%);
-  --secondary-94: hsl(149, 51%, 94%);
-  --secondary-92: hsl(149, 51%, 92%);
-  --secondary-90: hsl(149, 51%, 90%);
-  --secondary-88: hsl(149, 51%, 88%);
-  --secondary-40: hsl(149, 51%, 40%);
-  --secondary-30: hsl(149, 51%, 30%);
-  --secondary-20: hsl(149, 51%, 21%);
-  --tertiary-98: hsl(120, 15%, 98%);
-  --tertiary-96: hsl(120, 15%, 96%);
-  --tertiary-94: hsl(120, 15%, 94%);
-  --tertiary-92: hsl(120, 15%, 92%);
-  --tertiary-90: hsl(120, 15%, 90%);
-  --tertiary-88: hsl(120, 15%, 88%);
-  --tertiary-40: hsl(120, 15%, 40%);
-  --tertiary-30: hsl(120, 15%, 30%);
-  --tertiary-20: hsl(120, 15%, 20%);
-  --info-98: hsl(207, 60%, 98%);
-  --info-96: hsl(207, 60%, 96%);
-  --info-94: hsl(207, 60%, 94%);
-  --info-92: hsl(207, 60%, 92%);
-  --info-90: hsl(207, 60%, 90%);
-  --info-88: hsl(207, 60%, 88%);
-  --info-40: hsl(207, 40%, 40%);
-  --info-30: hsl(207, 25%, 40%);
+  --primary-98: hsl(240, 75%, 98%);
+  --primary-96: hsl(240, 75%, 96%);
+  --primary-94: hsl(240, 75%, 94%);
+  --primary-92: hsl(240, 75%, 92%);
+  --primary-90: hsl(240, 75%, 90%);
+  --primary-88: hsl(240, 75%, 88%);
+  --primary-50: hsl(240, 75%, 50%);
+  --primary-40: hsl(240, 75%, 40%);
+  --primary-30: hsl(240, 75%, 27%);
+  --primary-20: hsl(240, 75%, 20%);
+  --secondary-98: hsl(240, 45%, 98%);
+  --secondary-96: hsl(240, 45%, 96%);
+  --secondary-94: hsl(240, 45%, 94%);
+  --secondary-92: hsl(240, 45%, 92%);
+  --secondary-90: hsl(240, 45%, 90%);
+  --secondary-88: hsl(240, 45%, 88%);
+  --secondary-40: hsl(240, 45%, 40%);
+  --secondary-30: hsl(240, 45%, 30%);
+  --secondary-20: hsl(240, 45%, 21%);
+  --tertiary-98: hsl(240, 15%, 98%);
+  --tertiary-96: hsl(240, 15%, 96%);
+  --tertiary-94: hsl(240, 15%, 94%);
+  --tertiary-92: hsl(240, 15%, 92%);
+  --tertiary-90: hsl(240, 15%, 90%);
+  --tertiary-88: hsl(240, 15%, 88%);
+  --tertiary-40: hsl(240, 15%, 40%);
+  --tertiary-30: hsl(240, 15%, 30%);
+  --tertiary-20: hsl(240, 15%, 20%);
+  --info-98: hsl(189, 60%, 98%);
+  --info-96: hsl(189, 60%, 96%);
+  --info-94: hsl(189, 60%, 94%);
+  --info-92: hsl(189, 60%, 92%);
+  --info-90: hsl(189, 60%, 90%);
+  --info-88: hsl(189, 60%, 88%);
+  --info-40: hsl(189, 40%, 40%);
+  --info-30: hsl(189, 25%, 40%);
+  --success-98: hsl(138, 60%, 98%);
+  --success-96: hsl(138, 60%, 96%);
+  --success-94: hsl(138, 60%, 94%);
+  --success-92: hsl(138, 60%, 92%);
+  --success-90: hsl(138, 60%, 90%);
+  --success-88: hsl(138, 60%, 88%);
+  --success-40: hsl(138, 40%, 40%);
+  --success-30: hsl(138, 25%, 40%);
   --error-98: hsl(0, 60%, 98%);
   --error-96: hsl(0, 60%, 96%);
   --error-94: hsl(0, 60%, 94%);
@@ -3463,14 +3470,6 @@ body {
   color: var(--primary-30);
 }
 
-.bg-pr-25 {
-  background-color: var(--primary-25);
-}
-
-.cl-pr-25 {
-  color: var(--primary-25);
-}
-
 .bg-pr-20 {
   background-color: var(--primary-20);
 }
@@ -3685,6 +3684,70 @@ body {
 
 .cl-in-30 {
   color: var(--info-30);
+}
+
+.bg-su-98 {
+  background-color: var(--success-98);
+}
+
+.cl-su-98 {
+  color: var(--success-98);
+}
+
+.bg-su-96 {
+  background-color: var(--success-96);
+}
+
+.cl-su-96 {
+  color: var(--success-96);
+}
+
+.bg-su-94 {
+  background-color: var(--success-94);
+}
+
+.cl-su-94 {
+  color: var(--success-94);
+}
+
+.bg-su-92 {
+  background-color: var(--success-92);
+}
+
+.cl-su-92 {
+  color: var(--success-92);
+}
+
+.bg-su-90 {
+  background-color: var(--success-90);
+}
+
+.cl-su-90 {
+  color: var(--success-90);
+}
+
+.bg-su-88 {
+  background-color: var(--success-88);
+}
+
+.cl-su-88 {
+  color: var(--success-88);
+}
+
+.bg-su-40 {
+  background-color: var(--success-40);
+}
+
+.cl-su-40 {
+  color: var(--success-40);
+}
+
+.bg-su-30 {
+  background-color: var(--success-30);
+}
+
+.cl-su-30 {
+  color: var(--success-30);
 }
 
 .bg-er-98 {
