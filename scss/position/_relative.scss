@@ -1,0 +1,29 @@
+@use '../units' as *;
+
+@while $i <= 120 {
+	.re {
+		&t-#{$x} {
+			position: relative;
+			top: #{$i * $base-rem-value}rem;
+		}
+		&r-#{$x} {
+			position: relative;
+			right: #{$i * $base-rem-value}rem;
+		}
+		&b-#{$x} {
+			position: relative;
+			bottom: #{$i * $base-rem-value}rem;
+		}
+		&l-#{$x} {
+			position: relative;
+			left: #{$i * $base-rem-value}rem;
+		}
+	}
+
+	$i: $i + 4;
+	$x: $x + 1;
+}
+
+.relative {
+	position: relative;
+}

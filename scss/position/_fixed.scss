@@ -1,0 +1,25 @@
+@use '../units' as *;
+
+@while $i <= 120 {
+	.fi {
+		&t-#{$x} {
+			position: fixed;
+			top: #{$i * $base-rem-value}rem;
+		}
+		&r-#{$x} {
+			position: fixed;
+			right: #{$i * $base-rem-value}rem;
+		}
+		&b-#{$x} {
+			position: fixed;
+			bottom: #{$i * $base-rem-value}rem;
+		}
+		&l-#{$x} {
+			position: fixed;
+			left: #{$i * $base-rem-value}rem;
+		}
+	}
+
+	$i: $i + 4;
+	$x: $x + 1;
+}
