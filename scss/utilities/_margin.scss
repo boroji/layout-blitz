@@ -2,41 +2,41 @@
 
 .m {
 	// Positive margin
-	@while $i <= 48 {
+	@while $i <= 120 {
 		&t {
-			&-#{$i} {
+			&-#{$x} {
 				margin-top: #{$i * $base-rem-value}rem;
 			}
 		}
 		&r {
-			&-#{$i} {
+			&-#{$x} {
 				margin-right: #{$i * $base-rem-value}rem;
 			}
 		}
 		&b {
-			&-#{$i} {
+			&-#{$x} {
 				margin-bottom: #{$i * $base-rem-value}rem;
 			}
 		}
 		&l {
-			&-#{$i} {
+			&-#{$x} {
 				margin-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		&y {
-			&-#{$i} {
+			&-#{$x} {
 				margin-top: #{$i * $base-rem-value}rem;
 				margin-bottom: #{$i * $base-rem-value}rem;
 			}
 		}
 		&x {
-			&-#{$i} {
+			&-#{$x} {
 				margin-right: #{$i * $base-rem-value}rem;
 				margin-left: #{$i * $base-rem-value}rem;
 			}
 		}
 		&a {
-			&-#{$i} {
+			&-#{$x} {
 				margin-top: #{$i * $base-rem-value}rem;
 				margin-right: #{$i * $base-rem-value}rem;
 				margin-bottom: #{$i * $base-rem-value}rem;
@@ -44,7 +44,8 @@
 			}
 		}
 
-		$i: $i + 8;
+		$i: $i + 4;
+		$x: $x + 1;
 	}
 	// Margin auto class
 	&t {
@@ -90,71 +91,72 @@
 }
 
 // Negative margin
-.nm {
-	@while $i <= 48 {
+.negm {
+	@while $i <= 120 {
 		&t {
-			&-#{$i} {
+			&-#{$x} {
 				margin-top: -#{$i * $base-rem-value}rem;
 			}
 		}
 		&r {
-			&-#{$i} {
+			&-#{$x} {
 				margin-right: -#{$i * $base-rem-value}rem;
 			}
 		}
 		&b {
-			&-#{$i} {
+			&-#{$x} {
 				margin-bottom: -#{$i * $base-rem-value}rem;
 			}
 		}
 		&l {
-			&-#{$i} {
+			&-#{$x} {
 				margin-left: -#{$i * $base-rem-value}rem;
 			}
 		}
 
-		$i: $i + 8;
+		$i: $i + 4;
+		$x: $x + 1;
 	}
 }
 
 @mixin margin($breakpoint) {
 	.m {
 		// Positive margin
-		@while $i <= 48 {
+		@while $i <= 120 {
 			&t {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-top: #{$i * $base-rem-value}rem;
 				}
 			}
 			&r {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-right: #{$i * $base-rem-value}rem;
 				}
 			}
 			&b {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-bottom: #{$i * $base-rem-value}rem;
 				}
 			}
 			&l {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-left: #{$i * $base-rem-value}rem;
 				}
 			}
 			&y {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-top: #{$i * $base-rem-value}rem;
 					margin-bottom: #{$i * $base-rem-value}rem;
 				}
 			}
 			&x {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-right: #{$i * $base-rem-value}rem;
 					margin-left: #{$i * $base-rem-value}rem;
 				}
 			}
 			&a {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-top: #{$i * $base-rem-value}rem;
 					margin-right: #{$i * $base-rem-value}rem;
 					margin-bottom: #{$i * $base-rem-value}rem;
@@ -162,7 +164,8 @@
 				}
 			}
 
-			$i: $i + 8;
+			$i: $i + 4;
+			$x: $x + 1;
 		}
 		// Margin auto class
 		&t {
@@ -207,30 +210,31 @@
 		}
 	}
 	// Negative margin
-	.nm {
-		@while $i <= 48 {
+	.negm {
+		@while $i <= 120 {
 			&t {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-top: -#{$i * $base-rem-value}rem;
 				}
 			}
 			&r {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-right: -#{$i * $base-rem-value}rem;
 				}
 			}
 			&b {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-bottom: -#{$i * $base-rem-value}rem;
 				}
 			}
 			&l {
-				&-#{$breakpoint}-#{$i} {
+				&-#{$breakpoint}-#{$x} {
 					margin-left: -#{$i * $base-rem-value}rem;
 				}
 			}
 
-			$i: $i + 8;
+			$i: $i + 4;
+			$x: $x + 1;
 		}
 	}
 }

@@ -6,14 +6,19 @@
 	}
 
 	.mw-#{$x} {
-		width: min(#{$i * $base-rem-value}rem, 100%);
+		width: min(100%, #{$i * $base-rem-value}rem);
 	}
+
 	$i: $i + 48;
 	$x: $x + 1;
 }
 
 .w-fill {
 	width: 100%;
+}
+
+.w-auto {
+	width: auto;
 }
 
 .w-fit {
@@ -26,18 +31,22 @@
 			width: #{$i * $base-rem-value}rem;
 		}
 
-		.mw-#{$breakpoint}-#{$x} {
-			width: min(#{$i * $base-rem-value}rem, 100%);
+		.maxw-#{$breakpoint}-#{$x} {
+			max-width: #{$i * $base-rem-value}rem;
 		}
 		$i: $i + 48;
 		$x: $x + 1;
 	}
 
-	.w-fill--#{$breakpoint} {
+	.w-#{$breakpoint}-fill {
 		width: 100%;
 	}
 
-	.w-fit--#{$breakpoint} {
+	.w-#{$breakpoint}-auto {
+		width: auto;
+	}
+
+	.w-#{$breakpoint}-fit {
 		width: fit-content;
 	}
 }

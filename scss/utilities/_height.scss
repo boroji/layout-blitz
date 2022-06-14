@@ -26,18 +26,18 @@
 			height: #{$i * $base-rem-value}rem;
 		}
 
-		.mh-#{$breakpoint}-#{$x} {
+		.minh-#{$breakpoint}-#{$x} {
 			min-height: #{$i * $base-rem-value}rem;
 		}
 		$i: $i + 48;
 		$x: $x + 1;
 	}
 
-	.h-fill--#{$breakpoint} {
+	.h-#{$breakpoint}-fill {
 		height: 100%;
 	}
 
-	.h-auto--#{$breakpoint} {
+	.h-#{$breakpoint}-auto {
 		height: auto;
 	}
 }

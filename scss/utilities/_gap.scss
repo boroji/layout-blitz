@@ -1,21 +1,23 @@
 @use '../units' as *;
 
-@while $i <= 48 {
+@while $i <= 120 {
 	.gap {
-		&-#{$i} {
+		&-#{$x} {
 			gap: #{$i * $base-rem-value}rem;
 		}
 	}
-	$i: $i + 8;
+	$i: $i + 4;
+	$x: $x + 1;
 }
 
 @mixin gap($breakpoint) {
-	@while $i <= 48 {
+	@while $i <= 120 {
 		.gap {
-			&-#{$breakpoint}-#{$i} {
+			&-#{$breakpoint}-#{$x} {
 				gap: #{$i * $base-rem-value}rem;
 			}
 		}
-		$i: $i + 8;
+		$i: $i + 4;
+		$x: $x + 1;
 	}
 }

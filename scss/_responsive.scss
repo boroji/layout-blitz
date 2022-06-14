@@ -6,7 +6,6 @@
 @each $key, $each-breakpoint-size in $breakpoints {
 	@media (min-width: $each-breakpoint-size) {
 		@include gap($key);
-		@include radius($key);
 		@include padding($key);
 		@include margin($key);
 		@include width($key);
