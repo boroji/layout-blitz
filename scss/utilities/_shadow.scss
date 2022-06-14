@@ -1,0 +1,178 @@
+@use '../shadow' as *;
+
+.s {
+	&t {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-top;
+			&:hover {
+				box-shadow: $strong-top;
+			}
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-top;
+			&:hover {
+				box-shadow: $stronger-top;
+			}
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&r {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-right;
+			&:hover {
+				box-shadow: $strong-right;
+			}
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-right;
+			&:hover {
+				box-shadow: $stronger-right;
+			}
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&b {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-bottom;
+			&:hover {
+				box-shadow: $strong-bottom;
+			}
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-bottom;
+			&:hover {
+				box-shadow: $stronger-bottom;
+			}
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&l {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-left;
+			&:hover {
+				box-shadow: $strong-left;
+			}
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-left;
+			&:hover {
+				box-shadow: $stronger-left;
+			}
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&a {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-all;
+			&:hover {
+				box-shadow: $strong-all;
+			}
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-all;
+			&:hover {
+				box-shadow: $stronger-all;
+			}
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+}
+
+// With no hover
+.bs {
+	&t {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-top;
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-top;
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&r {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-right;
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-right;
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&b {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-bottom;
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-bottom;
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&l {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-left;
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-left;
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+	&a {
+		&-1 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $soft-all;
+		}
+		&-2 {
+			transition: box-shadow 90ms ease-out;
+			box-shadow: $strong-all;
+		}
+
+		&-0 {
+			box-shadow: none;
+		}
+	}
+}
