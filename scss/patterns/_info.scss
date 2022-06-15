@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.info {
+	&-1 {
+		background-color: var(--info-98);
+		color: var(--info-40);
+	}
+	&-2 {
+		background-color: var(--info-96);
+		color: var(--info-40);
+	}
+	&-3 {
+		background-color: var(--info-94);
+		color: var(--info-40);
+	}
+	&-4 {
+		background-color: var(--info-92);
+		color: var(--info-40);
+	}
+	&-5 {
+		background-color: var(--info-90);
+		color: var(--info-30);
+	}
+	&-6 {
+		background-color: var(--info-88);
+		color: var(--info-30);
+	}
+}

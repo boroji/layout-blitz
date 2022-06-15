@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.warning {
+	&-1 {
+		background-color: var(--warning-98);
+		color: var(--warning-40);
+	}
+	&-2 {
+		background-color: var(--warning-96);
+		color: var(--warning-40);
+	}
+	&-3 {
+		background-color: var(--warning-94);
+		color: var(--warning-30);
+	}
+	&-4 {
+		background-color: var(--warning-92);
+		color: hsl(37, 25%, 38%);
+	}
+	&-5 {
+		background-color: var(--warning-90);
+		color: hsl(37, 25%, 35%);
+	}
+	&-6 {
+		background-color: var(--warning-88);
+		color: hsl(37, 25%, 32%);
+	}
+}

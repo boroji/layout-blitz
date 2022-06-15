@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.secondary {
+	&-1 {
+		background-color: var(--secondary-98);
+		color: var(--secondary-30);
+	}
+	&-2 {
+		background-color: var(--secondary-96);
+		color: var(--secondary-30);
+	}
+	&-3 {
+		background-color: var(--secondary-94);
+		color: var(--secondary-30);
+	}
+	&-4 {
+		background-color: var(--secondary-92);
+		color: var(--secondary-30);
+	}
+	&-5 {
+		background-color: var(--secondary-90);
+		color: var(--secondary-20);
+	}
+	&-6 {
+		background-color: var(--secondary-88);
+		color: var(--secondary-20);
+	}
+}

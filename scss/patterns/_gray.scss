@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.gray {
+	&-1 {
+		background-color: var(--gray-98);
+		color: var(--gray-40);
+	}
+	&-2 {
+		background-color: var(--gray-96);
+		color: var(--gray-40);
+	}
+	&-3 {
+		background-color: var(--gray-94);
+		color: var(--gray-40);
+	}
+	&-4 {
+		background-color: var(--gray-92);
+		color: var(--gray-40);
+	}
+	&-5 {
+		background-color: var(--gray-90);
+		color: var(--gray-30);
+	}
+	&-6 {
+		background-color: var(--gray-88);
+		color: var(--gray-30);
+	}
+}

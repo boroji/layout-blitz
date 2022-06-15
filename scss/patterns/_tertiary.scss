@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.tertiary {
+	&-1 {
+		background-color: var(--tertiary-98);
+		color: var(--tertiary-40);
+	}
+	&-2 {
+		background-color: var(--tertiary-96);
+		color: var(--tertiary-40);
+	}
+	&-3 {
+		background-color: var(--tertiary-94);
+		color: var(--tertiary-40);
+	}
+	&-4 {
+		background-color: var(--tertiary-92);
+		color: var(--tertiary-30);
+	}
+	&-5 {
+		background-color: var(--tertiary-90);
+		color: var(--tertiary-30);
+	}
+	&-6 {
+		background-color: var(--tertiary-88);
+		color: var(--tertiary-30);
+	}
+}

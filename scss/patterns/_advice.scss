@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.advice {
+	&-1 {
+		background-color: var(--advice-98);
+		color: var(--advice-40);
+	}
+	&-2 {
+		background-color: var(--advice-96);
+		color: var(--advice-40);
+	}
+	&-3 {
+		background-color: var(--advice-94);
+		color: var(--advice-40);
+	}
+	&-4 {
+		background-color: var(--advice-92);
+		color: var(--advice-40);
+	}
+	&-5 {
+		background-color: var(--advice-90);
+		color: var(--advice-30);
+	}
+	&-6 {
+		background-color: var(--advice-88);
+		color: var(--advice-30);
+	}
+}

@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.primary {
+	&-1 {
+		background-color: var(--primary-98);
+		color: var(--primary-20);
+	}
+	&-2 {
+		background-color: var(--primary-96);
+		color: var(--primary-20);
+	}
+	&-3 {
+		background-color: var(--primary-94);
+		color: var(--primary-20);
+	}
+	&-4 {
+		background-color: var(--primary-92);
+		color: var(--primary-20);
+	}
+	&-5 {
+		background-color: var(--primary-90);
+		color: var(--primary-20);
+	}
+	&-6 {
+		background-color: var(--primary-88);
+		color: var(--primary-20);
+	}
+}

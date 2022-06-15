@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.success {
+	&-1 {
+		background-color: var(--success-98);
+		color: var(--success-40);
+	}
+	&-2 {
+		background-color: var(--success-96);
+		color: var(--success-40);
+	}
+	&-3 {
+		background-color: var(--success-94);
+		color: var(--success-40);
+	}
+	&-4 {
+		background-color: var(--success-92);
+		color: var(--success-40);
+	}
+	&-5 {
+		background-color: var(--success-90);
+		color: var(--success-30);
+	}
+	&-6 {
+		background-color: var(--success-88);
+		color: var(--success-30);
+	}
+}

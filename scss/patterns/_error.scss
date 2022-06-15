@@ -1,0 +1,29 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.error {
+	&-1 {
+		background-color: var(--error-98);
+		color: var(--error-40);
+	}
+	&-2 {
+		background-color: var(--error-96);
+		color: var(--error-40);
+	}
+	&-3 {
+		background-color: var(--error-94);
+		color: var(--error-40);
+	}
+	&-4 {
+		background-color: var(--error-92);
+		color: var(--error-40);
+	}
+	&-5 {
+		background-color: var(--error-90);
+		color: var(--error-30);
+	}
+	&-6 {
+		background-color: var(--error-88);
+		color: var(--error-30);
+	}
+}
