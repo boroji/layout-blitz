@@ -13,7 +13,7 @@ const SampleData1 = [
 	},
 ];
 
-const highlighterPattern1 = (arrayOfData, HTMLElement) => {
+const highlighterPattern2 = (arrayOfData, HTMLElement) => {
 	const mappingOverData = arrayOfData.map((item, idx) => {
 		const { leadTitle, paragraphs } = item;
 
@@ -25,7 +25,7 @@ const highlighterPattern1 = (arrayOfData, HTMLElement) => {
 
 				const loadTitle = `<h6 class="cc-4">${title}</h6>`;
 				return `
-          <div class="col">
+          <div class="col wrap-0 bsa-1 ba-1 ra-2 pa-4">
             ${title === '' ? '' : loadTitle}
             <p class="cc-4">
               ${textBefore}
@@ -37,7 +37,7 @@ const highlighterPattern1 = (arrayOfData, HTMLElement) => {
 			.join('');
 
 		const loadParagraphs = `
-      <div class="col gap-6">
+      <div class="col gap-4 fluid-10">
         ${paragraphs.length === 0 ? '' : generateParagraphs}
       </div>`;
 
@@ -49,8 +49,8 @@ const highlighterPattern1 = (arrayOfData, HTMLElement) => {
       </div>`;
 
 		const loadContent = `
-      <div class="col gap-1">
-        <div class="col gap-6">  
+      <div class="col wrap-0 gap-1">
+        <div class="col wrap-0 gap-6">  
           ${leadTitle === '' ? '' : loadLeadTitle}
           ${paragraphs.length === 0 ? '' : loadParagraphs}
         </div>
