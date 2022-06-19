@@ -19,7 +19,7 @@ const cardPattern2 = (arrayOfData, HTMLElement) => {
 		`;
 
 		const loadLink = `
-		<div class="pt-4">
+		<div>
 			<a
 					class="secondary regular"
 					href="${linkURL}"
@@ -47,7 +47,7 @@ const cardPattern2 = (arrayOfData, HTMLElement) => {
 		return `
 		<div class="col wrap-0 sa-1 ba-1 ra-1 clip">
 				${imageURL === '' ? '' : loadImage}
-				<footer class="grow-4 pa-4 col h-fill jc-between">
+				<footer class="grow-4 pa-4 col h-fill jc-between gap-4">
 					${title === '' && bodyText === '' ? '' : loadContent}
 					${linkLabel === '' ? '' : loadLink}
 				</footer>
