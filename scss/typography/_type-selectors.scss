@@ -1,0 +1,81 @@
+@use '../color' as *;
+
+// Color
+h1,
+h2,
+h5,
+h6 {
+	color: var(--gray-20);
+}
+
+h3,
+h4,
+p {
+	color: var(--gray-40);
+}
+
+// Line height
+h1,
+h2,
+h3,
+h4 {
+	line-height: 120%;
+}
+
+h5,
+h6 {
+	line-height: 140%;
+}
+
+p {
+	line-height: 160%;
+}
+
+// Font weight
+h1,
+h2 {
+	font-weight: 700;
+}
+
+h3,
+h4 {
+	font-weight: 300;
+}
+
+h5,
+h6 {
+	font-weight: 600;
+}
+
+p {
+	font-weight: 400;
+}
+
+// Size
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.812rem;
+}
+
+h3 {
+	font-size: 1.625em;
+}
+
+h4 {
+	font-size: 1.438rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1.125rem;
+}
+
+p {
+	font-size: 1rem;
+}
