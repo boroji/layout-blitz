@@ -9,18 +9,18 @@ const SampleData1 = [
 	},
 ];
 
-const headerPattern1 = (arrayOfData, HTMLElement) => {
+const headerPattern2 = (arrayOfData, HTMLElement) => {
 	const mappingOverData = arrayOfData.map(item => {
 		const { imageURL, title, linkURL, linkLabel, bodyText, captionText } = item;
 
 		const loadImage = `
-			<header class="base-8 row">
-				<img class='img-cover' src='${imageURL}' alt='${title}' />
+			<header class="base-8">
+				<img class='w-fill h-auto clip ra-2' src='${imageURL}' alt='${title}' />
 			</header>
 		`;
 
 		const loadLink = `
-		<div class="abt-12 abr-12 w-4 row jc-end">
+		<div>
 			<a
 					class="solid regular"
 					href="${linkURL}"
@@ -42,15 +42,21 @@ const headerPattern1 = (arrayOfData, HTMLElement) => {
 			<div class="h1-700 cl-gr-20 nls-2 cc-1">${title}</div>
 		`;
 
+		const loadContent = `
+		<div>
+			${title === '' ? '' : loadTitle}
+			${bodyText === '' ? '' : loadBody}
+			${captionText === '' ? '' : loadCaption}
+		</div>
+		`;
+
 		return `
-		<div class="row grow-1 wrap-0 ai-start bsa-1 ba-1 ra-2 clip relative">
-				${imageURL === '' ? '' : loadImage}
-				<footer class="base-10 grow-1 py-12 pl-12" style="padding-right: 15rem;">
-					${title === '' ? '' : loadTitle}
-					${bodyText === '' ? '' : loadBody}
-					${captionText === '' ? '' : loadCaption}
-					</footer>
+			<div class="row ai-start bsa-1 ba-1 ra-2 clip pa-8 gap-8">
+				<footer class="col gap-4 grow-1 base-6">
+					${title === '' && bodyText === '' && captionText === '' ? '' : loadContent}
 					${linkLabel === '' ? '' : loadLink}
+				</footer>
+				${imageURL === '' ? '' : loadImage}
 			</div>
 `;
 	});
