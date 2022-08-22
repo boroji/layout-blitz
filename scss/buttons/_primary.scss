@@ -1,0 +1,35 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.btn {
+	&-pr {
+		&-1 {
+			background-color: var(--primary-98);
+			color: var(--primary-20);
+			&:hover {
+				background-color: var(--primary-96);
+			}
+		}
+		&-2 {
+			background-color: var(--primary-94);
+			color: var(--primary-20);
+			&:hover {
+				background-color: var(--primary-92);
+			}
+		}
+		&-3 {
+			background-color: var(--primary-90);
+			color: var(--primary-20);
+			&:hover {
+				background-color: var(--primary-88);
+			}
+		}
+		&-4 {
+			background-color: var(--primary-30);
+			color: var(--gray-100);
+			&:hover {
+				background-color: var(--primary-20);
+			}
+		}
+	}
+}

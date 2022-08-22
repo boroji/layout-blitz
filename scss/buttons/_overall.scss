@@ -1,0 +1,26 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.btn {
+	&-ad,
+	&-er,
+	&-gr,
+	&-in,
+	&-pr,
+	&-se,
+	&-su,
+	&-te,
+	&-wa {
+		&-1,
+		&-2,
+		&-3,
+		&-4 {
+			padding: $px-8 $px-16;
+			border-radius: $px-4;
+			transition: all 150ms ease-out;
+			cursor: pointer;
+			width: fit-content;
+			display: inline-flex;
+		}
+	}
+}

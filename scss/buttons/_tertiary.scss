@@ -1,0 +1,36 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.btn {
+	&-te {
+		&-1 {
+			background-color: var(--tertiary-98);
+			color: var(--tertiary-40);
+			&:hover {
+				background-color: var(--tertiary-96);
+			}
+		}
+		&-2 {
+			background-color: var(--tertiary-94);
+			color: var(--tertiary-40);
+			&:hover {
+				background-color: var(--tertiary-92);
+				color: var(--tertiary-30);
+			}
+		}
+		&-3 {
+			background-color: var(--tertiary-90);
+			color: var(--tertiary-30);
+			&:hover {
+				background-color: var(--tertiary-88);
+			}
+		}
+		&-4 {
+			background-color: var(--tertiary-40);
+			color: var(--gray-100);
+			&:hover {
+				background-color: var(--tertiary-30);
+			}
+		}
+	}
+}

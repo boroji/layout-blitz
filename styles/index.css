@@ -8183,6 +8183,283 @@ p {
   color: var(--gray-100);
 }
 
+.btn-ad-1, .btn-ad-2, .btn-ad-3, .btn-ad-4, .btn-er-1, .btn-er-2, .btn-er-3, .btn-er-4, .btn-gr-1, .btn-gr-2, .btn-gr-3, .btn-gr-4, .btn-in-1, .btn-in-2, .btn-in-3, .btn-in-4, .btn-pr-1, .btn-pr-2, .btn-pr-3, .btn-pr-4, .btn-se-1, .btn-se-2, .btn-se-3, .btn-se-4, .btn-su-1, .btn-su-2, .btn-su-3, .btn-su-4, .btn-te-1, .btn-te-2, .btn-te-3, .btn-te-4, .btn-wa-1, .btn-wa-2, .btn-wa-3, .btn-wa-4 {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 150ms ease-out;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-flex;
+}
+
+.btn-in-1 {
+  background-color: var(--info-98);
+  color: var(--info-40);
+}
+.btn-in-1:hover {
+  background-color: var(--info-96);
+}
+.btn-in-2 {
+  background-color: var(--info-94);
+  color: var(--info-40);
+}
+.btn-in-2:hover {
+  background-color: var(--info-92);
+}
+.btn-in-3 {
+  background-color: var(--info-90);
+  color: var(--info-30);
+}
+.btn-in-3:hover {
+  background-color: var(--info-88);
+  color: hsl(207deg, 25%, 37%);
+}
+.btn-in-4 {
+  background-color: var(--info-40);
+  color: var(--gray-100);
+}
+.btn-in-4:hover {
+  background-color: var(--info-30);
+}
+
+.btn-wa-1 {
+  background-color: var(--warning-98);
+  color: var(--warning-40);
+}
+.btn-wa-1:hover {
+  background-color: var(--warning-96);
+}
+.btn-wa-2 {
+  background-color: var(--warning-94);
+  color: var(--warning-40);
+}
+.btn-wa-2:hover {
+  background-color: var(--warning-92);
+  color: hsl(37deg, 25%, 38%);
+}
+.btn-wa-3 {
+  background-color: var(--warning-90);
+  color: hsl(37deg, 25%, 35%);
+}
+.btn-wa-3:hover {
+  background-color: var(--warning-88);
+  color: hsl(37deg, 25%, 32%);
+}
+.btn-wa-4 {
+  background-color: var(--warning-40);
+  color: var(--gray-100);
+}
+.btn-wa-4:hover {
+  background-color: var(--warning-30);
+}
+
+.btn-er-1 {
+  background-color: var(--error-98);
+  color: var(--error-40);
+}
+.btn-er-1:hover {
+  background-color: var(--error-96);
+}
+.btn-er-2 {
+  background-color: var(--error-94);
+  color: var(--error-40);
+}
+.btn-er-2:hover {
+  background-color: var(--error-92);
+}
+.btn-er-3 {
+  background-color: var(--error-90);
+  color: var(--error-30);
+}
+.btn-er-3:hover {
+  background-color: var(--error-88);
+}
+.btn-er-4 {
+  background-color: var(--error-40);
+  color: var(--gray-100);
+}
+.btn-er-4:hover {
+  background-color: var(--error-30);
+}
+
+.btn-gr-1 {
+  background-color: var(--gray-98);
+  color: var(--gray-40);
+}
+.btn-gr-1:hover {
+  background-color: var(--gray-96);
+}
+.btn-gr-2 {
+  background-color: var(--gray-94);
+  color: var(--gray-40);
+}
+.btn-gr-2:hover {
+  background-color: var(--gray-92);
+}
+.btn-gr-3 {
+  background-color: var(--gray-90);
+  color: var(--gray-30);
+}
+.btn-gr-3:hover {
+  background-color: var(--gray-88);
+}
+.btn-gr-4 {
+  background-color: var(--gray-40);
+  color: var(--gray-100);
+}
+.btn-gr-4:hover {
+  background-color: var(--gray-30);
+}
+
+.btn-ad-1 {
+  background-color: var(--advice-98);
+  color: var(--advice-40);
+}
+.btn-ad-1:hover {
+  background-color: var(--advice-96);
+}
+.btn-ad-2 {
+  background-color: var(--advice-94);
+  color: var(--advice-40);
+}
+.btn-ad-2:hover {
+  background-color: var(--advice-92);
+}
+.btn-ad-3 {
+  background-color: var(--advice-90);
+  color: var(--advice-30);
+}
+.btn-ad-3:hover {
+  background-color: var(--advice-88);
+}
+.btn-ad-4 {
+  background-color: var(--advice-40);
+  color: var(--gray-100);
+}
+.btn-ad-4:hover {
+  background-color: var(--advice-30);
+}
+
+.btn-pr-1 {
+  background-color: var(--primary-98);
+  color: var(--primary-20);
+}
+.btn-pr-1:hover {
+  background-color: var(--primary-96);
+}
+.btn-pr-2 {
+  background-color: var(--primary-94);
+  color: var(--primary-20);
+}
+.btn-pr-2:hover {
+  background-color: var(--primary-92);
+}
+.btn-pr-3 {
+  background-color: var(--primary-90);
+  color: var(--primary-20);
+}
+.btn-pr-3:hover {
+  background-color: var(--primary-88);
+}
+.btn-pr-4 {
+  background-color: var(--primary-30);
+  color: var(--gray-100);
+}
+.btn-pr-4:hover {
+  background-color: var(--primary-20);
+}
+
+.btn-se-1 {
+  background-color: var(--secondary-98);
+  color: var(--secondary-30);
+}
+.btn-se-1:hover {
+  background-color: var(--secondary-96);
+}
+.btn-se-2 {
+  background-color: var(--secondary-94);
+  color: var(--secondary-30);
+}
+.btn-se-2:hover {
+  background-color: var(--secondary-92);
+}
+.btn-se-3 {
+  background-color: var(--secondary-90);
+  color: var(--secondary-20);
+}
+.btn-se-3:hover {
+  background-color: var(--secondary-88);
+}
+.btn-se-4 {
+  background-color: var(--secondary-30);
+  color: var(--gray-100);
+}
+.btn-se-4:hover {
+  background-color: var(--secondary-20);
+}
+
+.btn-te-1 {
+  background-color: var(--tertiary-98);
+  color: var(--tertiary-40);
+}
+.btn-te-1:hover {
+  background-color: var(--tertiary-96);
+}
+.btn-te-2 {
+  background-color: var(--tertiary-94);
+  color: var(--tertiary-40);
+}
+.btn-te-2:hover {
+  background-color: var(--tertiary-92);
+  color: var(--tertiary-30);
+}
+.btn-te-3 {
+  background-color: var(--tertiary-90);
+  color: var(--tertiary-30);
+}
+.btn-te-3:hover {
+  background-color: var(--tertiary-88);
+}
+.btn-te-4 {
+  background-color: var(--tertiary-40);
+  color: var(--gray-100);
+}
+.btn-te-4:hover {
+  background-color: var(--tertiary-30);
+}
+
+.btn-su-1 {
+  background-color: var(--success-98);
+  color: var(--success-40);
+}
+.btn-su-1:hover {
+  background-color: var(--success-96);
+}
+.btn-su-2 {
+  background-color: var(--success-94);
+  color: var(--success-40);
+}
+.btn-su-2:hover {
+  background-color: var(--success-92);
+  color: var(--success-30);
+}
+.btn-su-3 {
+  background-color: var(--success-90);
+  color: var(--success-30);
+}
+.btn-su-3:hover {
+  background-color: var(--success-88);
+}
+.btn-su-4 {
+  background-color: var(--success-40);
+  color: var(--gray-100);
+}
+.btn-su-4:hover {
+  background-color: var(--success-30);
+}
+
 .primary,
 .secondary,
 .tertiary,

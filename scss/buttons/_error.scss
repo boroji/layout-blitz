@@ -1,0 +1,35 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.btn {
+	&-er {
+		&-1 {
+			background-color: var(--error-98);
+			color: var(--error-40);
+			&:hover {
+				background-color: var(--error-96);
+			}
+		}
+		&-2 {
+			background-color: var(--error-94);
+			color: var(--error-40);
+			&:hover {
+				background-color: var(--error-92);
+			}
+		}
+		&-3 {
+			background-color: var(--error-90);
+			color: var(--error-30);
+			&:hover {
+				background-color: var(--error-88);
+			}
+		}
+		&-4 {
+			background-color: var(--error-40);
+			color: var(--gray-100);
+			&:hover {
+				background-color: var(--error-30);
+			}
+		}
+	}
+}

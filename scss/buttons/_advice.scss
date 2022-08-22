@@ -1,0 +1,35 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.btn {
+	&-ad {
+		&-1 {
+			background-color: var(--advice-98);
+			color: var(--advice-40);
+			&:hover {
+				background-color: var(--advice-96);
+			}
+		}
+		&-2 {
+			background-color: var(--advice-94);
+			color: var(--advice-40);
+			&:hover {
+				background-color: var(--advice-92);
+			}
+		}
+		&-3 {
+			background-color: var(--advice-90);
+			color: var(--advice-30);
+			&:hover {
+				background-color: var(--advice-88);
+			}
+		}
+		&-4 {
+			background-color: var(--advice-40);
+			color: var(--gray-100);
+			&:hover {
+				background-color: var(--advice-30);
+			}
+		}
+	}
+}
