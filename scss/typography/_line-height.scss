@@ -5,6 +5,9 @@ $typography-height: (
 	'3': 160%,
 	'4': 180%,
 	'5': 200%,
+	'6': 220%,
+	'7': 240%,
+	'8': 260%,
 );
 
 @each $height-key, $single-height in $typography-height {

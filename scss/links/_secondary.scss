@@ -1,0 +1,22 @@
+@use '../color' as *;
+@use '../px' as *;
+
+a.secondary {
+	&:link,
+	&:visited,
+	&:active {
+		background-color: var(--secondary-96);
+		color: var(--secondary-30);
+	}
+
+	&:hover {
+		background-color: var(--secondary-90);
+		color: var(--secondary-20);
+		text-decoration: none !important;
+		svg {
+			path {
+				fill: var(--secondary-20);
+			}
+		}
+	}
+}

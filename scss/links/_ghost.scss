@@ -1,0 +1,17 @@
+@use '../color' as *;
+@use '../px' as *;
+
+a.ghost {
+	&:link,
+	&:visited,
+	&:active {
+		background-color: transparent;
+		color: var(--secondary-30);
+	}
+
+	&:hover {
+		background-color: var(--secondary-94);
+		color: var(--secondary-20);
+		text-decoration: none;
+	}
+}

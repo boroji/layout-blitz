@@ -1,0 +1,25 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.dynamic-blog-tabs {
+	background-color: var(--secondary-96);
+	color: var(--secondary-30);
+	padding: $px-8 $px-16;
+	border-radius: $px-4;
+	transition: all 150ms ease-out;
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	width: fit-content;
+	display: inline-flex;
+	&:hover {
+		background-color: var(--secondary-90);
+	}
+	&.active {
+		background-color: var(--primary-30);
+		color: var(--gray-100);
+		&:hover {
+			background-color: var(--primary-20);
+		}
+	}
+}

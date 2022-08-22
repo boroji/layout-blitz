@@ -4,6 +4,10 @@ $letter-spacing: (
 	'2': 0.03125rem,
 	'3': 0.046875rem,
 	'4': 0.0625rem,
+	'5': 0.078125rem,
+	'6': 0.09375rem,
+	'7': 0.109375rem,
+	'8': 0.125rem,
 );
 
 $letter-spacing-negative: (
@@ -12,6 +16,10 @@ $letter-spacing-negative: (
 	'2': -0.03125rem,
 	'3': -0.046875rem,
 	'4': -0.0625rem,
+	'5': -0.078125rem,
+	'6': -0.09375rem,
+	'7': -0.109375rem,
+	'8': -0.125rem,
 );
 
 @each $letter-spacing-key, $single-spacing in $letter-spacing {

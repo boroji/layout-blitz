@@ -1,0 +1,22 @@
+@use '../color' as *;
+@use '../px' as *;
+
+a.tertiary {
+	&:link,
+	&:visited,
+	&:active {
+		background-color: var(--tertiary-94);
+		color: var(--tertiary-30);
+	}
+
+	&:hover {
+		background-color: var(--tertiary-88);
+		color: var(--tertiary-20);
+		text-decoration: none !important;
+		svg {
+			path {
+				fill: var(--tertiary-20);
+			}
+		}
+	}
+}

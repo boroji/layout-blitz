@@ -1,0 +1,21 @@
+@use '../color' as *;
+@use '../px' as *;
+
+a.primary {
+	&:link,
+	&:visited,
+	&:active {
+		background-color: var(--primary-25);
+		color: var(--gray-100);
+	}
+
+	&:hover {
+		background-color: var(--primary-20);
+		text-decoration: none !important;
+		svg {
+			path {
+				fill: var(--gray-100);
+			}
+		}
+	}
+}

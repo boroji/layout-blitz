@@ -1,6 +1,6 @@
 @use '../units' as *;
 
-@while $i <= 720 {
+@while $i <= 768 {
 	.base-#{$x} {
 		flex-basis: #{$i * $base-rem-value}rem;
 	}

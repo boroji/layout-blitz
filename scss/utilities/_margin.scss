@@ -1,7 +1,6 @@
 @use '../units' as *;
 
 .m {
-	// Positive margin
 	@while $i <= 120 {
 		&t {
 			&-#{$x} {
@@ -47,7 +46,7 @@
 		$i: $i + 4;
 		$x: $x + 1;
 	}
-	// Margin auto class
+
 	&t {
 		&-auto {
 			margin-top: auto;
@@ -87,35 +86,6 @@
 			margin-bottom: auto;
 			margin-left: auto;
 		}
-	}
-}
-
-// Negative margin
-.negm {
-	@while $i <= 120 {
-		&t {
-			&-#{$x} {
-				margin-top: -#{$i * $base-rem-value}rem;
-			}
-		}
-		&r {
-			&-#{$x} {
-				margin-right: -#{$i * $base-rem-value}rem;
-			}
-		}
-		&b {
-			&-#{$x} {
-				margin-bottom: -#{$i * $base-rem-value}rem;
-			}
-		}
-		&l {
-			&-#{$x} {
-				margin-left: -#{$i * $base-rem-value}rem;
-			}
-		}
-
-		$i: $i + 4;
-		$x: $x + 1;
 	}
 }
 
@@ -207,34 +177,6 @@
 				margin-bottom: auto;
 				margin-left: auto;
 			}
-		}
-	}
-	// Negative margin
-	.negm {
-		@while $i <= 120 {
-			&t {
-				&-#{$breakpoint}-#{$x} {
-					margin-top: -#{$i * $base-rem-value}rem;
-				}
-			}
-			&r {
-				&-#{$breakpoint}-#{$x} {
-					margin-right: -#{$i * $base-rem-value}rem;
-				}
-			}
-			&b {
-				&-#{$breakpoint}-#{$x} {
-					margin-bottom: -#{$i * $base-rem-value}rem;
-				}
-			}
-			&l {
-				&-#{$breakpoint}-#{$x} {
-					margin-left: -#{$i * $base-rem-value}rem;
-				}
-			}
-
-			$i: $i + 4;
-			$x: $x + 1;
 		}
 	}
 }

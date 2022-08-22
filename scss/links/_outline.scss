@@ -1,0 +1,24 @@
+@use '../color' as *;
+@use '../px' as *;
+
+a.outline {
+	&:link,
+	&:visited,
+	&:active {
+		background-color: var(--gray-100);
+		color: var(--primary-25);
+		box-shadow: 0 0 0 1px var(--primary-25);
+	}
+
+	&:hover {
+		background-color: var(--primary-98);
+		color: var(--primary-20);
+		box-shadow: 0 0 0 1.2px var(--primary-20);
+		text-decoration: none !important;
+		svg {
+			path {
+				fill: var(--primary-20);
+			}
+		}
+	}
+}

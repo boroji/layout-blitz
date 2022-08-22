@@ -1,0 +1,26 @@
+@use '../color' as *;
+@use '../px' as *;
+
+.primary,
+.secondary,
+.tertiary,
+.outline,
+.ghost,
+.gray {
+	padding-top: $px-4;
+	padding-right: $px-8;
+	padding-bottom: $px-4;
+	padding-left: $px-8;
+	border-top-right-radius: $px-4;
+	border-top-left-radius: $px-4;
+	border-bottom-right-radius: $px-4;
+	border-bottom-left-radius: $px-4;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	font-size: $px-14;
+	font-weight: 500;
+	transition: all 0.2s ease;
+	text-decoration: none;
+}

@@ -1,10 +1,20 @@
 @use '../units' as *;
 
 // Fluid grid
-@while $i <= 720 {
+@while $i <= 768 {
 	.fluid-#{$x} {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(#{$i * $base-rem-value}rem, 1fr));
+	}
+	$i: $i + 48;
+	$x: $x + 1;
+}
+
+// Auto  Fill grid
+@while $i <= 768 {
+	.auto-fill-#{$x} {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(#{$i * $base-rem-value}rem, 1fr));
 	}
 	$i: $i + 48;
 	$x: $x + 1;

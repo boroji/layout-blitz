@@ -1,8 +1,5 @@
 .a {
 	&i {
-		&-fill {
-			align-items: stretch;
-		}
 		&-center {
 			align-items: center;
 		}
@@ -14,9 +11,6 @@
 		}
 	}
 	&s {
-		&-fill {
-			align-self: stretch;
-		}
 		&-center {
 			align-self: center;
 		}
@@ -52,9 +46,6 @@
 @mixin align($breakpoint) {
 	.a {
 		&i {
-			&-#{$breakpoint}-fill {
-				align-items: stretch;
-			}
 			&-#{$breakpoint}-center {
 				align-items: center;
 			}
@@ -66,9 +57,6 @@
 			}
 		}
 		&s {
-			&-#{$breakpoint}-fill {
-				align-self: stretch;
-			}
 			&-#{$breakpoint}-center {
 				align-self: center;
 			}

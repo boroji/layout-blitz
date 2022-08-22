@@ -1,0 +1,22 @@
+@use '../color' as *;
+@use '../px' as *;
+
+a.gray {
+	&:link,
+	&:visited,
+	&:active {
+		background-color: var(--gray-98);
+		color: var(--gray-40);
+	}
+
+	&:hover {
+		background-color: var(--gray-94);
+		color: var(--gray-20);
+		text-decoration: none;
+		svg {
+			path {
+				fill: var(--gray-20);
+			}
+		}
+	}
+}
